@@ -1,0 +1,232 @@
+
+/*打针*/
+.make_injection {
+	width: 15rem;
+	background: #ffffff;
+}
+.make_injection_top {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	background: url(../../images/dz_top_bg.png) no-repeat;
+	width: 15rem;
+	height: 7rem;
+	background-size: 100% 100%;
+}
+.status_bar {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+}
+.icon_statusBar {
+	position: absolute;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.return {
+	position: absolute;
+	top: 0rem;
+	left: 1.34rem;
+	font-size: 0.6rem;
+	color: #ffffff;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+/*护士上门打针服务*/
+.make_injection_title {
+	width: 100%;
+	padding: 0rem 0.6rem;
+	margin-top: 7rem;
+	height: 1.46rem;
+}
+.make_injection_name {
+	float: left;
+	height: 1.46rem;
+	line-height: 1.46rem;
+	font-size: 0.6rem;
+	color: #333333;
+}
+.make_injection_money {
+	padding-top: 0.25rem;
+	float: right;
+}
+.make_injection_money_price {
+	font-size: 0.6rem;
+	color: #dc0405;
+}
+.make_injection_money_start {
+	font-size: 0.44rem;
+	color: #999999;
+}
+
+/*服务项目*/
+.service_guarantee {
+	position: relative;
+	padding: 0rem 0.6rem;
+	width: 100%;
+	height: 1.92rem;
+	background-color: #eeeeee;
+}
+.service_guarantee_title {
+	position: absolute;
+	top: 0.3rem;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	font-size: 0.44rem;
+	color: #333333;
+}
+.service_guarantee_ul {
+	width: 100%;
+	padding-left: 2.04rem;
+	padding-top: 0.28rem;
+}
+.service_guarantee_li {
+	float: left;
+	position: relative;
+	width: 2.6rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	padding-left: 0.9rem;
+	margin-right: 1rem;
+	margin-bottom: 0.2rem;
+}
+.service_guarantee_i {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	background: url(../../images/check_mark_icon.png) no-repeat;
+	width: 0.64rem;
+	height: 0.64rem;
+	background-size: 100% 100%;
+}
+.service_guarantee_p {
+	font-size: 0.4rem;
+	color: #999999;
+	
+}
+
+/*服务详情*/
+.service_detail {
+	width: 100%;
+	position: relative;
+}
+.service_detail_title {
+	height: 1.32rem;
+	padding-top: 0.4rem;
+	padding-left: 0.6rem;
+	font-size: 0.6rem;
+	color: #333333;
+	width: 100%;
+}
+.service_detail_ol {
+	width: 100%;
+}
+.service_detail_li {
+	width: 100%;
+	height: 11rem;
+	position: relative;
+}
+.service_detail_name {
+	position: absolute;
+	top: 0.16rem;
+	left: 5.06rem;
+	background: url(../../images/dz_frame_icon.png) no-repeat;
+	width: 4.88rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	text-align: center;
+	color: #333333;
+	background-size: 100% 100%;
+	margin-bottom: 0.64rem;
+}
+.dz_img {
+	position: absolute;
+	top: 2.18rem;
+	left: 1.12rem;
+	width: 5.1rem;
+	height: 3.98rem;
+}
+.bilinear_icon {
+	position: absolute;
+	top: 2.5rem;
+	left: 6.4rem;
+	background: url(../../images/bilinear_icon.png) no-repeat;
+	width: 5.88rem;
+	height: 1.74rem;
+	background-size: 100% 100%;
+}
+.service_detail_describe {
+	position: absolute;
+	top: 4.5rem;
+	left: 7.2rem;
+	width: 7.2rem;
+	text-indent: 1em;
+	font-size: 0.4rem;
+	line-height: 0.5rem;
+	color: #999999;
+}
+.service_detail_info {
+	position: absolute;
+	top: 8.1rem;
+	left: 1.12rem;
+	width: 5.8rem;
+	text-indent: 1em;
+	font-size: 0.4rem;
+	line-height: 0.5rem;
+	color: #999999;
+}
+.dz_picture {
+	position: absolute;
+	bottom: 0.2rem;
+	right: 0.6rem;
+	width: 4.14rem;
+	height: 3.24rem;
+}
+
+/*立即预约*/
+.appointment_time_sure {
+	margin: 0.6rem 2.55rem 1.8rem;
+}
+.appointment_time_btn {
+	width: 9.9rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	border-radius: 1rem;
+	font-size: 0.7rem;
+	color: #ffffff;
+	background: linear-gradient(to right,#5a7ff7 , #47adf1);
+}

@@ -1,0 +1,119 @@
+
+/*预约陪检*/
+.appointment_inspection {
+	width: 15rem;
+	background: #ffffff;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+	background: rgba(255,255,255,0.8);
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: fixed;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+	border-bottom: 0.04rem solid #dddddd;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.return {
+	position: absolute;
+	top: 0rem;
+	left: 1.34rem;
+	font-size: 0.6rem;
+	color: #666666;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: 700;
+	color: #333333;
+}
+
+/*预约陪检图片*/
+.appointment_inspection_img {
+	width: 15rem;
+	height: 9.66rem;
+	margin-top: 2.56rem;
+	padding-top: 0.8rem;
+}
+.appointment_inspection_img ul {
+	width: 19999.98rem;
+	height: auto;
+	padding-left: 0.3rem;
+	overflow-x: hidden;
+}
+.appointment_inspection_img li {
+	float: left;
+	width: 11.26rem;
+	height: 8.84rem;
+	margin-right: -0.25rem;
+}
+.appointment_inspection_img li img {
+	float: left;
+	width: 11.26rem;
+	height: 8.84rem;
+}
+
+/*列表详情*/
+.inspection_list_details {
+	position: fixed;
+	width: 100%;
+	height: 6rem;
+}
+.inspection_list_details ol {
+	padding-top: 1.4rem;
+	padding-left: 1.54rem;
+}
+.inspection_list_details li {
+	font-size: 0.5rem;
+	color: #333333;
+}
+
+/*确认*/
+.appointment_time_sure {
+	position: fixed;
+	bottom: 3.56rem;
+	left: 0rem;
+	padding-left: 2.7rem;
+	padding-top: 0.58rem;
+}
+.appointment_time_btn {
+	width: 9.6rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	border-radius: 1rem;
+	font-size: 0.76rem;
+	color: #ffffff;
+	background: linear-gradient(to right,#47adf1 , #5a7ff7);
+}
+

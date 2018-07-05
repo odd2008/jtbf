@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>新建就诊人</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/familyWardroom/new_doctor.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="new_doctor">
+		
+		<!--头部-->
+		<div class="new_doctor_top">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			
+			<!--返回-->
+			<div class="top_back">
+				<i class="icon_return"></i>
+				<p class="right_save">保存</p>
+			</div>
+			
+		</div>
+		
+		<div class="new_doctor_title">
+			<h4>新建就诊人</h4>
+			<p>请准确填写你的个人信息，以免就诊时给您带来不便</p>
+		</div>
+		
+		<!--新建就诊人列表-->
+		<div class="new_doctor_listinfo">
+			<ul>
+				<li>姓名</li>
+				<li>性别</li>
+				<li>医保卡号</li>
+				<li>身份证号</li>
+				<li>手机号</li>
+				<li>
+					<p>验证码</p>
+					<span>获取验证码</span>
+				</li>
+			</ul>
+		</div>
+		
+		<!--温馨提示-->
+		<div class="confirm_appointment_reminder">
+			<h5>温馨提示</h5>
+			<p>姓名和身份证为必填项，请填写正确的就诊信息，否则无法就诊</p>
+		</div>
+		
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	
+	
+</script>
+</html>

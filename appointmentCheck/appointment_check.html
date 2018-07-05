@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>预约检查</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <link href="../css/public.css" rel="stylesheet"/>
+    <link href="../css/appointmentCheck/appointment_check.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	<!--预约检查-->
+	<div class="appointment_check">
+		
+		<!--状态栏-->
+		<i class="icon_statusBar"></i>
+		
+		<!--顶部轮波图-->
+		<div class="scroll">
+			
+			<!--返回-->
+			<div class="top_back">
+				<i class="icon_return" onclick="goBackfamilyEscort();"></i>
+			</div>
+			 
+			<!--搜索框-->
+			<input type="text" class="top_Search" />
+			<i class="top_Search_icon"></i>
+			
+			<div id="slider" class="mui-slider" >
+		      <div class="mui-slider-group mui-slider-loop">
+		        <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+		        <div class="mui-slider-item mui-slider-item-duplicate">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        <!-- 第一张 -->
+		        <div class="mui-slider-item">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        <!-- 第二张 -->
+		        <div class="mui-slider-item">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        <!-- 第三张 -->
+		        <div class="mui-slider-item">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        <!-- 第四张 -->
+		        <div class="mui-slider-item">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+		        <div class="mui-slider-item mui-slider-item-duplicate">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        </div>
+		        <div class="mui-slider-indicator">
+			        <div class="mui-indicator mui-active"></div>
+			        <div class="mui-indicator"></div>
+			        <div class="mui-indicator"></div>
+			        <div class="mui-indicator"></div>
+		        </div>
+		    </div>
+		</div>
+		
+		<!--选择医院-->
+		<div class="appointment_check_title">选择医院</div>
+		
+		<!--智能选择-->
+		<div class="only_screening">
+			<div class="only_screening_tj">天津</div>
+			<div class="only_screening_znsx">智能筛选&nbsp;&nbsp;></div>
+		</div>
+		
+		<!--医院列表-->
+		<div class="hospital_list_name" onclick="goToAppointmentItme();">
+			<em></em>
+			<ol>
+				<li>天津医院</li>
+				<li>天津肿瘤医院</li>
+				<li>天津医院</li>
+				<li>天津肿瘤医院</li>
+			</ol>
+		</div>
+		
+		
+	</span>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	//返回
+	function goBackfamilyEscort() {
+		
+		window.location.href = "../familyWardroom/family_escort.html";
+	}
+	
+	
+	
+	//选择检查项
+	function goToAppointmentItme() {
+		
+		window.location.href = "appointment_check_item.html";
+	}
+	
+	
+	
+	//图片轮播
+	var gallery = mui('.mui-slider');
+	gallery.slider({
+	  interval:1000//自动轮播周期，若为0则不自动播放，默认为0；
+	});
+	
+</script>
+</html>

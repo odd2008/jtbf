@@ -1,0 +1,94 @@
+
+/*选择科室*/
+.choose_department {
+	width: 15rem;
+	background: #ffffff;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+	background: rgba(255,255,255,0.8);
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.return {
+	position: absolute;
+	top: 0rem;
+	left: 1.34rem;
+	font-size: 0.6rem;
+	color: #666666;
+}
+
+/*选择科室*/
+.choose_department_title {
+	width: 100%;
+	height: 2.7rem;
+	margin-top: 2.56rem;
+	padding-top: 0.84rem;
+}
+.choose_department_title h2 {
+	font-size: 0.8rem;
+	color: #333333;
+	font-weight: 700;
+	margin-left: 1.34rem;
+}
+.choose_department_title p {
+	font-size: 0.4rem;
+	color: #999999;
+	margin-left: 1.34rem;
+}
+
+/*科室选择列表*/
+.choose_department_list {
+	padding: 0 1.35rem;
+}
+.choose_department_list li {
+	width: 12.3rem;
+	height: 1.36rem;
+	line-height: 1.36rem;
+	margin-bottom: 0.68rem;
+	border-bottom: 0.04rem solid #dddddd;
+}
+.choose_department_list li p {
+	float: left;
+	font-size: 0.56rem;
+	color: #999999;
+	margin-left: 0.2rem;
+}
+.choose_department_list li span {
+	float: right;
+	margin-right: 0.2rem;
+	font-size: 1rem;
+	color: #999999;
+}

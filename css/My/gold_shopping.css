@@ -1,0 +1,124 @@
+
+/*金币商城*/
+.gold_shopping {
+	width: 15rem;
+	background-color: #fafbff;
+}
+.top_information {
+	position: relative;
+	width: 100%;
+	background: url(../../images/gold_shopping_bg.png) no-repeat;
+	height: 9.68rem;
+	background-size: 100% 100%;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+	background-color: #ffffff;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.top_back_go {
+	position: absolute;
+	top: 0rem;
+	left: 0.6rem;
+	font-size: 0.56rem;
+	color: #ffffff;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: 700;
+	color: #fdfeff;
+}
+
+/*兑换记录*/
+.exchange_ecord {
+	position: relative;
+	width: 100%;
+	height: 1.66rem;
+	line-height: 1.26rem;
+	box-sizing: border-box;
+	padding-left: 3.8rem;
+	border-bottom: 0.2rem solid #eeeeee;
+}
+.gold_icon {
+	position: absolute;
+	top: 0.2rem;
+	left: 3.04rem;
+	background: url(../../images/gold_icon.png) no-repeat;
+	width: 0.6rem;
+	height: 0.72rem;
+	background-size: 100% 100%;
+}
+.gold_tit {
+	line-height: 0.4rem;
+	font-size: 0.4rem;
+	color: #333333;
+}
+.gold_num {
+	font-size: 0.4rem;
+	color: #44c52b;
+}
+.middle_line {
+	position: absolute;
+	top: 0.32rem;
+	left: 7.62rem;
+	width: 0.04rem;
+	height: 0.82rem;
+	background-color: #dcdcdc;
+}
+.exchange_icon {
+	position: absolute;
+	top: 0.2rem;
+	left: 9.2rem;
+	background: url(../../images/exchange_icon.png) no-repeat;
+	width: 0.64rem;
+	height: 0.72rem;
+	background-size: 100% 100%;
+}
+.exchange_tit {
+	position: absolute;
+	top: 0.08rem;
+	left: 10.1rem;
+	float: right;
+	font-size: 0.4rem;
+	color: #333333;
+}
+
+/*抽奖*/
+.luck_draw {
+	position: relative;
+	width: 100%;
+	height: 4.1rem;
+	box-sizing: border-box;
+	border-bottom: 0.2rem solid #eeeeee;
+}
+
+
+
+

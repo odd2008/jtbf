@@ -1,0 +1,212 @@
+
+/*服务介绍*/
+.service_introduction {
+	width: 15rem;
+	height: 26.68rem;
+	background-color: #ffffff;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	z-index: 2;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.return {
+	position: absolute;
+	top: 0rem;
+	left: 1.48rem;
+	font-size: 0.6rem;
+	color: #ffffff;
+}
+
+/*服务介绍管理*/
+.service_introduction_manage {
+	
+}
+.introduction_manage_title {
+	position: relative;
+	padding-top: 0.8rem;
+	width: 100%;
+	height: 2.4rem;
+}
+.introduction_manage_title li {
+	position: relative;
+	float: left;
+	width: 2.7rem;
+	height: 0.9rem;
+	line-height: 0.6rem;
+	text-align: center;
+}
+.introduction_manage_title li span {
+	font-size: 0.6rem;
+	color: #333333;
+}
+.introduction_manage_title li:first-child {
+	margin-left: 3.16rem;
+	margin-right: 3.44rem;
+}
+.underline_active {
+	position: absolute;
+	bottom: 0.16rem;
+	left: 0.73rem;
+	width: 1.24rem;
+	height: 0.08rem;
+	background-color: #eca64e;
+}
+.introduction_manage_line {
+	position: absolute;
+	top: 0.72rem;
+	left: 7.44rem;
+	width: 0.04rem;
+	height: 0.9rem;
+	background: #bfbfbf;
+}
+/*服务介绍描述*/
+.service_introduction_discrible {
+	width: 100%;
+	padding: 0rem 0.6rem;
+}
+.service_introduction_discrible p {
+	line-height: 0.88rem;
+	font-size: 0.56rem;
+	margin-bottom: 0.8rem;
+	color: #666666;
+}
+/*服务须知描述*/
+.service_notice_discrible {
+	width: 100%;
+	padding-left: 1.64rem;
+}
+.service_notice_discrible p {
+	line-height: 0.56rem;
+	font-size: 0.56rem;
+	margin-bottom: 0.5rem;
+	color: #666666;
+}
+
+
+/*马上预约病床*/
+.service_introduction_bottom {
+	position: fixed;
+	bottom: 2.66rem;
+	left: 2.7rem;
+}
+.appointment_bed_btn {
+	width: 9.6rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	border-radius: 1rem;
+	font-size: 0.76rem;
+	color: #ffffff;
+	background: linear-gradient(to right,#47adf1 , #5a7ff7);
+}
+
+
+
+
+
+
+
+
+/*iPhoneX适配*/
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    /*登录*/
+    .login_Content {
+		width: 15rem;
+		height: 32.48rem;
+		background-color: #ffffff;
+	}
+	.btn_Login {
+		width: 9.56rem;
+		height: 1.4rem;
+		line-height: 0.2rem;
+		border-radius: 0.6rem;
+		text-align: center;
+		margin-top: 4rem;
+		margin-bottom: 6rem;
+		font-size: 0.72rem;
+		color: #ffffff;
+	    background: linear-gradient(to right, #47adf1 , #5a7ff7); 
+	}
+	/*忘记密码*/
+	.forget_Content {
+		padding-top: 0.3rem;
+		width: 15rem;
+		height: 32.48rem;
+		text-align: center;
+		background: #ffffff;
+	}
+	.btn_Logins {
+		width: 9.56rem;
+		height: 1.4rem;
+		line-height: 0.2rem;
+		border-radius: 0.6rem;
+		text-align: center;
+		margin-top: 3.5rem;
+		margin-bottom: 9.38rem;
+		font-size: 0.72rem;
+		color: #ffffff;
+	    background: linear-gradient(to right, #47adf1 , #5a7ff7);  
+	}
+	/*注册*/
+	.register_Content {
+		width: 15rem;
+		height: 32.48rem;
+		background-color: #ffffff;
+	}
+	.btn_next {
+		width: 9.56rem;
+		height: 1.4rem;
+		line-height: 0.2rem;
+		border-radius: 0.6rem;
+		text-align: center;
+		margin-top: 3.5rem;
+		margin-bottom: 5.97rem;
+		font-size: 0.72rem;
+		color: #ffffff;
+	    background: linear-gradient(to right, #47adf1 , #5a7ff7);  
+	} 
+	.register_Addinfo {
+		width: 15rem;
+		height: 32.48rem;
+		background-color: #ffffff;
+	}
+}
+
+/* 设置placeholder颜色兼容 */
+input::-webkit-input-placeholder{
+    color:#999999;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#999999;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#999999;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:#999999;
+}

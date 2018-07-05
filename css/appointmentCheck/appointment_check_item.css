@@ -1,0 +1,218 @@
+
+/*预约检查项*/
+.appointment_check_item {
+	width: 15rem;
+	height: 26.68rem;
+	background-color: #ffffff;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	z-index: 2;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+.check_item_top {
+	height: 2.56rem;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.check_item_title {
+	width: 100%;
+	height: 2.2rem;
+	padding-left: 1.34rem;
+}
+.check_item_titleBar {
+	padding-top: 0.84rem;
+	font-size: 0.74rem;
+	line-height: 0.74rem;
+	margin-bottom: 0.2rem;
+	color: #333333;
+}
+.check_item_prompt {
+	font-size: 0.4rem;
+	line-height: 0.4rem;
+	color: #999999;
+}
+/*订单列表*/
+.check_item_list {
+	width: 100%;
+}
+.check_item_list ol {
+	width: 100%;
+	padding-left: 1.3rem;
+	margin-top: 0.3rem;
+}
+.check_item_list li {
+	position: relative;
+	width: 12.36rem;
+	height: 2.22rem;
+	padding: 0rem 0.24rem;
+	border-bottom: 0.04rem solid #eeeeee;
+}
+.list_item_money {
+	float: left;
+}
+.list_item_money p {
+	font-size: 0.56rem;
+	color: #666666;
+	height: 0.56rem;
+	line-height: 0.56rem;
+	margin-top: 0.9rem;
+}
+.check_fee {
+	margin-top: 0.24rem;
+	font-size: 0.36rem;
+	color: #999999;
+	height: 0.36rem;
+	line-height: 0.36rem;
+}
+.list_item_money span:last-child {
+	color: #d40404;
+}
+.order_list_select {
+	float: right;
+	width: 1.94rem;
+	height: 0.96rem;
+	margin-top: 1rem;
+	line-height: 0.96rem;
+	font-size: 0.5rem;
+	border-radius: 0.2rem;
+	color: #ffffff;
+	background-color: #46aff1;
+}
+.order_list_remove {
+	float: right;
+	width: 1.94rem;
+	height: 0.96rem;
+	margin-top: 1rem;
+	line-height: 0.96rem;
+	font-size: 0.5rem;
+	border-radius: 0.2rem;
+	color: #999999;
+	background-color: #e5e5e5;
+}
+
+/*填写订单提交*/
+.fill_order_bottom {
+	position: fixed;
+	bottom: 2.92rem;
+	left: 2.7rem;
+}
+.fill_order_btn {
+	width: 9.6rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	border-radius: 1rem;
+	font-size: 0.76rem;
+	color: #ffffff;
+	background: linear-gradient(to right,#47adf1 , #5a7ff7);
+}
+
+
+
+
+
+
+
+
+
+/*iPhoneX适配*/
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    /*登录*/
+    .login_Content {
+		width: 15rem;
+		height: 32.48rem;
+		background-color: #ffffff;
+	}
+	.btn_Login {
+		width: 9.56rem;
+		height: 1.4rem;
+		line-height: 0.2rem;
+		border-radius: 0.6rem;
+		text-align: center;
+		margin-top: 4rem;
+		margin-bottom: 6rem;
+		font-size: 0.72rem;
+		color: #ffffff;
+	    background: linear-gradient(to right, #47adf1 , #5a7ff7); 
+	}
+	/*忘记密码*/
+	.forget_Content {
+		padding-top: 0.3rem;
+		width: 15rem;
+		height: 32.48rem;
+		text-align: center;
+		background: #ffffff;
+	}
+	.btn_Logins {
+		width: 9.56rem;
+		height: 1.4rem;
+		line-height: 0.2rem;
+		border-radius: 0.6rem;
+		text-align: center;
+		margin-top: 3.5rem;
+		margin-bottom: 9.38rem;
+		font-size: 0.72rem;
+		color: #ffffff;
+	    background: linear-gradient(to right, #47adf1 , #5a7ff7);  
+	}
+	/*注册*/
+	.register_Content {
+		width: 15rem;
+		height: 32.48rem;
+		background-color: #ffffff;
+	}
+	.btn_next {
+		width: 9.56rem;
+		height: 1.4rem;
+		line-height: 0.2rem;
+		border-radius: 0.6rem;
+		text-align: center;
+		margin-top: 3.5rem;
+		margin-bottom: 5.97rem;
+		font-size: 0.72rem;
+		color: #ffffff;
+	    background: linear-gradient(to right, #47adf1 , #5a7ff7);  
+	} 
+	.register_Addinfo {
+		width: 15rem;
+		height: 32.48rem;
+		background-color: #ffffff;
+	}
+}
+
+/* 设置placeholder颜色兼容 */
+input::-webkit-input-placeholder{
+    color:#999999;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#999999;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#999999;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:#999999;
+}

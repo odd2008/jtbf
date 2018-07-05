@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>预约挂号</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/familyWardroom/appointment_doctor.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="appointment_doctor">
+		
+		<!--头部-->
+		<div class="appointment_doctor_top">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			
+			<!--返回-->
+			<div class="top_back">
+				<i class="icon_return"></i>
+				<a href="javascript:;" class="return" onclick="callbackGoappointmentDoctor();">返回</a>
+				<h3 class="top_back_title">预约挂号</h3>
+			</div>
+			
+			<!--医生信息-->
+			<div class="appointment_doctor_infomation">
+				<h4 class="doctor_infomation_name">李某某</h4>
+				<p class="doctor_infomation_hospitalName">天津医院</p>
+				<p class="doctor_infomation_position">主任医师——脊柱一区</p>
+				<button type="button" class="doctor_appointment_number" onclick="appointmentGoappointmentTime();">预约挂号</button>
+			</div>
+		</div>
+		
+		<!--活跃度-->
+		<div class="appointment_doctor_activity">
+			<div class="appointment_doctor_activity_top">
+				<i class="appointment_activity_icon"></i>
+				<h4 class="appointment_activity_title">活跃度</h4>
+			</div>
+			<ol class="appointment_doctor_ol">
+				<li class="appointment_doctor_li">
+					<img src="../images/appointment_fourth_bg_icon.png" class="appointment_fourth_bg" />
+					<p class="appointment_activity_hospitalName">天津第四医院</p>
+					<span class="monthly_reservation_volume">月预约量：</span>
+					<span class="monthly_reservation_volume_num">112</span>
+					<span class="annual_number_numbers">年放号量：</span>
+					<span class="annual_number_numbers_num">1231</span>
+				</li>
+				<li class="appointment_doctor_li">
+					<img src="../images/appointment_fourth_bg_icon.png" class="appointment_fourth_bg" />
+					<p class="appointment_activity_hospitalName">天津第四医院</p>
+					<span class="monthly_reservation_volume">月预约量：</span>
+					<span class="monthly_reservation_volume_num">112</span>
+					<span class="annual_number_numbers">年放号量：</span>
+					<span class="annual_number_numbers_num">1231</span>
+				</li>
+				<li class="appointment_doctor_li">
+					<img src="../images/appointment_fourth_bg_icon.png" class="appointment_fourth_bg" />
+					<p class="appointment_activity_hospitalName">天津第四医院</p>
+					<span class="monthly_reservation_volume">月预约量：</span>
+					<span class="monthly_reservation_volume_num">112</span>
+					<span class="annual_number_numbers">年放号量：</span>
+					<span class="annual_number_numbers_num">1231</span>
+				</li>
+			</ol>
+			
+		</div>
+		
+		
+			
+		<!--底部链接-->
+		<ul class="bottom_Link">
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Home_icon.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">首页</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Consultation.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的咨询</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Information.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">资讯</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_My.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的</p>
+			</li>
+		</ul>
+		
+		
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//返回到家庭病房
+	function callbackGoappointmentDoctor() {
+		
+		window.location.href = "family_escort.html";
+	}
+	
+	//点击预约挂号
+	function appointmentGoappointmentTime() {
+		
+		window.location.href = "appointment_time.html";
+	}
+</script>
+</html>

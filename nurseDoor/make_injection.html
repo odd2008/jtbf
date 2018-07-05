@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>打针</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/nurseDoor/make_injection.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="../css/base.css"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="make_injection">
+		
+		<div class="make_injection_top">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			
+			<!--返回-->
+			<div class="top_back">
+				<i class="icon_return"></i>
+				<a href="javascript:;" class="return" onclick="callbackGonurseDoor();">返回</a>
+				<h3 class="top_back_title">打针</h3>
+			</div>
+			
+		</div>
+		
+		<!--护士上门打针服务-->
+		<div class="make_injection_title">
+			<p class="make_injection_name">护士上门打针服务</p>
+			<div class="make_injection_money">
+				<span class="make_injection_money_price">¥</span>
+				<span class="make_injection_money_price">69</span>
+				<span class="make_injection_money_start">起</span>
+			</div>
+		</div>
+		
+		
+		<!--服务项目-->
+		<div class="service_guarantee">
+			<p class="service_guarantee_title">服务:</p>
+			<ul class="service_guarantee_ul">
+				<li class="service_guarantee_li">
+					<i class="service_guarantee_i"></i>
+					<p class="service_guarantee_p">保险保障</p>
+				</li>
+				<li class="service_guarantee_li">
+					<i class="service_guarantee_i"></i>
+					<p class="service_guarantee_p">质量保障</p>
+				</li>
+				<li class="service_guarantee_li">
+					<i class="service_guarantee_i"></i>
+					<p class="service_guarantee_p">平台担保</p>
+				</li>
+				<li class="service_guarantee_li">
+					<i class="service_guarantee_i"></i>
+					<p class="service_guarantee_p">纠纷协调</p>
+				</li>
+			</ul>
+		</div>
+		
+		
+		<!--服务详情-->
+		<div class="service_detail">
+			<div class="service_detail_title">服务详情</div>
+			<ol class="service_detail_ol">
+				<li class="service_detail_li">
+					<p class="service_detail_name">产品简介</p>
+					<img src="../images/dz_img.png" class="dz_img" />
+					<i class="bilinear_icon"></i>
+					<p class="service_detail_describe">打针服务，主要提供皮下以及肌肉注射，相关物品等无法提供，可与维护协商，委托其购买......</p>
+					<p class="service_detail_info">打针服务，主要提供皮下以及肌肉注射，相关物品等无法提供，可与维护协商，委托其购买......</p>
+					<img src="../images/dz_picture.png" class="dz_picture"/>
+				</li>
+				<li class="service_detail_li">
+					<p class="service_detail_name">适应症状</p>
+					<img src="../images/dz_img.png" class="dz_img" />
+					<i class="bilinear_icon"></i>
+					<p class="service_detail_describe">打针服务，主要提供皮下以及肌肉注射，相关物品等无法提供，可与维护协商，委托其购买......</p>
+					<p class="service_detail_info">打针服务，主要提供皮下以及肌肉注射，相关物品等无法提供，可与维护协商，委托其购买......</p>
+					<img src="../images/dz_picture.png" class="dz_picture"/>
+				</li>
+			</ol>
+		</div>
+		
+		
+		<!--立即预约-->
+		<div class="appointment_time_sure" onclick="nowAppointment();">
+			<button type="button" class="appointment_time_btn">立即预约</button>
+		</div>
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	
+	//点击家庭病房跳转到对应的页面
+	function callbackGonurseDoor() {
+		
+		window.location.href = "nurse_door.html";
+	}
+	
+	
+	
+	//点击立即预约
+	function nowAppointment() {
+		
+		window.location.href = "now_appointment.html";
+	}
+	
+	
+</script>
+</html>

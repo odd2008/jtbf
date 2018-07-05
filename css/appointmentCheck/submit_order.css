@@ -1,0 +1,292 @@
+
+/*提交订单*/
+.submit_order {
+	width: 15rem;
+	height: 26.68rem;
+	background-color: #ffffff;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	z-index: 2;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+.submit_order_top {
+	height: 2.56rem;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.submit_order_title {
+	width: 100%;
+	height: 2.2rem;
+	padding-left: 1.34rem;
+}
+.submit_order_titleBar {
+	padding-top: 0.84rem;
+	font-size: 0.74rem;
+	line-height: 0.74rem;
+	margin-bottom: 0.2rem;
+	color: #333333;
+}
+.submit_order_prompt {
+	font-size: 0.4rem;
+	line-height: 0.4rem;
+	color: #999999;
+}
+/*订单列表*/
+.fill_order_list {
+	width: 100%;
+}
+.fill_order_list_ol {
+	width: 100%;
+	padding-left: 1.3rem;
+	margin-top: 0.6rem;
+}
+.fill_order_list_li {
+	position: relative;
+	width: 12.36rem;
+	height: 1.38rem;
+	line-height: 1.38rem;
+	padding: 0rem 0.24rem;
+	border-bottom: 0.04rem solid #eeeeee;
+	margin-bottom: 0.64rem;
+}
+.order_list_title {
+	float: left;
+	font-size: 0.5rem;
+	color: #666666;
+}
+.order_list_money {
+	float: right;
+	font-size: 0.4rem;
+	color: #999999;
+}
+.order_list_arrow {
+	float: right;
+	font-size: 0.4rem;
+	color: #999999;
+}
+
+.order_list_money span:first-child {
+	margin-right: 0.2rem;
+}
+.order_list_money span:nth-child(2) {
+	margin-right: 0.1rem;
+}
+.order_list_money span:nth-child(3) {
+	margin-right: 0.2rem;
+	color: #d40205;
+}
+.fill_order_list_li input {
+	position: absolute;
+	top: 0.25rem;
+	left: 3rem;
+	width: 9rem;
+	height: 0.5rem;
+	line-height: 0.8rem;
+	font-size: 0.5rem;
+	color: #999999;
+	padding-left: 0rem;
+	border: none;
+}
+/*病情描述*/
+.reservations {
+	width: 100%;
+	margin-bottom: 0.56rem;
+}
+.reservations_title {
+	width: 100%;
+	height: 1.3rem;
+	line-height: 1.3rem;
+	padding-left: 1.54rem;
+	font-size: 0.5rem;
+	color: #666666;
+}
+.reservations textarea {
+	padding: 0.3rem 0.48rem;
+	width: 12.2rem;
+	height: 4.5rem;
+	font-size: 0.5rem;
+	border-radius: 0.4rem;
+	margin-left: 1.6rem;
+	box-shadow: 0rem 0rem 0.3rem 0.2rem #efefef;
+}
+textarea::-webkit-input-placeholder{
+    font-size: 0.5rem;
+}
+textarea::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    font-size: 0.5rem;
+}
+textarea:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    font-size: 0.5rem;
+}
+textarea:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    font-size: 0.5rem;
+}
+
+/*填写订单提交*/
+.fill_order_bottom {
+	position: fixed;
+	bottom: 2.94rem;
+	left: 2.7rem;
+}
+.fill_order_btn {
+	width: 9.6rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	border-radius: 1rem;
+	font-size: 0.76rem;
+	color: #ffffff;
+	background: linear-gradient(to right,#47adf1 , #5a7ff7);
+}
+
+/*订单明细列表*/
+.list_of_orders {
+	margin-left: 0.28rem;
+	width: 11.92rem;
+	border: 0.04rem solid #ffffff;
+	position: relative;
+	border-radius: 0.4rem;
+	box-shadow: 0rem 0rem 0.2rem 0.16rem #eeeeee;
+}
+.list_of_orders em{
+	display:block; 
+	border-width: 1rem; 
+	position: absolute; 
+	top: -2rem; 
+	right: 1rem;
+	border-style: solid dashed dashed; 
+	border-color: transparent transparent #FFFFFF;
+	font-size: 0.08rem; 
+	line-height: 0rem;
+}
+.list_of_orders_ol {
+	width: 11.92rem;
+}
+.list_of_orders_li {
+	position: relative;
+	width: 11.92rem;
+	height: 1.36rem;
+	line-height: 1.36rem;
+	font-size: 0.4rem;
+	color: #999999;
+	border-bottom: 0.04rem solid #d2d2d2;
+}
+.list_of_orders_ol li:last-child {
+	border-bottom: none;
+}
+.list_of_orders_name {
+	float: left;
+	margin-left: 0.72rem;
+}
+.list_of_orders_info {
+	position: absolute;
+	top: 0rem;
+	left: 7.8rem;
+	float: left;
+}
+
+
+
+
+
+/*iPhoneX适配*/
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    /*登录*/
+    .login_Content {
+		width: 15rem;
+		height: 32.48rem;
+		background-color: #ffffff;
+	}
+	.btn_Login {
+		width: 9.56rem;
+		height: 1.4rem;
+		line-height: 0.2rem;
+		border-radius: 0.6rem;
+		text-align: center;
+		margin-top: 4rem;
+		margin-bottom: 6rem;
+		font-size: 0.72rem;
+		color: #ffffff;
+	    background: linear-gradient(to right, #47adf1 , #5a7ff7); 
+	}
+	/*忘记密码*/
+	.forget_Content {
+		padding-top: 0.3rem;
+		width: 15rem;
+		height: 32.48rem;
+		text-align: center;
+		background: #ffffff;
+	}
+	.btn_Logins {
+		width: 9.56rem;
+		height: 1.4rem;
+		line-height: 0.2rem;
+		border-radius: 0.6rem;
+		text-align: center;
+		margin-top: 3.5rem;
+		margin-bottom: 9.38rem;
+		font-size: 0.72rem;
+		color: #ffffff;
+	    background: linear-gradient(to right, #47adf1 , #5a7ff7);  
+	}
+	/*注册*/
+	.register_Content {
+		width: 15rem;
+		height: 32.48rem;
+		background-color: #ffffff;
+	}
+	.btn_next {
+		width: 9.56rem;
+		height: 1.4rem;
+		line-height: 0.2rem;
+		border-radius: 0.6rem;
+		text-align: center;
+		margin-top: 3.5rem;
+		margin-bottom: 5.97rem;
+		font-size: 0.72rem;
+		color: #ffffff;
+	    background: linear-gradient(to right, #47adf1 , #5a7ff7);  
+	} 
+	.register_Addinfo {
+		width: 15rem;
+		height: 32.48rem;
+		background-color: #ffffff;
+	}
+}
+
+/* 设置placeholder颜色兼容 */
+input::-webkit-input-placeholder{
+    color:#999999;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#999999;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#999999;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:#999999;
+}

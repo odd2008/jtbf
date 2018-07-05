@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>找医生</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/findDoctor/find_doctor.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="find_doctor">
+		
+		<!--状态栏-->
+		<div class="status_bar">
+			<i class="icon_statusBar"></i>
+		</div>
+		
+		<div class="find_doctor_head">
+			<i class="icon_return"></i>
+			<a href="javascript:;" class="return">返回</a>
+			<span class="find_doctor_title">找医生</span>
+			<i class="icon_search"></i>
+		</div>
+		<div class="find_doctor_other">
+			
+		</div>
+		
+		<!--科室名称-->
+		<div class="department_name">
+			<div class="department_group">
+				<span>01</span>
+				<p>骨科</p>
+				<i class="gk_icon"></i>
+			</div>
+			<div class="department_group">
+				<span>02</span>
+				<p>外科</p>
+				<i class="wk_icon"></i>
+			</div>
+			<div class="department_group">
+				<span>03</span>
+				<p>儿科</p>
+				<i class="ek_icon"></i>
+			</div>
+			<div class="department_group">
+				<span>04</span>
+				<p>妇产科</p>
+				<i class="fck_icon"></i>
+			</div>
+			<div class="department_group">
+				<span>05</span>
+				<p>内科</p>
+				<i class="nk_icon"></i>
+			</div>
+			<div class="department_group">
+				<span>06</span>
+				<p>中医科</p>
+				<i class="zyk_icon"></i>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="js/login.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	
+	
+</script>
+</html>

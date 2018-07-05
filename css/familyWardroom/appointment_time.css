@@ -1,0 +1,310 @@
+
+/*预约挂号*/
+.appointment_time {
+	width: 15rem;
+	background: #ffffff;
+}
+.appointment_time_top {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	background: url(../../images/appointment_time_icon.png) no-repeat;
+	width: 15rem;
+	height: 7.2rem;
+	background-size: 100% 100%;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.return {
+	position: absolute;
+	top: 0rem;
+	left: 1.34rem;
+	font-size: 0.6rem;
+	color: #ffffff;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+/*医师详细信息*/
+.appointment_time_doctorinfo {
+	position: relative;
+	width: 100%;
+	height: 4.6rem;
+	margin-top: 7.2rem;
+	border-bottom: 0.2rem solid #eeeeee;
+}
+.appointment_time_portrait {
+	position: absolute;
+	top: -2.68rem;
+	left: 5.96rem;
+	width: 3.08rem;
+	height: 3.08rem;
+}
+.time_doctorinfo_name {
+	font-size: 0.8rem;
+	color: #333333;
+	font-weight: 700;
+	padding-top: 0.8rem;
+	margin-bottom: 0.5rem;
+	text-align: center;
+}
+.time_doctorinfo_position {
+	position: absolute;
+	top: 0.96rem;
+	left: 9.2rem;
+	font-size: 0.4rem;
+	color: #999999;
+}
+/*区域*/
+.doctorinfo_region {
+	float: left;
+	width: 4.72rem;
+	text-align: center;
+}
+.doctorinfo_region_title {
+	font-size: 0.44rem;
+	color: #6699ff;
+}
+.doctorinfo_region_wardName {
+	font-size: 0.56rem;
+	color: #999999;
+}
+.doctorinfo_skill {
+	float: left;
+	width: 5.3rem;
+	padding: 0 0.48rem;
+	text-align: center;
+}
+.doctorinfo_skill_title {
+	font-size: 0.44rem;
+	color: #6699ff;
+}
+.doctorinfo_skill_wardName {
+	font-size: 0.56rem;
+	color: #999999;
+	line-height: 0.66rem;
+}
+
+.doctorinfo_appointment {
+	float: left;
+	width: 4.98rem;
+	text-align: center;
+}
+.doctorinfo_appointment_title {
+	font-size: 0.44rem;
+	color: #6699ff;
+}
+.doctorinfo_appointment_wardName {
+	font-size: 0.56rem;
+	color: #999999;
+}
+
+/*分界线*/
+.doctorinfo_tangent1 {
+	position: absolute;
+	bottom: 0.6rem;
+	left: 4.72rem;
+	width: 0.04rem;
+	height: 1.64rem;
+	background: #cccccc;
+}
+.doctorinfo_tangent2 {
+	position: absolute;
+	bottom: 0.6rem;
+	left: 10.04rem;
+	width: 0.04rem;
+	height: 1.64rem;
+	background: #cccccc;
+}
+
+/*擅长*/
+.appointment_time_skill {
+	padding-top: 0.4rem;
+	padding-left: 0.6rem;
+}
+.appointment_time_skill h5 {
+	width: 100%;
+	height: 0.6rem;
+	font-size: 0.6rem;
+	color: #333333;
+	font-weight: 500;
+}
+.appointment_time_skill p {
+	width: 13.5rem;
+	height: 1.16rem;
+	line-height: 1.16rem;
+	margin-left: 0.32rem;
+	padding-left: 0.3rem;
+	border-bottom: 0.04rem solid #eeeeee;
+}
+/*预约时间*/
+.appointment_time_time {
+	width: 100%;
+	height: 1.24rem;
+	padding-left: 0.6rem;
+	line-height: 1.24rem;
+	font-size: 0.6rem;
+	color: #333333;
+	font-weight: 500;
+}
+
+/*时间表*/
+.appointment_time_table {
+	padding: 0 0.9rem;
+	
+}
+.appointment_time_table table {
+	width: 13.2rem;
+}
+.appointment_time_table table tr {
+	background: #ffffff;
+	height: 1.6rem;
+	font-size: 0.4rem;
+}
+.appointment_time_table table tr:first-child {
+	height: 1.06rem !important;
+	background: #deebf3;
+}
+/*星期*/
+.appointment_time_table table tr:first-child td p:first-child {
+	font-size: 0.32rem;
+	color: #666666;
+	height: 0.36rem;
+}
+/*日期*/
+.appointment_time_table table tr:first-child td p:last-child {
+	font-size: 0.3rem;
+	color: #999999;
+}
+.appointment_time_table table td {
+	text-align: center;
+}
+/*时间*/
+.appointment_time_table table tr:nth-child(1) td:nth-child(1) {
+	background: #cde1ec;
+	color: #666666;
+}
+/*上午*/
+.appointment_time_table table tr:nth-child(2) td:nth-child(1) {
+	background: #deebf3;
+	color: #666666;
+}
+/*下午*/
+.appointment_time_table table tr:nth-child(3) td:nth-child(1) {
+	background: #deebf3;
+	color: #666666;
+}
+.appointment_time_table table tr:nth-child(2) td {
+	border: 0.04rem solid #eeeeee;
+	border-top: 0rem;
+}
+.appointment_time_table table tr:nth-child(3) td {
+	border: 0.04rem solid #eeeeee;
+}
+.appointment_time_table table tr:nth-child(2) td:first-child {
+	border-left: none;
+}
+.appointment_time_table table tr:nth-child(3) td:first-child {
+	border-left: none;
+}
+
+.appointment_time_active {
+	width: 1.64rem;
+	height: 1.6rem;
+	border-radius: 0.4rem;
+	background-color: #3399ff;
+}
+
+/*红色提示*/
+.table_red_prompt {
+	position: relative;
+	width: 100%;
+	height: 0.84rem;
+	padding-left: 1.2rem;
+	margin-bottom: 0.2rem;
+	font-size: 0.36rem;
+	color: #dc0503;
+}
+.table_red_prompt i {
+	position: absolute;
+	top: 0rem;
+	left: 0.92rem;
+}
+.appointment_time_rules p {
+	padding-left: 0.92rem;
+	height: 0.36rem;
+	line-height: 0.36rem;
+	margin-bottom: 0.2rem;
+	font-size: 0.36rem;
+	color: #999999;
+}
+.appointment_time_rules ol {
+	padding-left: 1.2rem;
+	padding-right: 5.2rem;
+}
+.appointment_time_rules ol li {
+	width: 100%;
+	line-height: 0.4rem;
+	margin-bottom: 0.08rem;
+	font-size: 0.34rem;
+	color: #999999;
+}
+
+/*确认*/
+.appointment_time_sure {
+	padding-left: 2.7rem;
+	padding-top: 0.58rem;
+}
+.appointment_time_btn {
+	width: 9.6rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	border-radius: 1rem;
+	font-size: 0.76rem;
+	color: #ffffff;
+	background: linear-gradient(to right,#47adf1 , #5a7ff7);
+}
+
+
+

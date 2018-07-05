@@ -1,0 +1,385 @@
+
+/*首页*/
+.home_Content {
+	width: 15rem;
+	height: 26.68rem;
+	background-color: #ffffff;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	z-index: 2;
+	background: url(../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+.bang_line {
+	width: 100%;
+	height: 0.24rem;
+	background-color: #efedee;
+}
+/*找医生*/
+.find_Doctor {
+	position: relative;
+	width: 100%;
+	height: 2.24rem;
+	border-bottom: 1px solid #d2d2d2;
+}
+.icon_doctor {
+	position: absolute;
+	top: 0.36rem;
+	left: 0.6rem;
+	background: url(../images/icon_doctor.png) no-repeat;
+	width: 1.46rem;
+	height: 1.52rem;
+	background-size: 100% 100%;
+}
+
+.ring_img {
+	position: absolute;
+	top: 0.7rem;
+	left: 2.6rem;
+	width: 0.46rem;
+	height: 0.46rem;
+	border: 0.06rem solid #eca74c;
+	border-radius: 50%;
+	background: #ffffff;
+	
+}
+.find_Doctor h4 {
+	position: absolute;
+	top: 0.5rem;
+	left: 3.36rem;
+	font-size: 0.5rem;
+	color: #333333;
+}
+.find_Doctor p {
+	width: 11.2rem;
+	height: 0.8rem;
+	position: absolute;
+	top: 1.4rem;
+	left: 2.6rem;
+	font-size: 0.4rem;
+	color: #bcbcbc;
+	overflow: hidden;
+}
+
+/*热门服务*/
+.hot_Service {
+	position: relative;
+	width: 100%;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	text-align: center;
+}
+.hot_Service p {
+	font-size: 0.6rem;
+	color: #8a8a8a;
+}
+.under_line {
+	position: absolute;
+	top: 1rem;
+	left: 6.88rem;
+	width: 1.24rem;
+	height: 0.1rem;
+	background-color: #eda64e;
+}
+/*服务项目*/
+.service_Items {
+	width: 100%;
+	height: 6.96rem;
+}
+.jtbf_icon {
+	position: relative;
+	float: left;
+	width: 6.56rem;
+	height: 6.96rem;
+	margin-left: 0.6rem;
+}
+.jtbf_img {
+	width: 6.56rem;
+	height: 6.96rem;
+	border-radius: 0.4rem;
+}
+.jtbf_title {
+	position: absolute;
+	top: 2.4rem;
+	left: 0;
+	width: 100%;
+	height: 2.16rem;
+	line-height: 2.16rem;
+	text-align: center;
+	font-size: 0.64rem;
+	color: #ffffff;
+	font-weight: 700;
+	background: rgba(000,000,000,0.5);
+}
+.kfjg_icon {
+	position: relative;
+	float: right;
+	width: 6.6rem;
+	height: 3.12rem;
+	margin-right: 0.6rem;
+}
+.kfjg_img {
+	width: 6.6rem;
+	height: 3.12rem;
+	border-radius: 0.4rem;
+}
+.kfjg_title {
+	position: absolute;
+	top: 0.86rem;
+	left: 0;
+	width: 100%;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	text-align: center;
+	font-size: 0.64rem;
+	color: #ffffff;
+	font-weight: 700;
+	background: rgba(000,000,000,0.5);
+}
+.ylhl_icon {
+	position: relative;
+	float: right;
+	width: 6.6rem;
+	height: 3.12rem;
+	margin-top: 0.32rem;
+	margin-right: 0.6rem;
+}
+.ylhl_img {
+	width: 6.6rem;
+	height: 3.12rem;
+	border-radius: 0.4rem;
+}        
+.ylhl_title {
+	position: absolute;
+	top: 0.86rem;
+	left: 0;
+	width: 100%;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	text-align: center;
+	font-size: 0.64rem;
+	color: #ffffff;
+	font-weight: 700;
+	background: rgba(000,000,000,0.5);
+}
+.y_line {
+	float: left;
+	width: 0.02rem;
+	height: 6.24rem;
+	margin-top: 0.3rem;
+	margin-left: 0.32rem;
+	background: #cccccc;
+}
+.x_line {
+	float: right;
+	width: 6.6rem;
+	height: 0.02rem;
+	margin-top: 0.36rem;
+	margin-right: 0.6rem;
+	background: #cccccc;
+}
+.fjx_line {
+	width: 100%;
+	height: 0.26rem;
+	background-color: #dcdcdc;
+}
+
+/*科普知识*/
+.kpzs {
+	width: 100%;
+	height: 1.2rem;
+	border-bottom: 0.04rem solid #ccc;
+}
+.left_kp {
+	float: left;
+	font-size: 0.6rem;
+	color: #666666;
+	margin-left: 0.6rem;
+	margin-top: 0.4rem;
+}
+.right_more {
+	float: right;
+	font-size: 0.48rem;
+	color: #666666;
+	margin-top: 0.3rem;
+	margin-right: 0.6rem;
+}
+/*科普信息*/
+.kp_info_box {
+	width: 100%;
+	height: 3.8rem;
+	margin-bottom: 2.26rem;
+	overflow-y: scroll;
+}
+.kp_info {
+	width: 100%;
+	height: 3.8rem;
+	position: relative;
+}
+.left_picture {
+	position: absolute;
+	top: 0.24rem;
+	left: 0.6rem;
+	background: url(../images/kpzs_icon.png) no-repeat;
+	width: 3.54rem;
+	height: 3.54rem;
+	background-size: 100% 100%;
+}
+.right_word {
+	position: relative;
+	margin-left: 4.7rem;
+	padding-top: 0.7rem;
+}
+.right_word_title {
+	position: absolute;
+	top: 0.4rem;
+	left: 0rem;
+	font-size: 0.44rem;
+}
+.right_word_content1 {
+	position: absolute;
+	top: 1.2rem;
+	left: 0rem;
+	font-size: 0.36rem;
+}
+.right_word_content2 {
+	position: absolute;
+	top: 1.9rem;
+	left: 0rem;
+	font-size: 0.36rem;
+}
+.right_word_fabulous {
+	position: relative;
+	float: left;
+	margin-top: 2.2rem;
+}
+.right_word_fabulous span {
+	font-size: 0.3rem;
+	color: #999999;
+}
+.right_word_fabulous_date {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+}
+.ll_icon {
+	position: absolute;
+	top: 0.2rem;
+	left: 6.1rem;
+	background: url(../images/ll_icon.png) no-repeat;
+	width: 0.4rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+.right_word_fabulous_ll {
+	position: absolute;
+	top: 0rem;
+	left: 6.7rem;
+}
+.dz_icon {
+	position: absolute;
+	top: 0.2rem;
+	left: 8.2rem;
+	background: url(../images/dz_icon.png) no-repeat;
+	width: 0.4rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+.right_word_fabulous_dz {
+	position: absolute;
+	top: 0rem;
+	left: 8.8rem;
+}
+.kp_downline {
+	width: 100%;
+	height: 0.3rem;
+	border-bottom: 0.04rem solid #cccccc;
+}
+
+
+
+
+
+/*iPhoneX适配*/
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    /*登录*/
+    .login_Content {
+		width: 15rem;
+		height: 32.48rem;
+		background-color: #ffffff;
+	}
+	.btn_Login {
+		width: 9.56rem;
+		height: 1.4rem;
+		line-height: 0.2rem;
+		border-radius: 0.6rem;
+		text-align: center;
+		margin-top: 4rem;
+		margin-bottom: 6rem;
+		font-size: 0.72rem;
+		color: #ffffff;
+	    background: linear-gradient(to right, #47adf1 , #5a7ff7); 
+	}
+	/*忘记密码*/
+	.forget_Content {
+		padding-top: 0.3rem;
+		width: 15rem;
+		height: 32.48rem;
+		text-align: center;
+		background: #ffffff;
+	}
+	.btn_Logins {
+		width: 9.56rem;
+		height: 1.4rem;
+		line-height: 0.2rem;
+		border-radius: 0.6rem;
+		text-align: center;
+		margin-top: 3.5rem;
+		margin-bottom: 9.38rem;
+		font-size: 0.72rem;
+		color: #ffffff;
+	    background: linear-gradient(to right, #47adf1 , #5a7ff7);  
+	}
+	/*注册*/
+	.register_Content {
+		width: 15rem;
+		height: 32.48rem;
+		background-color: #ffffff;
+	}
+	.btn_next {
+		width: 9.56rem;
+		height: 1.4rem;
+		line-height: 0.2rem;
+		border-radius: 0.6rem;
+		text-align: center;
+		margin-top: 3.5rem;
+		margin-bottom: 5.97rem;
+		font-size: 0.72rem;
+		color: #ffffff;
+	    background: linear-gradient(to right, #47adf1 , #5a7ff7);  
+	} 
+	.register_Addinfo {
+		width: 15rem;
+		height: 32.48rem;
+		background-color: #ffffff;
+	}
+}
+
+/* 设置placeholder颜色兼容 */
+input::-webkit-input-placeholder{
+    color:#999999;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#999999;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#999999;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:#999999;
+}

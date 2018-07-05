@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>我的优惠券</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/My/my_coupon.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="my_coupon">
+		
+		<div class="top_information">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			<!--返回-->
+			<div class="top_back">
+				<p class="top_back_go" onclick="goBackMy();">＜返回</p>
+				<h3 class="top_back_title">我的优惠券</h3>
+			</div>
+			
+			
+		</div>
+		
+		
+		<!--保险列表-->
+		<ol class="kp_info_box">
+			<li class="kp_info" onclick="goTocouponDetails();">
+				<div class="left_picture"></div>
+				<div class="right_word">
+					<p4 class="right_word_title1">平安商城优惠券</p4>
+					<p class="right_word_title2">商城优惠券、优惠券！凭此优惠券可兑现6元现金礼包......</p>
+					<p class="start_date">2017.12.15</p>
+					<p class="interval_date">-</p>
+					<p class="end_date">2018.01.02</p>
+					<p class="right_price">¥33</p>
+				</div>
+			</li>
+			<li class="kp_info">
+				<div class="left_picture"></div>
+				<div class="right_word">
+					<p4 class="right_word_title1">平安商城优惠券</p4>
+					<p class="right_word_title2">商城优惠券、优惠券！凭此优惠券可兑现6元现金礼包......</p>
+					<p class="start_date">2017.12.15</p>
+					<p class="interval_date">-</p>
+					<p class="end_date">2018.01.02</p>
+					<p class="right_price">¥33</p>
+				</div>
+			</li>
+			<li class="kp_info">
+				<div class="left_picture"></div>
+				<div class="right_word">
+					<p4 class="right_word_title1">平安商城优惠券</p4>
+					<p class="right_word_title2">商城优惠券、优惠券！凭此优惠券可兑现6元现金礼包......</p>
+					<p class="start_date">2017.12.15</p>
+					<p class="interval_date">-</p>
+					<p class="end_date">2018.01.02</p>
+					<p class="right_price">¥33</p>
+				</div>
+			</li>
+			<li class="kp_info">
+				<div class="left_picture"></div>
+				<div class="right_word">
+					<p4 class="right_word_title1">平安商城优惠券</p4>
+					<p class="right_word_title2">商城优惠券、优惠券！凭此优惠券可兑现6元现金礼包......</p>
+					<p class="start_date">2017.12.15</p>
+					<p class="interval_date">-</p>
+					<p class="end_date">2018.01.02</p>
+					<p class="right_price">¥33</p>
+				</div>
+			</li>
+		</ol>
+		
+			
+		
+		
+		
+	</div>
+</body>
+
+<script src="..//js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//返回到我的
+	function goBackMy() {
+		
+		window.location.href = "my.html";
+	}
+	
+	
+	//优惠券详情
+	function goTocouponDetails() {
+		
+		window.location.href = "coupon_details.html";	
+	}
+	
+</script>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>家庭病房 </title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/rehabilitationMall/family_wradroom.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="famil_wardroom">
+		
+		<!--头部-->
+		<div class="famil_wardroom_top">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			
+			<!--返回-->
+			<div class="top_back">
+				<i class="icon_return" onclick="GoBackrehabilicationMall();"></i>
+				<h3 class="top_back_title">康复商城</h3>
+				<i class="icon_search"></i>
+			</div>
+			
+		</div>
+		
+		<!--导航栏-->
+		<div class="navigation_bar">
+			<ol>
+				<li>
+					<p>家庭病房</p>
+					<i class="active_bar"></i>
+				</li>
+				<li>
+					<p>康复器材</p>
+					<i></i>
+				</li>
+				<li>
+					<p>大药房</p>
+					<i></i>
+				</li>
+			</ol>
+		</div>
+		
+		<!--限时促销-->
+		<div class="time_limit">
+			<img src="../images/i_xscx.png"/ class="artifact_bg">
+			<div class="artifact_details">
+				<p class="artifact_promotion">剁手神器 限时促销</p>
+				<p class="artifact_name">莫比智能水阻划船器(时尚版)</p>
+				<span class="artifact_yes_price">¥</span>
+				<span class="artifact_yes_price">5180</span>
+				<span class="artifact_yes_price">元</span>
+				<span class="artifact_no_price">¥</span>
+				<span class="artifact_no_prices">8890</span>
+				<span class="artifact_no_price">元</span>
+			</div>
+		</div>
+		
+		<!--分类排序-->
+		<div class="category_sort">
+			<ol>
+				<li>
+					<p>综合</p>
+					<i class="i_sort"></i>
+				</li>
+				<li>
+					<p>价格</p>
+					<i class="i_sort"></i>
+				</li>
+				<li>
+					<p>折扣</p>
+					<i class="i_sort"></i>
+				</li>
+			</ol>
+		</div>
+		
+		<!--图片展示-->
+		<div class="picture_show">
+			<ul>
+				<li>
+					<img src="../images/i_yoga.png"/>
+					<p class="picture_goods_name">JOINFIT TPE 6mm 瑜伽...</p>
+					<span class="goods_true_price">¥158</span>
+					<span class="goods_false_price">¥294</span>
+				</li>
+				<li>
+					<img src="../images/i_skxg.png"/>
+					<p class="picture_goods_name">JOINFIT 双控悬挂PVC...</p>
+					<span class="goods_true_price">¥68</span>
+					<span class="goods_false_price">¥120</span>
+				</li>
+				<li>
+					<img src="../images/i_energy.png"/>
+					<p class="picture_goods_name">JOINFIT TPE 6mm 瑜伽...</p>
+					<span class="goods_true_price">¥158</span>
+					<span class="goods_false_price">¥294</span>
+					<div class="energy_voucher">80能量抵8元</div>
+				</li>
+				<li>
+					<img src="../images/i_bed.png"/>
+					<p class="picture_goods_name">JOINFIT TPE 6mm 瑜伽...</p>
+					<span class="goods_true_price">¥158</span>
+					<span class="goods_false_price">¥294</span>
+				</li>
+			</ul>
+		</div>
+		
+		<!--底部链接-->
+		<ul class="bottom_Link">
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Home_icon.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">首页</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Consultation.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的咨询</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Information.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">资讯</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_My.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的</p>
+			</li>
+		</ul>
+		
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//返回到康复商城
+	function GoBackrehabilicationMall() {
+		
+		window.location.href='rehabilitation_mall.html';
+	}
+	
+	
+</script>
+</html>

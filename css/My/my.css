@@ -1,0 +1,213 @@
+/*预约挂号*/
+.my {
+	width: 15rem;
+	background: #fafbff;
+}
+.my_top {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	background: url(../../images/my_back_bg.png) no-repeat;
+	width: 15rem;
+	height: 8.82rem;
+	background-size: 100% 100%;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+	background-color: #ffffff;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: fixed;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.top_set_up {
+	position: absolute;
+	top: 0rem;
+	right: 0.6rem;
+	font-size: 0.56rem;
+	color: #ffffff;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.7rem;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+/*我的信息*/
+.my_info {
+	position: relative;
+	width: 100%;
+	padding-top: 1.82rem;
+}
+.my_info_portrait {
+	width: 2.42rem;
+	height: 2.42rem;
+	margin-top: 0.8rem;
+	margin-left: 0.6rem;
+}
+.my_info_name {
+	position: absolute;
+	top: 3.32rem;
+	left: 3.84rem;
+	font-size: 0.6rem;
+	color: #ffffff;
+}
+.my_info_see {
+	position: absolute;
+	top: 4.16rem;
+	left: 3.84rem;
+	font-size: 0.44rem;
+	color: #ffffff;
+}
+.my_info_autograph {
+	position: absolute;
+	top: 5.74rem;
+	left: 1.84rem;
+	width: 10.96rem;
+	text-indent: 2em;
+	line-height: 0.8rem;
+	font-size: 0.44rem;
+	color: #ffffff;
+}
+
+/*签到条*/
+.sign_strip {
+	width: 100%;
+	height: 3.2rem;
+	margin-top: 8.82rem;
+	box-sizing: border-box;
+	border-bottom: 0.2rem solid #eeeeee;
+}
+.sign_strip_ul {
+	padding: 0rem 0.9rem;
+	padding-top: 1.2rem;
+}
+.sign_strip_li {
+	float: left;
+	width: 4.4rem;
+	height: 1.4rem;
+	text-align: center;
+	border-right: 0.04rem solid #eeeeee;
+}
+.sign_strip_ul li:last-child {
+	border-right: none;
+}
+.sign_strip_tit {
+	line-height: 0.7rem;
+	font-size: 0.7rem;
+	color: #333333;
+	margin-bottom: 0.4rem;
+}
+.sign_strip_info {
+	line-height: 0.4rem;
+	font-size: 0.4rem;
+	color: #666666;
+}
+
+/*功能链接*/
+.function_link {
+	padding: 0.38rem 0.6rem 0rem 0.6rem;
+}
+.function_link_ol {
+	width: 13.8rem;
+	height: 11.76rem;
+	box-shadow: 0rem 0.08rem 0.12rem 0.08rem #f0f0f2;
+}
+.function_link_li {
+	position: relative;
+	width: 100%;
+	height: 1.64rem;
+	line-height: 1.64rem;
+	padding-left: 2.6rem;
+}
+.function_link_li p {
+	font-size: 0.48rem;
+	color: #333333;
+}
+.function_link_wdjb {
+	position: absolute;
+	top: 0.47rem;
+	left: 1.2rem;
+	background: url(../../images/link_wdjb.png) no-repeat;
+	width: 0.7rem;
+	height: 0.7rem;
+	background-size: 100% 100%;
+}
+.function_link_wdyy {
+	position: absolute;
+	top: 0.47rem;
+	left: 1.2rem;
+	background: url(../../images/link_wdyy.png) no-repeat;
+	width: 0.7rem;
+	height: 0.7rem;
+	background-size: 100% 100%;
+}
+.function_link_wddd {
+	position: absolute;
+	top: 0.47rem;
+	left: 1.2rem;
+	background: url(../../images/link_wddd.png) no-repeat;
+	width: 0.7rem;
+	height: 0.7rem;
+	background-size: 100% 100%;
+}
+.function_link_tjgpy {
+	position: absolute;
+	top: 0.47rem;
+	left: 1.2rem;
+	background: url(../../images/link_tjgpy.png) no-repeat;
+	width: 0.7rem;
+	height: 0.7rem;
+	background-size: 100% 100%;
+}
+.function_link_lxkf {
+	position: absolute;
+	top: 0.47rem;
+	left: 1.2rem;
+	background: url(../../images/link_lxkf.png) no-repeat;
+	width: 0.7rem;
+	height: 0.7rem;
+	background-size: 100% 100%;
+}
+.function_link_yjfk {
+	position: absolute;
+	top: 0.47rem;
+	left: 1.2rem;
+	background: url(../../images/link_yjfk.png) no-repeat;
+	width: 0.7rem;
+	height: 0.7rem;
+	background-size: 100% 100%;
+}
+.right_arrow_i {
+	position: absolute;
+	top: 0.4rem;
+	right: 1.24rem;
+	background: url(../../images/right_arrow_i.png) no-repeat;
+	width: 0.32rem;
+	height: 0.56rem;
+	background-size: 100% 100%;
+}

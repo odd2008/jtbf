@@ -1,0 +1,232 @@
+
+/*确认预约*/
+.confirm_appointment {
+	width: 15rem;
+	background: #ffffff;
+}
+.confirm_appointment_top {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	width: 15rem;
+	height: 2.56rem;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: 700;
+	color: #333333;
+}
+
+/*确认预约列表*/
+.confirm_appointment_listinfo {
+	margin-top: 2.56rem;
+}
+.confirm_appointment_listinfo ul {
+	padding-top: 0.36rem;
+}
+.confirm_appointment_listinfo li {
+	width: 12.36rem;
+	height: 1.3rem;
+	line-height: 1.3rem;
+	margin-left: 1.28rem;
+	padding-left: 0.24rem;
+	margin-bottom: 0.8rem;
+	border-bottom: 0.04rem solid #ccc;
+}
+.confirm_appointment_listinfo li p {
+	float: left;
+	font-size: 0.5rem;
+	color: #333333;
+}
+.confirm_appointment_listinfo li span {
+	float: right;
+	font-size: 0.5rem;
+	color: #999999;
+}
+
+/*温馨提示*/
+.confirm_appointment_reminder {
+	padding-left: 1.36rem;
+	padding-right: 1.24rem;
+}
+.confirm_appointment_reminder h5 {
+	height: 0.48rem;
+	line-height: 0.48rem;
+	margin-bottom: 0.2rem;
+	font-size: 0.48rem;
+	color: #666666;
+}
+.confirm_appointment_reminder p {
+	height: 0.4rem;
+	line-height: 0.5rem;
+	font-size: 0.4rem;
+	color: #999999;
+}
+
+/*确认*/
+.appointment_time_sure {
+	position: fixed;
+	bottom: 1.1rem;
+	left: 0rem;
+	padding-left: 2.7rem;
+	padding-top: 0.58rem;
+}
+.appointment_time_btn {
+	width: 9.6rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	border-radius: 1rem;
+	font-size: 0.76rem;
+	color: #ffffff;
+	background: linear-gradient(to right,#47adf1 , #5a7ff7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部链接*/
+.bottom_Link {
+	position: fixed;
+	bottom: 0rem;
+	left: 0rem;
+	display: flex;
+	height: 1.96rem;
+	background: #ffffff;
+}
+.bottom_Link_Home {
+	position: relative;
+    width: 3rem;
+    padding-top: 1.2rem;
+}
+.bottom_Link_Home_icon {
+	position: absolute;
+	top: 0.24rem;
+	left: 0.6rem;
+	background: url(../../images/bottom_Link_Home_icon.png) no-repeat;
+	width: 1rem;
+	height: 1rem;
+	background-size: 100% 100%;
+	
+}
+.bottom_Link_Home_title {
+	float: left;
+	margin-left: 0.6rem;
+	font-size: 0.36rem;
+	color: #666666;
+}
+.bottom_Link_Consultation {
+	position: relative;
+    width: 3rem;
+    text-align: center;
+    padding-top: 1.1rem;
+    margin: 0 1rem;
+}
+.bottom_Link_Consultation_icon {
+	position: absolute;
+	top: 0.24rem;
+	left: 1.03rem;
+	background: url(../../images/bottom_Link_Consultation.png) no-repeat;
+	width: 0.94rem;
+	height: 0.94rem;
+	background-size: 100% 100%;
+}
+.bottom_Link_Consultation_title {
+	font-size: 0.36rem;
+	color: #666666;
+}
+.bottom_Link_Information {
+	position: relative;
+    width: 3rem;
+    text-align: center;
+    padding-top: 1.1rem;
+    margin-right: 1rem;
+}
+.bottom_Link_Information_icon {
+	position: absolute;
+	top: 0.24rem;
+	left: 1.04rem;
+	background: url(../../images/bottom_Link_Information.png) no-repeat;
+	width: 0.92rem;
+	height: 0.92rem;
+	background-size: 100% 100%;
+}
+.bottom_Link_Information_title {
+	font-size: 0.4rem;
+	color: #666666;
+}
+.bottom_Link_My {
+	position: relative;
+    width: 3rem;
+    padding-top: 1.2rem;
+}
+.bottom_Link_My_icon {
+	position: absolute;
+	top: 0.24rem;
+	right: 0.6rem;
+	background: url(../../images/bottom_Link_My.png) no-repeat;
+	width: 0.96rem;
+	height: 0.96rem;
+	background-size: 100% 100%;
+}
+.bottom_Link_My_title {
+	float: right;
+	margin-right: 0.6rem;
+	font-size: 0.4rem;
+	color: #666666;
+}

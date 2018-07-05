@@ -1,0 +1,148 @@
+
+/*找医生*/
+.find_doctor {
+	width: 15rem;
+	height: 26.68rem;
+	background-color: #ffffff;
+}
+.status_bar {
+	width: 100%;
+	height: 0.8rem;
+	background-color: #6699ff;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	z-index: 2;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+.find_doctor_head {
+	position: relative;
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	width: 100%;
+	font-size: 0.68rem;
+	background-color: #6699ff;
+	text-align: center;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.3rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.return {
+	position: absolute;
+	top: 0rem;
+	left: 1rem;
+	font-size: 0.6rem;
+	color: #ffffff;
+}
+.find_doctor_title {
+	color: #ffffff;
+	font-weight: 700;
+}
+.icon_search {
+	position: absolute;
+	top: 0.5rem;
+	right: 0.3rem;
+	background: url(../../images/icon_search.png) no-repeat;
+	width: 0.68rem;
+	height: 0.68rem;
+	background-size: 100% 100%;
+}
+.find_doctor_other {
+	width: 100%;
+	height: 1.98rem;
+	background-color: #6699ff;
+}
+
+/*科室名称*/
+.department_name {
+	margin-top: -0.48rem;
+}
+.department_group {
+	position: relative;
+	width: 8.3rem;
+	height: 2.16rem;
+	margin-bottom: 1rem;
+	background: #ffffff;
+	box-shadow: 0 0 0.6rem -0.2rem #ccc;
+}
+.department_group p {
+	height: 2.16rem;
+	line-height: 2.16rem;
+	text-align: center;
+	font-size: 0.7rem;
+	font-weight: 700;
+	color: #333333;
+}
+.department_group span {
+	position: absolute;
+	top: 0.46rem;
+	left: 0.46rem;
+	font-size: 0.6rem;
+	color: #333333;
+}
+.gk_icon {
+	position: absolute;
+	top: -0.52rem;
+	right: -1.8rem;
+	background: url(../../images/gk_icon.png) no-repeat;
+	width: 3.58rem;
+	height: 3.58rem;
+	background-size: 100% 100%;
+}
+.wk_icon {
+	position: absolute;
+	top: -0.52rem;
+	right: -1.8rem;
+	background: url(../../images/wk_icon.png) no-repeat;
+	width: 3.58rem;
+	height: 3.58rem;
+	background-size: 100% 100%;
+}
+.ek_icon {
+	position: absolute;
+	top: -0.52rem;
+	right: -1.8rem;
+	background: url(../../images/ek_icon.png) no-repeat;
+	width: 3.58rem;
+	height: 3.58rem;
+	background-size: 100% 100%;
+}
+.fck_icon {
+	position: absolute;
+	top: -0.52rem;
+	right: -1.8rem;
+	background: url(../../images/fck_icon.png) no-repeat;
+	width: 3.58rem;
+	height: 3.58rem;
+	background-size: 100% 100%;
+}
+.nk_icon {
+	position: absolute;
+	top: -0.52rem;
+	right: -1.8rem;
+	background: url(../../images/nk_icon.png) no-repeat;
+	width: 3.58rem;
+	height: 3.58rem;
+	background-size: 100% 100%;
+}
+.zyk_icon {
+	position: absolute;
+	top: -0.52rem;
+	right: -1.8rem;
+	background: url(../../images/zyk_icon.png) no-repeat;
+	width: 3.58rem;
+	height: 3.58rem;
+	background-size: 100% 100%;
+}

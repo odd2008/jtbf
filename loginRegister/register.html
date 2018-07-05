@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>注册</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/loginRegister/login.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="register_Content">
+		
+		<!--状态栏-->
+		<i class="icon_statusBar"></i>
+		<!--顶部背景-->
+		<div class="top_Bgs">
+			<i class="icon_backs"></i>
+			<a href="./login.html" class="btn_back">返回</a>
+			<i class="icon_bg_register"></i>
+		</div>
+		
+		<div class="login_Gersoninfo">
+			<!--手机号、验证码、密码-->
+			<div class="tel_Password">
+				<div class="group_input">
+					<input type="text" class="input_Num" placeholder="手机号"/>
+					<i class="icon_Telphone"></i>
+					<i class="bottom_line"></i>
+				</div>
+				<div class="group_input">
+					<input type="text" class="input_Num" placeholder="验证码"/>
+					<i class="icon_Verifcation"></i>
+					<i class="bottom_line"></i>
+					<div class="btn_Verificationnum">获取验证码</div>
+				</div>
+				<div class="group_input">
+					<input type="text" class="input_Num" placeholder="密码"/>
+					<i class="icon_PasswordNum"></i>
+					<i class="bottom_line"></i>
+				</div>
+			</div>
+			<button type="button" class="btn_next" onclick="registerAddinfo();">下一步</button>
+			
+			<!--第三方登录-->
+			<div class="third_Login">
+				<i class="left_Line"></i>
+				<span class="third_Title">第三方登录</span>
+				<i class="right_Line"></i>
+			</div>
+			<!--第三方登录图标-->
+			<div class="third_icon">
+				<i class="qq_icon"></i>
+				<i class="wx_icon"></i>
+				<i class="wb_icon"></i>
+			</div>
+		</div>
+		
+		
+	</div>
+</body>
+
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	
+	//点击下一步操作跳转到补充信息
+	function registerAddinfo() {
+	
+		window.location.href = "register_addinfo.html";
+	}
+</script>
+</html>

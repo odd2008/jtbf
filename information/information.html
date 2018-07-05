@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>资讯</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/information/information.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="information">
+		
+		<div class="top_information">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			<!--返回-->
+			<div class="top_back">
+				<h3 class="top_back_title">资讯</h3>
+			</div>
+			
+			<!--导航条-->
+			<div class="top_navigation_bar">
+				<ul class="top_navigation_bar_ul">
+					<li class="top_navigation_bar_li">
+						<p class="top_navigation_bar_tit">康复</p>
+						<i class="bottom_bar_active"></i>
+					</li>
+					<li class="top_navigation_bar_li">
+						<p class="top_navigation_bar_tit">养生</p>
+						<i></i>
+					</li>
+					<li class="top_navigation_bar_li">
+						<p class="top_navigation_bar_tit">护理</p>
+						<i></i>
+					</li>
+					<li class="top_navigation_bar_li">
+						<p class="top_navigation_bar_tit">减肥</p>
+						<i></i>
+					</li>
+					<li class="top_navigation_bar_li">
+						<p class="top_navigation_bar_tit">营养</p>
+						<i></i>
+					</li>
+					<li class="top_navigation_bar_li">
+						<p class="top_navigation_bar_tit">母婴</p>
+						<i></i>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<!--保险列表-->
+		<ol class="kp_info_box">
+			<li class="kp_info">
+				<div class="left_picture"></div>
+				<div class="right_word">
+					<p4 class="right_word_title1">重病无忧险</p4>
+					<p class="right_word_title2">保险保险保险保险保险保险保险保险险保险保险</p>
+					<p class="right_word_date">2017.12.15</p>
+				</div>
+			</li>
+			<li class="kp_info">
+				<div class="left_picture"></div>
+				<div class="right_word">
+					<p4 class="right_word_title1">住院保障险</p4>
+					<p class="right_word_title2">安师大UI是你按时覅哦啊是能否</p>
+					<p class="right_word_date">2017.12.15</p>
+				</div>
+			</li>
+			<li class="kp_info">
+				<div class="left_picture"></div>
+				<div class="right_word">
+					<p4 class="right_word_title1">生育保险</p4>
+					<p class="right_word_title2">涵盖80种疾病+50种轻病</p>
+					<p class="right_word_date">2017.12.15</p>
+				</div>
+			</li>
+			<li class="kp_info">
+				<div class="left_picture"></div>
+				<div class="right_word">
+					<p4 class="right_word_title1">养老服务险</p4>
+					<p class="right_word_title2">60周岁保单周年日起每年提供5%保额医疗金，累计30%保额为限.....</p>
+					<p class="right_word_date">2017.12.15</p>
+				</div>
+			</li>
+		</ol>
+		
+			
+		<!--底部链接-->
+		<ol class="bottom_Link">
+			<li class="bottom_Link_group" onclick="index();">
+				<img src="../images/bottom_Link_Home.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">首页</p>
+			</li>
+			<li class="bottom_Link_group" onclick="myAdvice();">
+				<img src="../images/bottom_Link_Consultation.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的咨询</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Information_active.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">资讯</p>
+			</li>
+			<li class="bottom_Link_group" onclick="my();">
+				<img src="../images/bottom_Link_My.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的</p>
+			</li>
+		</ol>
+		
+		
+	</div>
+</body>
+
+<script src="/js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//首页
+	function index() {
+		
+		window.location.href = "../index.html";
+	}
+	
+	//我的咨询
+	function myAdvice() {
+		
+		window.location.href = "../myAdvice/my_advice.html";
+	}
+	
+	//w我的
+	function my() {
+		
+		window.location.href = "../My/my.html";
+	}
+	
+</script>
+</html>

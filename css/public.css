@@ -1,0 +1,48 @@
+
+/*轮波图样式*/
+.scroll{
+	width:15rem; 
+	height:8.2rem;  
+	position:relative; 
+	overflow:hidden;
+	background: #ffffff;
+}
+.scroll img {
+	width: 15rem;
+	height: 8.2rem;
+}
+.scroll .mui-slider .mui-slider-indicator {
+	text-align: right;
+	padding-right: 0.44rem;
+}
+.scroll .mui-indicator {
+	width: 0.32rem;
+	height: 0.32rem;
+	border-radius: 50%;
+	margin: 0;
+	margin-right: 0.12rem;
+}
+
+/*搜索框*/
+.scroll .top_Search {
+	position: fixed;
+	top: 1.3rem;
+	left: 0.3rem;
+	z-index: 2;
+	padding-left: 1.6rem;
+	width: 14.28rem;
+	height: 1.3rem;
+	border: 0.04rem solid #ffffff;
+	border-radius: 0.3rem;
+	background: rgba(255,255,255,0.4);
+}
+.top_Search_icon {
+	position: fixed;
+	top: 1.5rem;
+	left: 0.9rem;
+	z-index: 2;
+	background: url(../images/top_Search_icon.png) no-repeat;
+	width: 0.8rem;
+	height: 0.84rem;
+	background-size: 100% 100%;
+}

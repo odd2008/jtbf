@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>服务介绍</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <link href="../css/public.css" rel="stylesheet"/>
+    <link href="../css/appointmentBed/service_introduction.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	<!--服务介绍-->
+	<div class="service_introduction">
+		
+		<!--状态栏-->
+		<i class="icon_statusBar"></i>
+		
+		<!--顶部轮波图-->
+		<div class="scroll">
+			
+			<!--返回-->
+			<div class="top_back">
+				<i class="icon_return"></i>
+				<a href="javascript:;" class="return" onclick="appointmentBedGofamily();">返回</a>
+			</div>
+			
+			<div id="slider" class="mui-slider" >
+		      <div class="mui-slider-group mui-slider-loop">
+		        <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+		        <div class="mui-slider-item mui-slider-item-duplicate">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        <!-- 第一张 -->
+		        <div class="mui-slider-item">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        <!-- 第二张 -->
+		        <div class="mui-slider-item">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        <!-- 第三张 -->
+		        <div class="mui-slider-item">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        <!-- 第四张 -->
+		        <div class="mui-slider-item">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+		        <div class="mui-slider-item mui-slider-item-duplicate">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        </div>
+		        <div class="mui-slider-indicator">
+			        <div class="mui-indicator mui-active"></div>
+			        <div class="mui-indicator"></div>
+			        <div class="mui-indicator"></div>
+			        <div class="mui-indicator"></div>
+		        </div>
+		    </div>
+		</div>
+		
+		<!--服务介绍和管理-->
+		<div class="service_introduction_manage">
+			
+			<div class="introduction_manage_title">
+				<i class="introduction_manage_line"></i>
+				<ol>
+					<li>
+						<span>服务介绍</span>
+						<i class="underline_active"></i>
+					</li>
+					<li>
+						<span>服务须知</span>
+						<i></i>
+					</li>
+				</ol>
+			</div>
+			<!--服务介绍描述-->
+			<div class="service_introduction_discrible" >
+				<p>1."预约病床"为患者提供便捷入院服务，可帮助患者与医生进行沟通安排病床预定</p>
+				<p>2.所产生的费用均为医院标准收费项，具体可查询所预约医院收费标准</p>
+				<p>3."预约病床"订单信息提交后，请保持手机畅通，客服于1-2个工作日内与您沟通联络</p>
+			</div>
+			<!--服务须知描述-->
+			<div class="service_notice_discrible" hidden>
+				<p>1.选择医院</p>
+				<p>2.选择科室</p>
+				<p>3.填写信息</p>
+				<p>4.支付费用</p>
+				<p>5.等候结果</p>
+				<p>6.告知预约结果</p>
+				<p>7.住院就诊</p>
+			</div>
+		</div>
+		
+		<!--预约病床按钮-->
+		<div class="service_introduction_bottom" onclick="GoChooseHospital();">
+			<button type="button" class="appointment_bed_btn">马上预约病床</button>
+		</div>
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//返回到家庭病房
+	function appointmentBedGofamily() {
+		
+		window.location.href = "../familyWardroom/family_escort.html";
+	}
+	
+	
+	
+	//跳转到医院选择
+	function GoChooseHospital() {
+		
+		window.location.href = "choose_hospital.html";
+	}
+	
+	
+	
+	
+	//图片轮播
+	var gallery = mui('.mui-slider');
+	gallery.slider({
+	  interval:1000//自动轮播周期，若为0则不自动播放，默认为0；
+	});
+	
+</script>
+</html>

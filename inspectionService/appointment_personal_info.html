@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>预约个人信息</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/inspectionService/appointment_personal_info.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="appointment_personal_info">
+		
+		<!--头部-->
+		<div class="appointment_personal_top">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			
+			<!--返回-->
+			<div class="top_back">
+				<i class="icon_return"></i>
+				<p class="right_save">保存</p>
+			</div>
+			
+		</div>
+		
+		<div class="new_doctor_title">
+			<h4>个人信息</h4>
+			<p>请仔细填写您的个人信息，以免信息失误给您带来不便</p>
+		</div>
+		
+		<!--新建就诊人列表-->
+		<div class="new_doctor_listinfo">
+			<ul>
+				<li>
+					<p class="new_doctor_left">就诊人</p>
+					<span class="new_doctor_right">&nbsp;&nbsp;&nbsp;></span>
+					<span class="new_doctor_right">李某某</span>
+				</li>
+				<li>
+					<i class="new_doctor_icon"></i>
+					<p class="new_doctor_doctor">新建就诊人</p>
+				</li>
+			</ul>
+		</div>
+		
+		<!--下一步-->
+		<div class="appointment_time_sure">
+			<button type="button" class="appointment_time_btn">下一步</button>
+		</div>
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	
+	
+</script>
+</html>

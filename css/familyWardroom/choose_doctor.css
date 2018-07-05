@@ -1,0 +1,117 @@
+
+/*选择医生*/
+.choose_doctor {
+	width: 15rem;
+	background: #ffffff;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+	background: rgba(255,255,255,0.8);
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+	border-bottom: 0.04rem solid #dddddd;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.return {
+	position: absolute;
+	top: 0rem;
+	left: 1.34rem;
+	font-size: 0.6rem;
+	color: #666666;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: 700;
+	color: #333333;
+}
+
+/*医生列表*/
+.choose_doctor_list {
+	width: 100%;
+	height: 2.7rem;
+	margin-top: 2.56rem;
+}
+.choose_doctor_list ol {
+	padding: 0 1rem;
+}
+.choose_doctor_list li {
+	position: relative;
+	width: 13rem;
+	height: 4rem;
+	margin-bottom: 0.4rem; 
+	border-radius: 0.4rem;
+	box-shadow: 0.02rem 0.06rem 0.02rem #dddddd;
+}
+.choose_doctor_list li img {
+	width: 3.54rem;
+	height: 4rem;
+}
+.choose_doctor_name {
+	position: absolute;
+	top: 1.3rem;
+	left: 4.44rem;
+	font-size: 0.56rem;
+	color: #333333;
+}
+.choose_doctor_ward {
+	position: absolute;
+	top: 2.16rem;
+	left: 4.44rem;
+	font-size: 0.44rem;
+	color: #999999;
+}
+.choose_doctor_skill {
+	position: absolute;
+	top: 2.88rem;
+	left: 4.44rem;
+	font-size: 0.44rem;
+	color: #999999;
+}
+.choose_doctor_yue {
+	position: absolute;
+	top: 1.3rem;
+	right: 0.16rem;
+	width: 2.4rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-align: center;
+	font-size: 0.5rem;
+	border-radius: 0.6rem;
+	color: #ffffff;
+	background: linear-gradient(to right , #47adf1 , #5a7ff7);
+}
+

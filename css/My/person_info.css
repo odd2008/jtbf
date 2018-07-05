@@ -1,0 +1,110 @@
+/*个人信息*/
+.person_info {
+	width: 15rem;
+	background: #fbfbfb;
+}
+.person_info_top {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	width: 15rem;
+	height: 2.56rem;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+	background-color: #ffffff;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: fixed;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.top_back_go {
+	position: absolute;
+	top: 0rem;
+	left: 0.6rem;
+	font-size: 0.56rem;
+	color: #333333;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.7rem;
+	font-weight: 700;
+	color: #333333;
+}
+
+
+/*个人信息*/
+.person_info {
+	margin-top: 2.56rem;
+}
+.person_info_ol {
+	padding: 0rem 0.6rem;
+	background-color: #fbfbfb;
+}
+.person_info_li {
+	position: relative;
+	width: 13.8rem;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	padding: 0rem 1.24rem;
+	background-color: #ffffff;
+}
+.person_info_title {
+	float: left;
+	font-size: 0.48rem;
+	color: #333333;
+}
+.person_info_content {
+	float: right;
+	font-size: 0.4rem;
+	color: #666666;
+}
+.person_info_portrait {
+	float: right;
+	width: 1.14rem;
+	height: 1.14rem;
+	margin-top: 0.21rem;
+}
+.person_info_arrow {
+	float: right;
+	width: 0.32rem;
+	height: 0.56rem;
+	margin-top: 0.21rem;
+}
+.person_info_ol li:first-child {
+	margin-bottom: 0.04rem;
+}
+.person_info_ol li:nth-child(2) {
+	margin-bottom: 0.4rem;
+}
+.person_info_ol li:nth-child(3) {
+	margin-bottom: 0.04rem;
+}
+.person_info_ol li:nth-child(4) {
+	margin-bottom: 0.04rem;
+}
+
+

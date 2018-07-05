@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>我的金币</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/My/my_gold.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="my_gold">
+		
+		<div class="top_information">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			<!--返回-->
+			<div class="top_back">
+				<p class="top_back_go" onclick="goBackMy();">＜返回</p>
+				<h3 class="top_back_title">我的金币</h3>
+			</div>
+			
+			<!--金币数量-->
+			<div class="my_gold_number">
+				<span class="gold_number">410</span>
+				<span class="gold_title">金币</span>
+			</div>
+			
+			<!--金币商城-->
+			<div class="my_gold_shopping">
+				<button type="button" class="gold_btn" onclick="AchieveGold();">赚取金币</button>
+				<button type="button" class="gold_btn gold_btn1">金币商城</button>
+			</div>
+			
+		</div>
+		
+		<!--我的金币列表-->
+		<div class="my_gold_list">
+			<ol class="gold_list_ol">
+				<li class="gold_list_li">
+					<div class="gold_list_fl">
+						<p class="gold_list_fl_p">每日签到</p>
+						<span class="gold_list_fl_sp">2017-12-25</span>
+						<span class="gold_list_fl_sp">16:24</span>
+					</div>
+					<div class="gold_list_fr">
+						<p class="gold_list_fr_p">+10</p>
+					</div>
+				</li>
+				<li class="gold_list_li">
+					<div class="gold_list_fl">
+						<p class="gold_list_fl_p">邀请好友</p>
+						<span class="gold_list_fl_sp">2017-12-25</span>
+						<span class="gold_list_fl_sp">16:24</span>
+					</div>
+					<div class="gold_list_fr">
+						<p class="gold_list_fr_p">+20</p>
+					</div>
+				</li>
+				<li class="gold_list_li">               
+					<div class="gold_list_fl">
+						<p class="gold_list_fl_p">绑定手机号</p>
+						<span class="gold_list_fl_sp">2017-12-25</span>
+						<span class="gold_list_fl_sp">16:24</span>
+					</div>
+					<div class="gold_list_fr">
+						<p class="gold_list_fr_p">+30</p>
+					</div>
+				</li>
+				<li class="gold_list_li">
+					<div class="gold_list_fl">
+						<p class="gold_list_fl_p">设置头像</p>
+						<span class="gold_list_fl_sp">2017-12-25</span>
+						<span class="gold_list_fl_sp">16:24</span>
+					</div>
+					<div class="gold_list_fr">
+						<p class="gold_list_fr_p">+10</p>
+					</div>
+				</li>
+				<li class="gold_list_li">
+					<div class="gold_list_fl">
+						<p class="gold_list_fl_p">新用户注册</p>
+						<span class="gold_list_fl_sp">2017-12-25</span>
+						<span class="gold_list_fl_sp">16:24</span>
+					</div>
+					<div class="gold_list_fr">
+						<p class="gold_list_fr_p">+50</p>
+					</div>
+				</li>
+			</ol>
+		</div>
+		
+		
+			
+		<!--底部链接-->
+		<ol class="bottom_Link">
+			<li class="bottom_Link_group" onclick="index();">
+				<img src="../images/bottom_Link_Home.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">首页</p>
+			</li>
+			<li class="bottom_Link_group" onclick="myAdvice();">
+				<img src="../images/bottom_Link_Consultation.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的咨询</p>
+			</li>
+			<li class="bottom_Link_group" onclick="information();">
+				<img src="../images/bottom_Link_Information.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">资讯</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_My_active.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的</p>
+			</li>
+		</ol>
+		
+		
+	</div>
+</body>
+
+<script src="..//js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//返回到我的
+	function goBackMy() {
+		
+		window.location.href = "my.html";
+	}
+	
+	
+	//赚取金币
+	function AchieveGold() {
+		
+		window.location.href = "achieve_gold.html";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	//首页
+	function index() {
+		
+		window.location.href = "../index.html";
+	}
+	
+	//我的咨询
+	function myAdvice() {
+		
+		window.location.href = "../myAdvice/my_advice.html";
+	}
+	
+	//资讯
+	function information() {
+		
+		window.location.href = "../information/information.html";
+	}
+	
+</script>
+</html>

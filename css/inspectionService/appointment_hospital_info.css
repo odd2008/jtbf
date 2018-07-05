@@ -1,0 +1,88 @@
+
+/*确认预约*/
+.appointment_hospital_info {
+	width: 15rem;
+	background: #ffffff;
+}
+.appointment_hospital_top {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	width: 15rem;
+	height: 2.56rem;
+	border-bottom: 0.04rem solid #eeeeee;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: 700;
+	color: #333333;
+}
+
+/*预约医院信息列表*/
+.appointment_hospital_listinfo {
+	width: 100%;
+	height: auto;
+	margin-top: 2.56rem; 
+}
+.appointment_hospital_listinfo ol {
+	padding-top: 0.7rem;
+	width: 100%;
+}
+.appointment_hospital_listinfo li {
+	width: 100%;
+	height: 1.62rem;
+	line-height: 1.62rem;
+	text-align: center;
+	font-size: 0.5rem;
+	color: #999999;
+}
+.appointment_hospital_listinfo li:hover {
+	color: #333333;
+	border-top: 0.04rem solid #eeeeee;
+	border-bottom: 0.04rem solid #eeeeee;
+}
+
+
+
+
+

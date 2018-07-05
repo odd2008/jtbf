@@ -1,0 +1,128 @@
+/*个人设置*/
+.set_help {
+	width: 15rem;
+	background: #ffffff;
+}
+.set_help_top {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	width: 15rem;
+	height: 2.56rem;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+	background-color: #ffffff;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: fixed;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.top_back_go {
+	position: absolute;
+	top: 0rem;
+	left: 0.6rem;
+	font-size: 0.56rem;
+	color: #333333;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.7rem;
+	font-weight: 700;
+	color: #333333;
+}
+
+
+/*个人设置*/
+.person_set {
+	margin-top: 2.56rem;
+}
+.person_set_ol {
+	padding: 0rem 0.6rem;
+	background-color: #fbfbfb;
+}
+.person_set_li {
+	position: relative;
+	width: 13.8rem;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	padding-left: 1.24rem;
+	background-color: #ffffff;
+}
+.person_set_li p {
+	font-size: 0.48rem;
+	color: #333333;
+}
+.person_set_ol li:first-child {
+	margin-bottom: 0.04rem;
+}
+.person_set_ol li:nth-child(2) {
+	margin-bottom: 0.4rem;
+}
+.person_set_ol li:nth-child(3) {
+	margin-bottom: 0.04rem;
+}
+.person_set_ol li:nth-child(4) {
+	margin-bottom: 0.04rem;
+}
+.person_set_ol li:nth-child(5) {
+	margin-bottom: 0.4rem;
+}
+.person_set_ol li:nth-child(6) {
+	margin-bottom: 0.4rem;
+}
+.right_arrow_i {
+	position: absolute;
+	top: 0.4rem;
+	right: 1.2rem;
+	background: url(../../images/right_arrow_i.png) no-repeat;
+	width: 0.32rem;
+	height: 0.56rem;
+	background-size: 100% 100%;
+}
+.version_number {
+	position: absolute;
+	top: 0rem;
+	right: 1.2rem;
+	font-size: 0.4rem;
+	color: #666666 !important;
+}
+/*退出登录*/
+.bottom_exit_logon {
+	width: 100%;
+	padding: 0rem 2.66rem;
+}
+.exit_logon {
+	margin-top: 2.96rem;
+	width: 9.64rem;
+	height: 1.64rem;
+	line-height: 1.64rem;
+	font-size: 0.7rem;
+	color: #ffffff;
+	border-radius: 0.3rem;
+	background-color: #e51f2c;
+	
+}

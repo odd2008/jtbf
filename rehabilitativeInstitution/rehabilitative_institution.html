@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>康复机构</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="../css/base.css"/>
+    <link href="../css/rehabilitativeInstitution/rehabilitative_institution.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	<!--康复机构-->
+	<div class="rehabilitative_institution">
+		
+		<div class="rehabilitative_institution_top">
+			
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			
+			<!--返回-->
+			<div class="top_back">
+				<i class="icon_return"></i>
+				<a href="javascript:;" class="return" onclick="goBackIndex();">返回</a>
+				<p class="top_back_title">GRS康复病房</p>
+			</div>
+			
+		</div>
+		
+		
+		<!--科普内容-->
+		<ol class="kp_info_box">
+			<li class="kp_info">
+				<div class="left_picture"></div>
+				<div class="right_word">
+					<p4 class="right_word_title1">喝茶能降血压吗？</p4>
+					<p class="right_word_title2">安师大UI是你按时覅哦啊是能否安师大UI是你按时覅哦啊是能否安师大UI是你按时覅哦啊是能否</p>
+					<div class="right_word_fabulous">
+						<span class="right_word_fabulous_date">2017.12.15</span>
+						<i class="ll_active_icon"></i>
+						<span class="right_word_fabulous_ll">1024</span>
+						<i class="dz_icon"></i>
+						<span class="right_word_fabulous_dz">666</span>
+					</div>
+				</div>
+			</li>
+			<li class="kp_info">
+				<div class="left_picture"></div>
+				<div class="right_word">
+					<p4 class="right_word_title1">喝茶能降血压吗？</p4>
+					<p class="right_word_title2">安师大UI是你按时覅哦啊是能否安师大UI是你按时覅哦啊是能否安师大UI是你按时覅哦啊是能否</p>
+					<div class="right_word_fabulous">
+						<span class="right_word_fabulous_date">2017.12.15</span>
+						<i class="ll_icon"></i>
+						<span class="right_word_fabulous_ll">1024</span>
+						<i class="dz_active_icon"></i>
+						<span class="right_word_fabulous_dz">666</span>
+					</div>
+				</div>
+			</li>
+			<li class="kp_info">
+				<div class="left_picture"></div>
+				<div class="right_word">
+					<p4 class="right_word_title1">喝茶能降血压吗？</p4>
+					<p class="right_word_title2">安师大UI是你按时覅哦啊是能否安师大UI是你按时覅哦啊是能否安师大UI是你按时覅哦啊是能否</p>
+					<div class="right_word_fabulous">
+						<span class="right_word_fabulous_date">2017.12.15</span>
+						<i class="ll_active_icon"></i>
+						<span class="right_word_fabulous_ll">1024</span>
+						<i class="dz_icon"></i>
+						<span class="right_word_fabulous_dz">666</span>
+					</div>
+				</div>
+			</li>
+			<li class="kp_info">
+				<div class="left_picture"></div>
+				<div class="right_word">
+					<p4 class="right_word_title1">喝茶能降血压吗？</p4>
+					<p class="right_word_title2">安师大UI是你按时覅哦啊是能否安师大UI是你按时覅哦啊是能否安师大UI是你按时覅哦啊是能否</p>
+					<div class="right_word_fabulous">
+						<span class="right_word_fabulous_date">2017.12.15</span>
+						<i class="ll_icon"></i>
+						<span class="right_word_fabulous_ll">1024</span>
+						<i class="dz_active_icon"></i>
+						<span class="right_word_fabulous_dz">666</span>
+					</div>
+				</div>
+			</li>
+			
+		</ol>
+			
+		
+		<!--底部链接-->
+		<ol class="bottom_Link">
+			<li class="bottom_Link_group" onclick="index();">
+				<img src="../images/bottom_Link_Home_icon.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">首页</p>
+			</li>
+			<li class="bottom_Link_group" onclick="myAdvice();">
+				<img src="../images/bottom_Link_Consultation.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的咨询</p>
+			</li>
+			<li class="bottom_Link_group" onclick="information();">
+				<img src="../images/bottom_Link_Information.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">资讯</p>
+			</li>
+			<li class="bottom_Link_group" onclick="my();">
+				<img src="../images/bottom_Link_My.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的</p>
+			</li>
+		</ol>
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	
+	//点击家庭病房跳转到对应的页面
+	function goBackIndex() {
+		
+		window.location.href = "../index.html";
+	}
+	
+	
+	
+	//首页
+	function index() {
+		
+		window.location.href = "../index.html";
+	}
+	
+	//我的咨询
+	function myAdvice() {
+		
+		window.location.href = "../myAdvice/my_advice.html";
+	}
+	
+	//资讯
+	function information() {
+		
+		window.location.href = "../information/information.html";
+	}
+	
+	//我的
+	function my() {
+		
+		window.location.href = "../My/my.html";
+	}
+	
+	
+	//兼容各种浏览器
+
+  $(function(){
+
+	  var w=750;
+	  var l=0;
+	  var timer=null;
+	  var len=$("ul li").length*2; //复制了一份图片，长度变了。
+	  $("ul").append($("ul").html()).css({'width':len*w, 'left': -len*w/2});
+
+	//自动每8秒切换一次 
+    timer=setInterval(init,3000);	
+	function init(){
+		$(".scroll .next").trigger('click'); //当页面一加载就触发next按钮的点击事件，用trigger的好处是减少重复代码,如果不用，就要把按钮click事件里代码全部复制过来，因为加载的代码和点击next按钮代码和效果相同，所以就用trigger触发执行click里面代码。
+	}
+
+	
+	$("ul li").hover(function(){
+		clearInterval(timer);
+
+		},function(){
+			timer=setInterval(init,3000);
+	   });
+
+	
+	$(".prev").click(function(){
+	
+	  l=parseInt($("ul").css("left"))+w;  //这里要转成整数，因为后面带了px单位
+	
+		 showCurrent(l); 
+	
+	});
+
+  	$(".next").click(function(){
+
+ l=parseInt($("ul").css("left"))-w;  //这里要转成整数，因为后面带了px单位
+
+		showCurrent(l);
+
+  });
+
+	   function showCurrent(l){     //把图片的左右切换封装成一个函数
+
+	   if($("ul").is(':animated')){ //当ul正在执行动画的过程中，阻止执行其它动作。关键之处，不然图片切换显示不完全，到最后图片空白不显示。
+
+	      return;
+
+	   }
+
+		  $("ul").animate({"left":l},500,function(){
+
+				if(l==0){ //当图片位置到第一份图片第二张时，马上把图片定位到第二份的第一张。注意这里的设置的css一定到写在animate动画完成时的执行  //函数里。否则图片只是一瞬间回到第一张，但是没有向右的动画效果。 我在做的时候，用的不是css,而是用animate()定位到第二个第一张，结果切换时，是反方向的运动，一直觉得无论怎样，图片方向都会发生变化 ，弄得花了一天时间才找到原因，所以一定 要用css。
+
+			   $("ul").css("left",-len*w/2);   
+
+			 }else if(l==(1-len)*w){ //图片位置到最后一张时（第二份最后一张）时，就把图片定位到第一份最后一张。从而显示的是第一份最后一张。
+
+				 $("ul").css('left',(1-len/2)*w); 
+				}
+		    }); 	  
+		 }
+	   
+	  });	
+	
+</script>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>确认预约</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/familyWardroom/confirm_appointment.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="confirm_appointment">
+		
+		<!--头部-->
+		<div class="confirm_appointment_top">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			
+			<!--返回-->
+			<div class="top_back">
+				<i class="icon_return"></i>
+				<h3 class="top_back_title">确认预约</h3>
+			</div>
+			
+		</div>
+		
+		<!--确认预约列表-->
+		<div class="confirm_appointment_listinfo">
+			<ul>
+				<li>
+					<p>就诊医院</p>
+					<span>天津医院</span>
+				</li>
+				<li>
+					<p>就诊科室</p>
+					<span>脊柱一区</span>
+				</li>
+				<li>
+					<p>就诊医生</p>
+					<span>奥黛丽赫本</span>
+				</li>
+				<li>
+					<p>挂号费用</p>
+					<span>¥50</span>
+				</li>
+				<li>
+					<p>候诊时间</p>
+					<span>周五</span>
+					<span>12-02</span>
+				</li>
+				<li>
+					<p>就诊人</p>
+					<span>></span>
+				</li>
+				<li>
+					<p>就诊状态</p>
+					<span>></span>
+				</li>
+				<li>
+					<p>缴费方式</p>
+					<span>></span>
+				</li>
+				<li>
+					<p>支付方式</p>
+					<span>到院缴费</span>
+				</li>
+			</ul>
+		</div>
+		
+		<!--温馨提示-->
+		<div class="confirm_appointment_reminder">
+			<h5>温馨提示</h5>
+			<p>如专家停诊，您的预约将会被取消，我们会以短信通知您，请保持手机畅通</p>
+		</div>
+		
+		<!--确认-->
+		<div class="appointment_time_sure">
+			<button type="button" class="appointment_time_btn" onclick="">提交</button>
+		</div>
+		
+		
+		
+		
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	
+	
+</script>
+</html>

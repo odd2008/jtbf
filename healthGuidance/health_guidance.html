@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>健康指导</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/healthGuidance/health_guidance.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="health_guidance">
+		
+		<!--头部-->
+		<div class="health_guidance_top">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			
+			<!--返回-->
+			<div class="top_back">
+				<p class="icon_return" onclick="GobackFamilyEscort();">＜&nbsp;&nbsp;返回</p>
+				<h3 class="top_back_title">健康指导</h3>
+			</div>
+			
+		</div>
+			
+		
+		
+		<!--健康指导列表-->
+		<ol class="health_guidance_list">
+			<li class="health_guidance_li">
+				<i class="health_guidance_icon1"></i>
+				<p class="health_guidance_title">我爱你中国</p>
+				<img src="../images/health_guidance_bg.png" class="health_guidance_img" />
+				<div class="health_guidance_left">
+					<p class="health_guidance_stay">待指导内容</p>
+					<p class="health_guidance_content">脊柱有问题  需要指导</p>
+				</div>
+				<div class="health_guidance_right">
+					<p class="health_guidance_date">2017-12-26 11:45</p>
+					<button type="button" class="health_guidance_plan" onclick="goTOguidanceDetails();">方案</button>
+				</div>
+			</li>
+			<li class="health_guidance_li">
+				<i class="health_guidance_icon2"></i>
+				<p class="health_guidance_title">我爱你中国</p>
+				<img src="../images/health_guidance_bg.png" class="health_guidance_img" />
+				<div class="health_guidance_left">
+					<p class="health_guidance_stay">待指导内容</p>
+					<p class="health_guidance_content">脊柱有问题  需要指导</p>
+				</div>
+				<div class="health_guidance_right">
+					<p class="health_guidance_date">2017-12-26 11:45</p>
+					<button type="button" class="health_guidance_plan" onclick="goTOguidanceDetails();">方案</button>
+				</div>
+			</li>
+			<li class="health_guidance_li">
+				<i class="health_guidance_icon3"></i>
+				<p class="health_guidance_title">我爱你中国</p>
+				<img src="../images/health_guidance_bg.png" class="health_guidance_img" />
+				<div class="health_guidance_left">
+					<p class="health_guidance_stay">待指导内容</p>
+					<p class="health_guidance_content">脊柱有问题  需要指导</p>
+				</div>
+				<div class="health_guidance_right">
+					<p class="health_guidance_date">2017-12-26 11:45</p>
+					<button type="button" class="health_guidance_plan" onclick="goTOguidanceDetails();">方案</button>
+				</div>
+			</li>
+		</ol>
+		
+		
+		
+		<!--底部链接-->
+		<ul class="bottom_Link">
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Home_icon.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">首页</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Consultation.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的咨询</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Information.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">资讯</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_My.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的</p>
+			</li>
+		</ul>
+		
+		
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	//返回到家庭陪护
+	function GobackFamilyEscort() {
+		
+		window.location.href = "../familyWardroom/family_escort.html";
+	}
+	
+	
+	//跳转到指导详情
+	function goTOguidanceDetails() {
+		
+		window.location.href = "guidance_details.html";
+	}
+	
+</script>
+</html>

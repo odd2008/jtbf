@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>症状自诊 </title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/symptomDisgnosis/symptom_disgnosis.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	<!--症状自诊-->
+	<div class="symptom_disgnosis">
+		
+		<!--头部-->
+		<div class="symptom_disgnosis_top">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			
+			<!--返回-->
+			<div class="top_back">
+				<p class="icon_return" onclick="GobackFamilyEscort();">＜&nbsp;&nbsp;返回</p>
+				<h3 class="top_back_title">症状自诊</h3>
+			</div>
+			
+		</div>
+		
+		<!--导航栏-->
+		<div class="navigation_bar">
+			<ol>
+				<li>
+					<p>人体图</p>
+					<i class="active_bar"></i>
+				</li>
+				<li>
+					<p>症状列表</p>
+					<i class=""></i>
+				</li>
+			</ol>
+		</div>
+		
+		<!--人体图-->
+		<div class="human_figure">
+			<i class="human_img1"></i>
+			<div class="picture_change">
+				<img src="../images/change_icon.png" class="change_icon">
+				<p class="change_text">正反切换</p>
+			</div>
+			
+		</div>
+		
+		<!--症状列表-->
+		<div class="symptom_list" hidden="hidden">
+			<ul class="symptom_list_ul">
+				<li>
+					<i class=""></i>
+					<p>全身症状</p>
+				</li>
+				<li>
+					<i class=""></i>
+					<p>皮肤症状</p>
+				</li>
+				<li>
+					<i class=""></i>
+					<p>头部</p>
+				</li>
+				<li>
+					<i class="ring_y_icon"></i>
+					<p>咽喉部</p>
+				</li>
+				<li>
+					<i class=""></i>
+					<p>胸部</p>
+				</li>
+				<li>
+					<i class=""></i>
+					<p>腹部</p>
+				</li>
+				<li>
+					<i class=""></i>
+					<p>四肢</p>
+				</li>
+				<li>
+					<i class=""></i>
+					<p>盆骨</p>
+				</li>
+				<li>
+					<i class=""></i>
+					<p>生殖部位</p>
+				</li>
+			</ul>
+			
+			<!--关联部分-->
+			<ol class="associated_part">
+				<li onclick="symptomDetails();">吃的太多</li>
+				<li>出汗太多</li>
+				<li>癫痫发作</li>
+				<li>发热</li>
+				<li>肥胖</li>
+			</ol>
+		</div>
+		
+		
+		
+		<!--底部链接-->
+		<ul class="bottom_Link">
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Home_icon.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">首页</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Consultation.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的咨询</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Information.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">资讯</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_My.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的</p>
+			</li>
+		</ul>
+		
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//返回到康复商城
+	function GobackFamilyEscort() {
+		
+		window.location.href='../familyWardroom/family_escort.html';
+	}
+	
+	
+	//点击正反面切换
+	$(".picture_change").click(function () {
+		
+		$(this).prev("i").toggleClass("human_img1").toggleClass("human_img2");
+	})
+	
+	
+	//点击导航栏切换内容
+	$(".navigation_bar li").click(function () {
+		
+		$(".navigation_bar li").children("i").removeClass("active_bar");
+		$(this).children("i").addClass("active_bar");
+		
+		var indexval = $(this).index()+1;
+		if(indexval == 1){
+			$(".human_figure").show();
+			$(".symptom_list").hide();
+		}else{
+			$(".symptom_list").show();
+			$(".human_figure").hide();
+		}
+		
+	})
+	
+	
+	//点击跳转到症状详情
+	function symptomDetails() {
+		
+		window.location.href = "symptom_details.html";
+	}
+	
+	
+</script>
+</html>

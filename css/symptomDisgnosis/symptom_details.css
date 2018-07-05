@@ -1,0 +1,235 @@
+
+/*症状自诊*/
+.symptom_details {
+	width: 15rem;
+	background: #ffffff;
+}
+.symptom_details_top {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	width: 15rem;
+	height: 6.28rem;
+	background: linear-gradient(to top, #47adf1 , #5a7ff7); 
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+	border-bottom: 0.02rem solid #cccccc;
+}
+.icon_return {
+	position: absolute;
+	top: 0rem;
+	left: 0.6rem;
+	width: 2rem;
+	height: 1.76rem;
+	font-size: 0.5rem;
+	color: #ffffff;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: 700;
+	color: #ffffff;
+}
+.icon_search {
+	position: absolute;
+	top: 0.56rem;
+	right: 0.3rem;
+	background: url(../../images/top_Search_icon.png) no-repeat;
+	width: 0.8rem;
+	height: 0.84rem;
+	background-size: 100% 100%;
+}
+
+/*患病结果*/
+.illness_result {
+	position: absolute;
+	top: 2.64rem;
+	left: 0.6rem;
+	font-size: 0.6rem;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+/*症状案例*/
+.symptom_case {
+	margin-top: 6.28rem;
+	width: 15rem;
+	border-bottom: 0.2rem solid #eeeeee;
+}
+.symptom_case_ol {
+	padding: 0rem 0.6rem;
+	width: 100%;
+	padding-bottom: 0.01rem;
+	background-color: #ffffff;
+}
+.symptom_case_li {
+	position: relative;
+	width: 13.8rem;
+	height: 4.96rem;
+	border-radius: 0.8rem;
+	margin-bottom: 0.6rem;
+	background-color: #ffffff;
+	box-shadow: 0rem 0rem 0.4rem 0.3rem #ededed;
+}
+.symptom_case_ol li:first-child {
+	box-shadow: 0rem 0.4rem 0.5rem 0.4rem #ededed;
+	margin-top: -1.3rem;
+}
+.symptom_case_title {
+	position: absolute;
+	top: 0.88rem;
+	left: 0.5rem;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	font-size: 0.7rem;
+	color: #666666;
+}
+.three_more_icon {
+	position: absolute;
+	top: 0.96rem;
+	right: 0.92rem;
+	background: url(../../images/three_more_icon.png) no-repeat;
+	width: 1rem;
+	height: 0.24rem;
+	background-size: 100% 100%;
+}
+.symptom_case_percentage {
+	position: absolute;
+	top: 2.56rem;
+	right: 0.92rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.4rem;
+	color: #666666;
+}
+.percentage_line {
+	position: absolute;
+	bottom: 1.1rem;
+	left: 0.52rem;
+	width: 12.3rem;
+	height: 0.34rem;
+	border-radius: 1rem;
+	background: linear-gradient(to top, #dadada,#ededed);
+}
+.percentage_line_p1{
+	width: 38%;
+	height: 0.34rem;
+	border-radius: 1rem;
+	background: linear-gradient(to right, #ff722e,#f7a657);
+}
+.percentage_line_p2{
+	width: 67%;
+	height: 0.34rem;
+	border-radius: 1rem;
+	background: linear-gradient(to right, #ff2d50,#f65888);
+}
+.percentage_line_p3{
+	width: 52%;
+	height: 0.34rem;
+	border-radius: 1rem;
+	background: linear-gradient(to right, #2e3cff,#597df5);
+}
+/*推荐医生*/
+.recommended_doctor {
+	
+}
+.recommended_doctor_top {
+	width: 100%;
+	height: 1.36rem;
+	line-height: 1.36rem;
+	padding: 0rem 0.6rem;
+	border-bottom: 0.04rem solid #eeeeee;
+}
+.recommended_doctor_title {
+	float: left;
+	font-size: 0.6rem;
+	color: #333333;
+	font-weight: 700;
+}
+.recommended_doctor_more {
+	float: right;
+	font-size: 0.48rem;
+	color: #999999;
+}
+/*医生信息列表*/
+.doctor_infomation_list {
+	width: 100%;
+	padding: 0rem 0.6rem;
+}
+.infomation_list_li {
+	position: relative;
+	width: 100%;
+	height: 2.32rem;
+	margin-bottom: 0.6rem;
+}
+.doctor_infomation_photo {
+	position: absolute;
+	top: 0.46rem;
+	left: 1.18rem;
+	background: url(../../images/doctor_infomation_photo.png) no-repeat;
+	width: 2.48rem;
+	height: 2.32rem;
+	background-size: 100% 100%;
+}
+.infomation_list_details {
+	position: relative;
+	margin-left: 4.7rem;
+	padding-top: 1.18rem;
+}
+.doctor_details_name {
+	position: absolute;
+	top: 1.18rem;
+	left: 0rem;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	font-size: 0.7rem;
+	color: #333333;
+}
+.hospital_details_name {
+	position: absolute;
+	top: 1.3rem;
+	left: 3.2rem;
+	font-size: 0.36rem;
+	line-height: 0.36rem;
+	color: #ffffff;
+	border-radius: 0.3rem;
+	padding: 0.1rem 0.22rem;
+	background-color: #c70d0e;
+}
+.doctor_details_position {
+	position: absolute;
+	top: 2.3rem;
+	left: 0rem;
+	height: 0.48rem;
+	line-height: 0.48rem;
+	font-size: 0.48rem;
+	color: #999999;
+}

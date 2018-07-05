@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>立即预约</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <link href="../css/nurseDoor/now_appointment.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	<!--立即预约-->
+	<div class="now_appointment">
+		
+		<div class="now_appointment_top">
+			<!--状态栏-->
+			<i class="icon_statusBar"></i>
+			
+			<!--返回-->
+			<div class="top_back">
+				<i class="icon_return"></i>
+			</div>
+		</div>
+		
+			
+		<!--填写订单-->	
+		<div class="submit_order_title">
+			<p class="submit_order_titleBar">立即预约</p>
+			<p class="submit_order_prompt">请仔细填写并核对您的信息，以免信息失误给您带来不便</p>
+		</div>
+		
+		<!--订单列表-->
+		<div class="fill_order_list">
+			<ol class="fill_order_list_ol">
+				<li class="fill_order_list_li">
+					<p class="order_list_title">选择地址</p>
+					<p class="order_list_arrow">></p>
+				</li>
+				<li class="fill_order_list_li">
+					<p class="order_list_title">服务时间</p>
+					<p class="order_list_arrow">></p>
+				</li>
+				<textarea class="reservations_textarea" name="" rows="" cols="" placeholder="备注"></textarea>
+				<li class="fill_order_list_li">
+					<p class="order_list_title">患者信息</p>
+					<p class="order_list_arrow">></p>
+				</li>
+				<li class="fill_order_list_li">
+					<p class="order_list_title">是否有输液工具</p>
+					<div class="order_list_choose">
+						<button>
+							<i class="yse_icon"></i>
+							<span class="list_choose_yes">是</span>
+						</button>
+						<button>
+							<i class="no_icon"></i>
+							<span class="list_choose_no">否</span>
+						</button>
+					</div>	
+				</li>
+				<li class="fill_order_list_li">
+					<p class="order_list_title">是否有必备药品</p>
+					<div class="order_list_choose">
+						<button class="order_list_button2">
+							<i class="no_icon"></i>
+							<span class="list_choose_yes">是</span>
+						</button>
+						<button class="order_list_button2">
+							<i class="no_icon"></i>
+							<span class="list_choose_no">否</span>
+						</button>
+					</div>	
+				</li>
+			</ol>
+			<p class="fill_order_list_prompt">提示：仅预约白天上门服务</p>
+		</div>
+		
+		<!--填写订单提交-->
+		<div class="fill_order_bottom" onclick="surePay();">
+			<button type="button" class="fill_order_btn">确认支付</button>
+		</div>
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	
+	
+	//确认支付
+	function surePay() {
+		
+		window.location.href = "../appointmentBed/pay_order.html";
+	}
+	
+	
+	
+</script>
+</html>

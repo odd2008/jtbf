@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>金币商城</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/My/gold_shopping.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="gold_shopping">
+		
+		<div class="top_information">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			<!--返回-->
+			<div class="top_back">
+				<p class="top_back_go" onclick="goBackMy();">＜返回</p>
+				<h3 class="top_back_title">金币商城</h3>
+			</div>
+			
+			<!--金币数量-->
+			<div class="my_gold_number">
+				<span class="gold_number">410</span>
+				<span class="gold_title">金币</span>
+			</div>
+			
+		</div>
+		
+		
+		<!--兑换记录-->
+		<div class="exchange_ecord">
+			<i class="gold_icon"></i>
+			<span class="gold_tit">金币</span>
+			<span class="gold_num">(406)</span>
+			<i class="middle_line"></i>
+			<i class="exchange_icon"></i>
+			<span class="exchange_tit">兑换记录</span>
+		</div>
+		
+		<!--抽奖-->
+		<div class="luck_draw">
+			
+		</div>
+		
+		
+		
+		
+	</div>
+</body>
+
+<script src="..//js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//返回到我的
+	function goBackMy() {
+		
+		window.location.href = "my.html";
+	}
+	
+	
+	//赚取金币
+	function AchieveGold() {
+		
+		window.location.href = "achieve_gold.html";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	//首页
+	function index() {
+		
+		window.location.href = "../index.html";
+	}
+	
+	//我的咨询
+	function myAdvice() {
+		
+		window.location.href = "../myAdvice/my_advice.html";
+	}
+	
+	//资讯
+	function information() {
+		
+		window.location.href = "../information/information.html";
+	}
+	
+</script>
+</html>

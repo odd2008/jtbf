@@ -1,0 +1,142 @@
+
+/*指导详情*/
+.guidance_details {
+	width: 15rem;
+	background: #ffffff;
+}
+.guidance_details_top {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	width: 15rem;
+	height: 2.56rem;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+	border-bottom: 0.04rem solid #eeeeee;
+}
+.icon_return {
+	position: absolute;
+	top: 0rem;
+	left: 0.6rem;
+	width: 2rem;
+	height: 1.76rem;
+	font-size: 0.5rem;
+	color: #666666;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: 700;
+	color: #333333;
+}
+
+/*基本信息*/
+.basic_infomation {
+	width: 100%;
+	height: 4.78rem;
+	margin-top: 2.56rem;
+	padding: 0rem 0.6rem;
+	padding-top: 0.52rem;
+	box-sizing: border-box;
+	border-bottom: 0.2rem solid #ededed;
+}
+.basic_infomation_title {
+	width: 4rem;
+	height: 0.66rem;
+	line-height: 0.66rem;
+	margin-bottom: 0.1rem;
+	font-size: 0.66rem;
+	color: #333333;
+}
+.basic_infomation_info {
+	padding-left: 0.72rem;
+	padding-top: 0.56rem;
+	width: 13.8rem;
+	height: 3.1rem;
+}
+.basic_infomation_group {
+	margin-bottom: 0.3rem;
+}
+.basic_info_label {
+	height: 0.54rem;
+	line-height: 0.54rem;
+	font-size: 0.54rem;
+	color: #666666;
+}
+.basic_info_labels {
+	height: 0.54rem;
+	line-height: 0.54rem;
+	font-size: 0.54rem;
+	color: #666666;
+	margin-left: 3.4rem;
+}
+.basic_info_span {
+	height: 0.54rem;
+	line-height: 0.54rem;
+	font-size: 0.54rem;
+	color: #666666;
+	margin-left: 0.7rem;
+}
+
+/*指导内容*/
+.guidance_content {
+	width: 100%;
+	height: 5.94rem;
+	padding-top: 0.52rem;
+	padding-left: 0.6rem;
+	box-sizing: border-box;
+	border-bottom: 0.2rem solid #ededed;
+}
+.guidance_content_p {
+	width: 12.1rem;
+	font-size: 0.5rem;
+	line-height: 0.6rem;
+	color: #666666;
+	text-indent: 1em;
+	padding-top: 0.5rem;
+	margin-left: 0.8rem;
+}
+
+/*指导方案*/
+.guidance_programme {
+	width: 100%;
+	padding-top: 0.52rem;
+	padding-left: 0.6rem;
+}
+.guidance_content_p {
+	width: 12.1rem;
+	font-size: 0.5rem;
+	line-height: 0.6rem;
+	color: #666666;
+	text-indent: 1em;
+	padding-top: 0.5rem;
+	margin-left: 0.8rem;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>预约医院信息</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/inspectionService/appointment_hospital_info.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="appointment_hospital_info">
+		
+		<!--头部-->
+		<div class="appointment_hospital_top">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			
+			<!--返回-->
+			<div class="top_back">
+				<i class="icon_return" onclick="GobackInspection();"></i>
+				<h3 class="top_back_title">预约医院</h3>
+			</div>
+			
+		</div>
+		
+		<!--预约医院信息列表-->
+		<div class="appointment_hospital_listinfo">
+			<ol>
+				<li>天津医科大学第二附属医院</li>
+				<li>天津医科大学眼科医院</li>
+				<li>天津市儿童医院北辰院区</li>
+				<li>天津中医药研究院附属医院</li>
+				<li>天津市第三医院</li>
+				<li>天津市眼科医院</li>
+				<li>北院区：天津市中医药大学第一附属医院</li>
+				<li>南院区：天津市中医药大学第一附属医院</li>
+				<li>天津市第五中心医院</li>
+				<li>天津市呼吸道疾病预防医院</li>
+				<li>天津市肿瘤医院</li>
+				<li>天津妇产科医院</li>
+			</ol>
+		</div>
+		
+		
+		
+		
+		
+		
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//返回到预约陪检
+	function GobackInspection() {
+		
+		window.location.href = "appointment_inspection.html";
+	}
+	
+</script>
+</html>

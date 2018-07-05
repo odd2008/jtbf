@@ -1,0 +1,179 @@
+
+/*预约挂号*/
+.appointment_doctor {
+	width: 15rem;
+	background: #ffffff;
+}
+.appointment_doctor_top {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	background: url(../../images/appointment_doctor_bg_icon.png) no-repeat;
+	width: 15rem;
+	height: 8.2rem;
+	background-size: 100% 100%;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.return {
+	position: absolute;
+	top: 0rem;
+	left: 1.34rem;
+	font-size: 0.6rem;
+	color: #666666;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: 700;
+	color: #333333;
+}
+
+/*医师信息*/
+.appointment_doctor_infomation {
+	width: 100%;
+	padding-top: 3.6rem;
+	padding-left: 1.2rem;
+}
+.doctor_infomation_name {
+	font-size: 0.8rem;
+	color: #333333;
+	font-weight: 700;
+	margin-bottom: 0.4rem;
+}
+.doctor_infomation_hospitalName {
+	font-size: 0.6rem;
+	color: #666666;
+	margin-bottom: 0.2rem;
+}
+.doctor_infomation_position {
+	font-size: 0.6rem;
+	color: #666666;
+	margin-bottom: 0.2rem;
+}
+.doctor_appointment_number {
+	width: 3.74rem;
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+	border-radius: 0.2rem;
+	font-size: 0.5rem;
+	color: #ffffff;
+	background: linear-gradient(to right,#47adf1 , #5a7ff7);
+}
+
+/*活跃度*/
+.appointment_doctor_activity {
+	position: relative;
+	width: 100%;
+	height: 9.9rem;
+	margin-top: 8.2rem;
+}
+.appointment_doctor_activity_top {
+	height: 1.5rem;
+	width: 100%;
+}
+.appointment_doctor_ol {
+	overflow-y: scroll;
+	width: 100%;
+	height: 14.5rem;
+	margin-bottom: 2.26rem;
+}
+.appointment_doctor_li {
+	position: relative;
+	width: 100%;
+	height: 8.48rem;
+	padding-top: 0.6rem;
+	border-bottom: 0.2rem solid #eeeeee;
+	margin-bottom: 0.2rem;
+}
+.appointment_activity_icon {
+	position: absolute;
+	top: 0.4rem;
+	left: 0.6rem;
+	background: url(../../images/appointment_activity_icon.png) no-repeat;
+	width: 0.94rem;
+	height: 1.08rem;
+	background-size: 100% 100%;
+}
+.appointment_activity_title {
+	position: absolute;
+	top: 0.85rem;
+	left: 2.16rem;
+	font-size: 0.64rem;
+	color: #333333;
+}
+.appointment_fourth_bg {
+	width: 13.8rem;
+	height: 5.46rem;
+	margin-left: 0.6rem;
+}
+.appointment_activity_hospitalName {
+	font-size: 0.56rem;
+	color: #666666;
+	margin: 0.4rem 0rem 0.44rem 0.6rem;
+}
+.appointment_doctor_activity span {
+	font-size: 0.4rem;
+}
+.monthly_reservation_volume {
+	position: absolute;
+	bottom: 0.3rem;
+	left: 0.6rem;
+	color: #999999;
+}
+.monthly_reservation_volume_num {
+	position: absolute;
+	bottom: 0.3rem;
+	left: 2.96rem;
+	color: #cc0000;
+}
+.annual_number_numbers {
+	position: absolute;
+	bottom: 0.3rem;
+	left: 6.16rem;
+	color: #999999;
+}
+.annual_number_numbers_num {
+	position: absolute;
+	bottom: 0.3rem;
+	left: 8.6rem;
+	color: #cc0000;
+}

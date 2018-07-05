@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>家庭陪护</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/familyWardroom/family_escort.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <link href="../css/public.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="family_escort">
+		
+		<!--状态栏-->
+		<div class="status_bar">
+			<i class="icon_statusBar"></i>
+		</div>
+		
+		<!--顶部轮波图-->
+		<div class="scroll">
+			
+			<!--返回-->
+			<div class="top_back">
+				<i class="icon_return"></i>
+				<a href="javascript:;" class="return" onclick="callbackToindex();">返回</a>
+			</div>
+			
+			<div id="slider" class="mui-slider" >
+		      <div class="mui-slider-group mui-slider-loop">
+		        <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+		        <div class="mui-slider-item mui-slider-item-duplicate">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        <!-- 第一张 -->
+		        <div class="mui-slider-item">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        <!-- 第二张 -->
+		        <div class="mui-slider-item">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        <!-- 第三张 -->
+		        <div class="mui-slider-item">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        <!-- 第四张 -->
+		        <div class="mui-slider-item">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+		        <div class="mui-slider-item mui-slider-item-duplicate">
+			        <a href="#">
+			        	<img src="../images/top_Scroll.png">
+			        </a>
+		        </div>
+		        </div>
+		        <div class="mui-slider-indicator">
+			        <div class="mui-indicator mui-active"></div>
+			        <div class="mui-indicator"></div>
+			        <div class="mui-indicator"></div>
+			        <div class="mui-indicator"></div>
+		        </div>
+		    </div>
+		</div>
+		
+		<!--服务列表-->
+		<div class="order_server_list clearfix">
+			<ol>
+				<li onclick="appointmentDoctor();">
+					<img src="../images/yygh_icon.png"/>
+					<p>预约挂号</p>
+				</li>
+				<li onclick="appointmentInspect();">
+					<img src="../images/yyjc_icon.png"/>
+					<p>预约检查</p>
+				</li>
+				<li onclick="inspectionService();">
+					<img src="../images/pjfw_icon.png"/>
+					<p>陪检服务</p>
+				</li>
+				<li onclick="appointmentBed()">
+					<img src="../images/yybc_icon.png"/>
+					<p>预约病床</p>
+				</li>
+				<li onclick="rehabilitationMall();">
+					<img src="../images/kfsc_icon.png"/>
+					<p>康复商城</p>
+				</li>
+				<li onclick="nurseDoor();">
+					<img src="../images/hssm_icon.png"/>
+					<p>护士上门</p>
+				</li>
+				<li onclick="symptomDisgnosis();">
+					<img src="../images/zzzz_icon.png"/>
+					<p>症状自诊</p>
+				</li>
+				<li class="Andmore">
+					<img src="../images/gd_icon.png"/>
+					<p>更多</p>
+				</li>
+				<li class="Remainder" hidden="hidden" onclick="medicalCard();">
+					<img src="../images/ylfw_icon.png"/>
+					<p>养老服务</p>
+				</li>
+				<li class="Remainder" hidden="hidden" onclick="healthInsurance();">
+					<img src="../images/jkbx_icon.png"/>
+					<p>健康保险</p>
+				</li>
+			</ol>
+		</div>
+		
+		<!--我的医生列表-->
+		<ol class="my_doctor_list">
+			<li class="my_doctor_list_li" onclick="myDoctor();">
+				<div class="decorate_stick_z"></div>
+				<p class="my_doctor_chinese">我的医生</p>
+				<span class="my_doctor_english">My&nbsp;Doctor</span>
+				<i class="my_doctor_icon"></i>
+			</li>
+			<li class="my_doctor_list_li" onclick="healthGuidance();">
+				<div class="decorate_stick_z bg_color"></div>
+				<p class="my_doctor_chinese text_color">健康指导</p>
+				<span class="my_doctor_english text_color">health&nbsp;Guidance</span>
+				<i class="health_guidance_icon"></i>
+			</li>
+		</ol>
+		
+		<!--底部链接-->
+		<ol class="bottom_Link">
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Home_icon.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">首页</p>
+			</li>
+			<li class="bottom_Link_group" onclick="myAdvice();">
+				<img src="../images/bottom_Link_Consultation.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的咨询</p>
+			</li>
+			<li class="bottom_Link_group" onclick="information();">
+				<img src="../images/bottom_Link_Information.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">资讯</p>
+			</li>
+			<li class="bottom_Link_group" onclick="my();">
+				<img src="../images/bottom_Link_My.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的</p>
+			</li>
+		</ol>
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//返回到主页
+	function callbackToindex() {
+		
+		window.location.href = "../index.html";
+	}
+	
+	//跳转到预约挂号
+	function appointmentDoctor () {
+		
+		window.location.href = "appointment_doctor.html";
+	}
+	
+	//跳转到预约检查
+	function appointmentInspect () {
+		
+		window.location.href = "../appointmentCheck/appointment_check.html";
+	}
+	
+	//跳转到陪检服务
+	function inspectionService () {
+		
+		window.location.href = "../inspectionService/appointment_inspection.html";
+	}
+	
+	
+	//跳转到预约病床
+	function appointmentBed () {
+		
+		window.location.href = "../appointmentBed/service_Introduction.html";
+	}
+	
+	//跳转到康复商城
+	function rehabilitationMall () {
+		
+		window.location.href = "../rehabilitationMall/rehabilitation_mall.html";
+	}
+	
+	//跳转到护士上门
+	function nurseDoor () {
+		
+		window.location.href = "../nurseDoor/nurse_door.html";
+	}
+	
+	//跳转到症状自诊
+	function symptomDisgnosis () {
+		
+		window.location.href = "../symptomDiagnosis/symptom_disgnosis.html";
+	}
+	
+	//跳转到养老服务
+	function medicalCard () {
+		
+		window.location.href = "../medical_care.html";
+	}
+	
+	//跳转到健康保险
+	function healthInsurance () {
+		
+		window.location.href = "../health_insurance.html";
+	}
+	
+	
+	
+	//跳转到我的医生
+	function myDoctor() {
+		
+		window.location.href = "../myDoctor/person_introduce.html";
+	}
+	
+	//跳转到健康指导
+	function healthGuidance() {
+		
+		window.location.href = "../healthGuidance/health_guidance.html";
+	}
+	
+	
+	
+	//点击更多展开隐藏的图标
+	$(".Andmore").click(function () {
+		
+		$(this).find("p").html("健康保险");
+		$(".Remainder").show();
+	})
+	
+	
+	
+	
+	
+	//我的咨询
+	function myAdvice() {
+		
+		window.location.href = "../myAdvice/my_advice.html";
+	}
+	
+	//资讯
+	function information() {
+		
+		window.location.href = "../information/information.html";
+	}
+	
+	//我的
+	function my() {
+		
+		window.location.href = "../My/my.html";
+	}
+	
+	
+	//图片轮播
+	var gallery = mui('.mui-slider');
+	gallery.slider({
+	  interval:1000//自动轮播周期，若为0则不自动播放，默认为0；
+	});
+	
+</script>
+</html>

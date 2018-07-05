@@ -1,0 +1,217 @@
+
+/*预约检查*/
+.appointment_check {
+	width: 15rem;
+	height: 26.68rem;
+	background-color: #ffffff;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	z-index: 2;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.32rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+
+/*搜索框*/
+.scroll .top_Search {
+	position: fixed;
+	top: 1rem;
+	left: 1.04rem;
+	z-index: 2;
+	padding-left: 1.6rem;
+	width: 12.9rem;
+	height: 1.36rem;
+	border: 0.04rem solid #ffffff;
+	border-radius: 0.3rem;
+	background: rgba(255,255,255,0.4);
+}
+.top_Search_icon {
+	position: fixed;
+	top: 1.32rem;
+	left: 1.32rem;
+	z-index: 2;
+	background: url(../../images/top_Search_icon.png) no-repeat;
+	width: 0.8rem;
+	height: 0.84rem;
+	background-size: 100% 100%;
+}
+
+/*预约检查*/
+.appointment_check_title {
+	margin-top: 0.24rem;
+	position: relative;
+	width: 100%;
+	height: 1.58rem;
+	line-height: 1.58rem;
+	text-align: center;
+	font-size: 0.7rem;
+	color: #333333;
+}
+/*智能选择*/
+.only_screening {
+	width: 100%;
+	height: 1.48rem;
+	line-height: 1.48;
+	padding: 0.44rem 2.56rem;
+	font-size: 0.6rem;
+	color: #666666;
+	border-bottom: 0.04rem solid #d2d2d2;
+}
+.only_screening_tj {
+	float: left;
+}
+.only_screening_znsx {
+	float: right;
+}
+
+
+
+/*医院列表*/
+.hospital_list_name {
+	margin-top: 0.3rem;
+	margin-left: 1.2rem;
+	width: 6.66rem;
+	border: 0.1rem solid #ffffff;
+	position: relative;
+	border-radius: 1rem;
+	box-shadow: 0rem 0rem 0.2rem 0.16rem #eeeeee;
+}
+.hospital_list_name em{
+	display:block; 
+	border-width: 0.5rem; 
+	position: absolute; 
+	top: -1rem; 
+	left: 1.6rem;
+	border-style: dashed solid  dashed; 
+	border-color: transparent transparent #ffffff;
+	font-size: 0.5rem; 
+	line-height: 0rem;
+}
+.hospital_list_name ol {
+	width: 6.66rem;
+	height: auto;
+	border-radius: 1rem;
+	background-color: #ffffff;
+	box-shadow: 0rem 0rem 0.16rem 0.12rem #eeeef0;
+}
+.hospital_list_name li {
+	width: 100%;
+	height: 1.64rem;
+	line-height: 1.64rem;
+	text-align: center;
+	font-size: 0.5rem;
+	color: #999999;
+	border-bottom: 0.04rem solid #d2d2d2;
+}
+.hospital_list_name li:last-child {
+	border-bottom: none;
+}
+
+
+
+
+
+
+
+/*iPhoneX适配*/
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    /*登录*/
+    .login_Content {
+		width: 15rem;
+		height: 32.48rem;
+		background-color: #ffffff;
+	}
+	.btn_Login {
+		width: 9.56rem;
+		height: 1.4rem;
+		line-height: 0.2rem;
+		border-radius: 0.6rem;
+		text-align: center;
+		margin-top: 4rem;
+		margin-bottom: 6rem;
+		font-size: 0.72rem;
+		color: #ffffff;
+	    background: linear-gradient(to right, #47adf1 , #5a7ff7); 
+	}
+	/*忘记密码*/
+	.forget_Content {
+		padding-top: 0.3rem;
+		width: 15rem;
+		height: 32.48rem;
+		text-align: center;
+		background: #ffffff;
+	}
+	.btn_Logins {
+		width: 9.56rem;
+		height: 1.4rem;
+		line-height: 0.2rem;
+		border-radius: 0.6rem;
+		text-align: center;
+		margin-top: 3.5rem;
+		margin-bottom: 9.38rem;
+		font-size: 0.72rem;
+		color: #ffffff;
+	    background: linear-gradient(to right, #47adf1 , #5a7ff7);  
+	}
+	/*注册*/
+	.register_Content {
+		width: 15rem;
+		height: 32.48rem;
+		background-color: #ffffff;
+	}
+	.btn_next {
+		width: 9.56rem;
+		height: 1.4rem;
+		line-height: 0.2rem;
+		border-radius: 0.6rem;
+		text-align: center;
+		margin-top: 3.5rem;
+		margin-bottom: 5.97rem;
+		font-size: 0.72rem;
+		color: #ffffff;
+	    background: linear-gradient(to right, #47adf1 , #5a7ff7);  
+	} 
+	.register_Addinfo {
+		width: 15rem;
+		height: 32.48rem;
+		background-color: #ffffff;
+	}
+}
+
+/* 设置placeholder颜色兼容 */
+input::-webkit-input-placeholder{
+    color:#999999;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#999999;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#999999;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:#999999;
+}

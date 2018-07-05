@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>预约时间</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/familyWardroom/appointment_time.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="appointment_time">
+		
+		<!--头部-->
+		<div class="appointment_time_top">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			
+			<!--返回-->
+			<div class="top_back">
+				<i class="icon_return"></i>
+				<a href="javascript:;" class="return" onclick="callbackGOappointmentDoctor();">返回</a>
+				<h3 class="top_back_title">预约时间</h3>
+			</div>
+			
+		</div>
+		
+		<!--医师详细信息-->
+		<div class="appointment_time_doctorinfo">
+			<img src="../images/appointment_time_portrait.png" class="appointment_time_portrait"/>
+			<h4 class="time_doctorinfo_name">李某某</h4>
+			<span class="time_doctorinfo_position">主治医师</span>
+			
+			<div class="doctorinfo_region">
+				<p class="doctorinfo_region_title">区域</p>
+				<span class="doctorinfo_region_wardName">脊柱一区</span>
+			</div>
+			
+			<div class="doctorinfo_skill">
+				<p class="doctorinfo_skill_title">擅长</p>
+				<p class="doctorinfo_skill_wardName">擅长：脊柱相关问题</p>
+			</div>
+			
+			<div class="doctorinfo_appointment">
+				<p class="doctorinfo_appointment_title">预约</p>
+				<p class="doctorinfo_appointment_wardName">1024(月)</p>
+			</div>
+			<!--分界线-->
+			<i class="doctorinfo_tangent1"></i>
+			<i class="doctorinfo_tangent2"></i>
+		</div>
+		
+		
+		<!--擅长-->
+		<div class="appointment_time_skill">
+			<h5>擅长</h5>
+			<p>脊柱及相关问题等</p>
+		</div>
+		
+		<!--预约时间-->
+		<p class="appointment_time_time">预约时间</p>
+		
+		<!--时间表-->
+		<div class="appointment_time_table">
+			<table border="0" cellspacing="" cellpadding="">
+				<tr>
+					<td>时间</td>
+					<td>
+						<p>周一</p>
+						<p>11-28</p>
+					</td>
+					<td>
+						<p>周二</p>
+						<p>11-28</p>
+					</td>
+					<td>
+						<p>周三</p>
+						<p>11-28</p>
+					</td>
+					<td>
+						<p>周四</p>
+						<p>11-28</p>
+					</td>
+					<td>
+						<p>周五</p>
+						<p>11-28</p>
+					</td>
+					<td>
+						<p>周六</p>
+						<p>11-28</p>
+					</td>
+					<td>
+						<p>周日</p>
+						<p>11-28</p>
+					</td>
+				</tr>
+				<tr>
+					<td>上午</td>
+					<td></td>
+					<td>
+						<div class="appointment_time_active"></div>
+					</td>
+					<td></td>
+					<td>
+						<div class="appointment_time_active"></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td>
+						<div class="appointment_time_active"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>下午</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>
+						<div class="appointment_time_active"></div>
+					</td>
+					<td></td>
+					<td>
+						<div class="appointment_time_active"></div>
+					</td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		
+		<!--红色提示信息-->
+		<div class="table_red_prompt">
+			<i>*</i>
+			蓝色为可选日期
+		</div>
+		
+		<!--预约规则-->
+		<div class="appointment_time_rules">
+			<p>预约规则</p>
+			<ol>
+				<li>1.预约成功后在就诊当日准时到医院就诊</li>
+				<li>2.如需取消或变更预约，请在就诊日前一天取消预约，不可重复预约同一科室</li>
+				<li>3.当日取消预约超过三次，将无法再次进行预约挂号等操作</li>
+			</ol>
+		</div>
+		
+		<!--确认-->
+		<div class="appointment_time_sure" onclick="goToChooseDepartment();">
+			<button type="button" class="appointment_time_btn">确定</button>
+		</div>
+		
+		
+		<!--底部链接-->
+		<ul class="bottom_Link">
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Home_icon.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">首页</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Consultation.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的咨询</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Information.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">资讯</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_My.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的</p>
+			</li>
+		</ul>
+		
+		
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//返回到预约挂号
+	function callbackGOappointmentDoctor () {
+		
+		window.location.href = "appointment_doctor.html";
+	}
+	
+	
+	//跳转到选择科室
+	function goToChooseDepartment() {
+		
+		window.location.href = "choose_department.html";
+	}
+</script>
+</html>

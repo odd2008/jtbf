@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>登录</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/loginRegister/login.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="login_Content mui-clearfix">
+		
+		<!--状态栏-->
+		<i class="icon_statusBar"></i>
+		<!--顶部背景-->
+		<div class="top_Bg">
+			<i class="icon_bg"></i>
+		</div>
+		
+		<div class="login_Gersoninfo">
+			<!--账号、密码-->
+			<div class="tel_Password">
+				<div class="group_input">
+					<input type="text" class="input_Num" id="accountNumber" placeholder="账号"/>
+					<i class="icon_Telphone"></i>
+					<i class="bottom_line"></i>
+				</div>
+				<div class="group_input">
+					<input type="text" class="input_Num" id="passWord" placeholder="密码"/>
+					<i class="icon_PasswordNum"></i>
+					<i class="bottom_line"></i>
+				</div>
+			</div>
+			<!--忘记密码、注册-->
+			<div class="forget_Number">
+				<a href="./forget_password.html" id="forgetPassword" class="left_Forgetnumber">忘记密码？</a>
+				<a href="./register.html" id="register" class="right_Register">注册>></a>
+			</div>
+			<button type="button" class="btn_Login" onclick="Login();">登录</button>
+			
+			<!--第三方登录-->
+			<div class="third_Login">
+				<i class="left_Line"></i>
+				<span class="third_Title">第三方登录</span>
+				<i class="right_Line"></i>
+			</div>
+			<!--第三方登录图标-->
+			<div class="third_icon" id="bottom_pd">
+				<i class="qq_icon"></i>
+				<i class="wx_icon"></i>
+				<i class="wb_icon"></i>
+			</div>
+			
+		</div>
+		
+		
+	</div>
+</body>
+
+<script src="js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//点击登录跳转到首页
+	function Login() {
+		
+		window.location.href = "index.html";
+	}
+
+
+</script>
+</html>

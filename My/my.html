@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>我的</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/My/my.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="my">
+		
+		<!--头部-->
+		<div class="my_top">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			
+			<!--返回-->
+			<div class="top_back">
+				<h3 class="top_back_title">我的</h3>
+				<p class="top_set_up" onclick="setHelp();">设置</p>
+			</div>
+			
+			<!--我的信息-->
+			<div class="my_info">
+				<img src="../images/my_info_portrait.png" class="my_info_portrait" />
+				<h4 class="my_info_name">我的姚-丫丫</h4>
+				<p class="my_info_see">查看或编辑个人资料</p>
+				<p class="my_info_autograph">追梦的过程往往伴随着迷茫，但又闪烁着许多未知的可能性对梦醒的渴望萦绕心头，路总会越走越宽敞明亮心之所向，无惧前方。</p>
+			</div>
+		</div>
+			
+		
+		<!--签到条-->
+		<div class="sign_strip">
+			<ul class="sign_strip_ul">
+				<li class="sign_strip_li" onclick="goToMycoupon();">
+					<p class="sign_strip_tit">暂无</p>
+					<p class="sign_strip_info">优惠券</p>
+				</li>
+				<li class="sign_strip_li">
+					<p class="sign_strip_tit">1</p>
+					<p class="sign_strip_info">签到</p>
+				</li>
+				<li class="sign_strip_li">
+					<p class="sign_strip_tit">4</p>
+					<p class="sign_strip_info">金币</p>
+				</li>
+			</ul>
+		</div>
+		
+		<!--功能连接-->
+		<div class="function_link">
+			<ol class="function_link_ol">
+				<li class="function_link_li" onclick="myGold();">
+					<i class="function_link_wdjb"></i>
+					<p>我的金币</p>
+					<i class="right_arrow_i"></i>
+				</li>
+				<li class="function_link_li">
+					<i class="function_link_wdyy"></i>
+					<p>我的预约</p>
+					<i class="right_arrow_i"></i>
+				</li>
+				<li class="function_link_li">
+					<i class="function_link_wddd"></i>
+					<p>我的订单</p>
+					<i class="right_arrow_i"></i>
+				</li>
+				<li class="function_link_li">
+					<i class="function_link_tjgpy"></i>
+					<p>推荐给朋友</p>
+					<i class="right_arrow_i"></i>
+				</li>
+				<li class="function_link_li">
+					<i class="function_link_lxkf"></i>
+					<p>联系客服</p>
+					<i class="right_arrow_i"></i>
+				</li>
+				<li class="function_link_li">
+					<i class="function_link_yjfk"></i>
+					<p>意见反馈</p>
+					<i class="right_arrow_i"></i>
+				</li>
+			</ol>
+		</div>
+		
+		
+		
+		<!--底部链接-->
+		<ol class="bottom_Link">
+			<li class="bottom_Link_group" onclick="index();">
+				<img src="../images/bottom_Link_Home.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">首页</p>
+			</li>
+			<li class="bottom_Link_group" onclick="myAdvice();">
+				<img src="../images/bottom_Link_Consultation.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的咨询</p>
+			</li>
+			<li class="bottom_Link_group" onclick="information();">
+				<img src="../images/bottom_Link_Information.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">资讯</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_My_active.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的</p>
+			</li>
+		</ol>
+		
+		
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//设置
+	function setHelp() {
+		
+		window.location.href = "set_help.html";
+	}
+	
+	
+	//跳转到我的优惠券
+	function goToMycoupon() {
+	
+	
+		window.location.href = "my_coupon.html";
+	}
+	
+	
+	//跳转到我的金币
+	function myGold() {
+	
+	
+		window.location.href = "my_gold.html";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//首页
+	function index() {
+		
+		window.location.href = "../index.html";
+	}
+	
+	//我的咨询
+	function myAdvice() {
+		
+		window.location.href = "../myAdvice/my_advice.html";
+	}
+	
+	//资讯
+	function information() {
+		
+		window.location.href = "../information/information.html";
+	}
+	
+	
+</script>
+</html>

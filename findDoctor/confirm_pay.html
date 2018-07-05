@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>确认支付</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/findDoctor/confirm_pay.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="doctor_details">
+		
+		<!--状态栏-->
+		<div class="status_bar">
+			<i class="icon_statusBar"></i>
+		</div>
+		
+		<div class="doctor_list_head">
+			<i class="icon_return"></i>
+			<a href="javascript:;" class="return">返回</a>
+			<span class="doctor_list_title">购买服务</span>
+		</div>
+		<div class="doctor_list_info">
+		</div>
+		
+		<!--医生详情套餐-->
+		<div class="doctor_details_package">
+			<div class="details_package">
+				<h3 class="details_package_title">套餐一：</h3>
+				<p class="details_package_describe">视频咨询3次，电话咨询2次，图文咨询3次康复疗，随访跟踪。视频咨询3次，电话咨询2次，图文咨询3次康复疗，随访跟踪。</p>
+				<span class="details_package_time">时间：6个月</span>
+				<button type="button" class="details_package_money">1000元</button>
+			</div>
+			<!--订单明细-->
+			<div class="package_order_details">
+				<span class="order_details_left">订单明细</span>
+				<span class="order_Coupon_right">未使用优惠券&nbsp;&nbsp;></span>
+			</div>
+			<div class="package_order_details">
+				<span class="order_details_left">共需支付</span>
+				<span class="pay_money_right">1000元</span>
+			</div>
+		</div>
+		
+		<!--选择支付方式-->
+		<div class="order_pay_style">
+			<div class="pay_style_title">选择支付方式</div>
+			<div class="pay_style_zfb">
+				<span>支付宝</span>
+				<i class="pay_zfb_icon"></i>
+			</div>
+			<div class="pay_style_wx">
+				<span>微信</span>
+				<i class="pay_wx_icon"></i>
+			</div>
+		</div>
+		<!--温馨提示-->
+		<div class="order_pay_reminder">
+			<h5>温馨提示</h5>
+			<p>您已挂号成功，请在30分钟内完成支付，逾时系统将自动取消本次预约</p>
+		</div>
+		
+		<div class="order_package_pay">确认支付</div>
+	</div>
+	
+	
+	<!--支付成功模态框-->
+	<div class="pay_succ" hidden>
+		<h3 class="pay_succ_title">支付成功</h3>
+		<p class="pay_succ_describe">请本人按预约时间去医院就诊</p>
+		<i class="pay_succ_icon"></i>
+		<button type="button" class="pay_succ_sure">确定</button>
+	</div>
+	
+</body>
+
+<script src="js/login.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	
+	
+</script>
+</html>

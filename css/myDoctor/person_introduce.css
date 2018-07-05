@@ -1,0 +1,521 @@
+
+/*个人介绍*/
+.person_introduce {
+	width: 15rem;
+	background: #ffffff;
+}
+.person_introduce_top {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	background: url(../../images/myDoctor_bg.png) no-repeat;
+	width: 15rem;
+	height: 8.54rem;
+	background-size: 100% 100%;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+	border-bottom: 0.02rem solid #cccccc;
+}
+.icon_return {
+	position: absolute;
+	top: 0rem;
+	left: 0.6rem;
+	width: 2rem;
+	height: 1.76rem;
+	font-size: 0.5rem;
+	color: #666666;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: 700;
+	color: #333333;
+}
+.icon_search {
+	position: absolute;
+	top: 0.56rem;
+	right: 0.3rem;
+	background: url(../../images/top_Search_icon.png) no-repeat;
+	width: 0.8rem;
+	height: 0.84rem;
+	background-size: 100% 100%;
+}
+
+/*导航列表*/
+.navigation_list {
+	position: relative;
+	width: 100%;
+	height: 3.46rem;
+	margin-top: 8.54rem;
+	border-bottom: 0.04rem solid #eeeeee;
+	background-color: #fafbff;
+}
+.navigation_list_ol {
+	width: 100%;
+	padding: 0rem 0.6rem;
+	padding-top: 2.3rem;
+}
+.navigation_list_li {
+	position: relative;
+	float: left;
+	width: 3.5rem;
+	height: 0.72rem;
+	text-align: center;
+}
+.navigation_list_ol li:nth-child(2) {
+	margin: 0rem 1.65rem;
+}
+.navigation_list_ol li p {
+	height: 0.46rem;
+	line-height: 0.46rem;
+	font-size: 0.46rem;
+	color: #999999;
+}
+
+.active_bar {
+	position: absolute;
+	bottom: 0rem;
+	left: 1.32rem;
+	width: 0.86rem;
+	height: 0.06rem;
+	background-color: #333333;
+	border-radius: 0.1rem;
+}
+.active_black {
+	color: #333333 !important;
+}
+
+/*医生信息列表*/
+.doctor_infomation_list {
+	position: absolute;
+	top: -4.3rem;
+	left: 1.12rem;
+	width: 12.78rem;
+	height: 4.78rem;
+}
+.infomation_list_li {
+	width: 12.78rem;
+	height: 5.48rem;
+	border-radius: 0.2rem;
+	position: relative;
+	background-color: #ffffff;
+	box-shadow: 0rem 0.12rem 0.2rem 0.12rem #f2f3f5;
+}	
+.doctor_infomation_photo {
+	position: absolute;
+	top: -0.44rem;
+	left: 0.4rem;
+	background: url(../../images/doctor_infomation_photo1.png) no-repeat;
+	width: 3.08rem;
+	height: 4.06rem;
+	background-size: 100% 100%;
+}
+.infomation_list_details {
+	position: relative;
+	margin-left: 4.78rem;
+	background: blue;
+}
+.doctor_details_name {
+	position: absolute;
+	top: 2rem;
+	left: 0rem;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	font-size: 0.7rem;
+	color: #333333;
+}
+.infomation_list_line {
+	position: absolute;
+	top: 2.24rem;
+	right: 5.22rem;
+	width: 0.06rem;
+	height: 0.44rem;
+	background-color: #cccccc;
+}
+.hospital_details_name {
+	position: absolute;
+	top: 2.1rem;
+	left: 3.2rem;
+	font-size: 0.36rem;
+	line-height: 0.36rem;
+	color: #ffffff;
+	border-radius: 0.3rem;
+	padding: 0.1rem 0.22rem;
+	background-color: #c70d0e;
+}
+.doctor_details_position {
+	position: absolute;
+	top: 3.14rem;
+	left: 0rem;
+	height: 0.48rem;
+	line-height: 0.48rem;
+	font-size: 0.48rem;
+	color: #999999;
+}
+.life_motto {
+	position: absolute;
+	top: 3.98rem;
+	left: 0.4rem;
+	width: 11.6rem;
+	height: 0.36rem;
+	overflow-y: hidden;
+	line-height: 0.36rem;
+	font-size: 0.36rem;
+	color: #999999;
+}
+.recently_active {
+	position: absolute;
+	top: 4.52rem;
+	left: 0.4rem;
+	height: 0.36rem;
+	line-height: 0.36rem;
+	font-size: 0.36rem;
+	color: #999999;
+}
+
+/*个人介绍列表*/
+.person_introduce_list {
+	width: 100%;
+}
+.person_introduce_ul {
+	width: 100%;
+	padding: 0rem 0.6rem;
+}
+.person_introduce_li {
+	position: relative;
+	width: 13.8rem;
+	height: 4rem;
+	padding: 0.76rem 0.6rem 0rem 0.82rem;
+	border-radius: 0.6rem;
+	box-shadow: 0rem 0rem 0.16rem 0.12rem #eeeeee;
+	margin-bottom: 0.7rem;
+}
+.person_introduce_line {
+	position: absolute;
+	top: 0.84rem;
+	left: 0rem;
+	width: 0.18rem;
+	height: 2.32rem;
+	border-radius: 0.2rem;
+	background-color: #47acf0;
+}
+.person_introduce_title {
+	height: 0.52rem;
+	line-height: 0.52rem;
+	font-size: 0.52rem;
+	font-weight: 700;
+	color: #333333;
+	margin-bottom: 0.36rem;
+}
+.person_introduce_describle {
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.4rem;
+	text-indent: 1em;
+	color: #999999;
+}
+.good_filed_li {
+	position: relative;
+	width: 13.8rem;
+	height: 4rem;
+	padding: 0.76rem 0.6rem 0rem 0.82rem;
+	border-radius: 0.6rem;
+	box-shadow: 0rem 0rem 0.16rem 0.12rem #eeeeee;
+	margin-bottom: 0.7rem;
+}
+.good_filed_line {
+	position: absolute;
+	top: 0.84rem;
+	left: 0rem;
+	width: 0.18rem;
+	height: 2.32rem;
+	border-radius: 0.2rem;
+	background-color: #5a7ef6;
+}
+.good_filed_title {
+	height: 0.52rem;
+	line-height: 0.52rem;
+	font-size: 0.52rem;
+	font-weight: 700;
+	color: #333333;
+	margin-bottom: 0.36rem;
+}
+.good_filed_project1 {
+	margin-left: 0.9rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.4rem;
+	text-indent: 1em;
+	color: #999999;
+}
+.good_filed_project2 {
+	margin-left: 0.9rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.4rem;
+	text-indent: 1em;
+	color: #999999;
+}
+.gain_honor_li {
+	position: relative;
+	width: 13.8rem;
+	height: 4rem;
+	padding: 0.76rem 0.6rem 0rem 0.82rem;
+	border-radius: 0.6rem;
+	box-shadow: 0rem 0rem 0.16rem 0.12rem #eeeeee;
+	margin-bottom: 0.7rem;
+}
+.gain_honor_line {
+	position: absolute;
+	top: 0.84rem;
+	left: 0rem;
+	width: 0.18rem;
+	height: 2.32rem;
+	border-radius: 0.2rem;
+	background-color: #f85e5c;
+}
+.gain_honor_title {
+	height: 0.52rem;
+	line-height: 0.52rem;
+	font-size: 0.52rem;
+	font-weight: 700;
+	color: #333333;
+	margin-bottom: 0.36rem;
+}
+.gain_honor_position {
+	margin-left: 0.9rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.4rem;
+	text-indent: 1em;
+	color: #999999;
+}
+.gain_honor_profession {
+	margin-left: 0.9rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.4rem;
+	text-indent: 1em;
+	color: #999999;
+}
+
+/*时间表*/
+.outpatient_time_table {
+	padding: 0 0.14rem;
+	padding-top: 0.36rem;
+}
+.outpatient_time_table table {
+	width: 100%;
+}
+.outpatient_time_table table tr {
+	background: #ffffff;
+	height: 5.6rem;
+	font-size: 0.46rem;
+}
+.outpatient_time_table table tr:first-child {
+	height: 1.12rem !important;
+	background: #deebf3;
+}
+/*星期*/
+.outpatient_time_table table tr:first-child td p:first-child {
+	font-size: 0.44rem;
+	color: #666666;
+}
+.outpatient_time_table table td {
+	text-align: center;
+}
+/*时间*/
+.outpatient_time_table table tr:nth-child(1) td:nth-child(1) {
+	background: #cde1ec;
+	color: #666666;
+}
+/*上午*/
+.outpatient_time_table table tr:nth-child(2) td:nth-child(1) {
+	background: #deebf3;
+	color: #666666;
+}
+/*下午*/
+.outpatient_time_table table tr:nth-child(3) td:nth-child(1) {
+	background: #deebf3;
+	color: #666666;
+}
+.outpatient_time_table table tr:nth-child(2) td {
+	border: 0.04rem solid #eeeeee;
+	border-top: 0rem;
+}
+.outpatient_time_table table tr:nth-child(3) td {
+	border: 0.04rem solid #eeeeee;
+}
+.outpatient_time_table table tr:nth-child(2) td:first-child {
+	border-left: none;
+}
+.outpatient_time_table table tr:nth-child(3) td:first-child {
+	border-left: none;
+}
+
+.morning_time_active {
+	width: 1.88rem;
+	height: 5.5rem;
+	line-height: 5.5rem;
+	text-align: center;
+	font-size: 0.36rem;
+	color: #ffffff;
+	border-radius: 0.5rem;
+	background-color: #48adf1;
+}
+.Afternoon_time_active {
+	width: 1.88rem;
+	height: 5.5rem;
+	line-height: 5.5rem;
+	text-align: center;
+	font-size: 0.44rem;
+	color: #ffffff;
+	border-radius: 0.5rem;
+	background-color: #5b7ff7;
+}
+.outpatient_time_p {
+	height: 0.44rem;
+	font-size: 0.44rem;
+	color: #ffffff;
+}
+
+/*医生文章*/
+.doctor_article {
+	width: 100%;
+	padding-top: 0.4rem;
+}
+.kp_info {
+	width: 100%;
+	height: 3.9rem;
+	margin-top: 0.3rem;
+	border-bottom: 0.04rem solid #cccccc; 
+}
+.kp_info_bg {
+	position: relative;
+	width: 13.8rem;
+	height: 3.56rem;
+	margin-left: 0.6rem;
+	box-shadow: 0rem 0rem 0.2rem 0.2rem #f9f9f9;
+}
+.left_picture {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	z-index: 0;
+	background: url(../../images/kpzs_icon.png) no-repeat;
+	width: 3.54rem;
+	height: 3.54rem;
+	background-size: 100% 100%;
+}
+.right_word {
+	position: relative;
+	margin-left: 4.7rem;
+	padding-top: 0.7rem;
+}
+.right_word_title {
+	position: absolute;
+	top: 0.4rem;
+	left: -0.6rem;
+	font-size: 0.44rem;
+}
+.right_word_content1 {
+	position: absolute;
+	top: 1.2rem;
+	left: -0.6rem;
+	font-size: 0.4rem;
+}
+.right_word_content2 {
+	position: absolute;
+	top: 1.9rem;
+	left: -0.6rem;
+	font-size: 0.4rem;
+}
+.right_word_fabulous {
+	position: relative;
+	float: left;
+	margin-top: 2.2rem;
+}
+.right_word_fabulous span {
+	font-size: 0.32rem;
+	color: #999999;
+}
+.right_word_fabulous_date {
+	position: absolute;
+	top: 0rem;
+	left: -0.6rem;
+}
+.ll_icon {
+	position: absolute;
+	top: 0.2rem;
+	left: 4.8rem;
+	background: url(../../images/ll_icon.png) no-repeat;
+	width: 0.52rem;
+	height: 0.32rem;
+	background-size: 100% 100%;
+}
+.ll_active_icon {
+	position: absolute;
+	top: 0.2rem;
+	left: 4.8rem;
+	background: url(../../images/ll_active_icon.png) no-repeat;
+	width: 0.52rem;
+	height: 0.32rem;
+	background-size: 100% 100%;
+}
+.right_word_fabulous_ll {
+	position: absolute;
+	top: 0rem;
+	left: 5.5rem;
+}
+.dz_icon {
+	position: absolute;
+	top: 0.15rem;
+	left: 6.8rem;
+	background: url(../../images/dz_icon.png) no-repeat;
+	width: 0.4rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+.dz_active_icon {
+	position: absolute;
+	top: 0.15rem;
+	left: 6.8rem;
+	background: url(../../images/dz_active_icon.png) no-repeat;
+	width: 0.4rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+.right_word_fabulous_dz {
+	position: absolute;
+	top: 0rem;
+	left: 7.4rem;
+}
+

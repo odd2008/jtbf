@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>选择科室</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/familyWardroom/choose_department.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="choose_department">
+		
+		<!--状态栏-->
+		<div class="status_bar">
+			<i class="icon_statusBar"></i>
+		</div>
+		
+		<!--返回-->
+		<div class="top_back">
+			<i class="icon_return"></i>
+			<a href="javascript:;" class="return" onclick="GoBackAppointmentTime();">返回</a>
+		</div>
+			
+		<!--选择科室-->
+		<div class="choose_department_title">
+			<h2>选择科室</h2>
+			<p>请准确选择您需要就诊的科室</p>
+		</div>
+		
+		
+		<!--服务列表-->
+		<div class="choose_department_list">
+			<ol>
+				<li onclick="goToChooseDoctor();">
+					<p>脊柱一区</p>
+					<span>></span>
+				</li>
+				<li onclick="goToChooseDoctor();">
+					<p>脊柱二区</p>
+					<span>></span>
+				</li>
+				<li onclick="goToChooseDoctor();">
+					<p>脑内区</p>
+					<span>></span>
+				</li>
+			</ol>
+		</div>
+		
+		
+		
+		
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//返回到预约时间
+	function GoBackAppointmentTime() {
+		
+		window.location.href = "appointment_time.html";
+	}
+	
+	
+	//跳转到选择医生
+	function goToChooseDoctor() {
+		
+		window.location.href = "choose_doctor.html";
+	}
+	
+</script>
+</html>

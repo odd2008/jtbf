@@ -1,0 +1,198 @@
+
+/*医生列表*/
+.doctor_list {
+	width: 15rem;
+	height: 26.68rem;
+	background-color: #ffffff;
+}
+.status_bar {
+	width: 100%;
+	height: 0.8rem;
+	background-color: #6699ff;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	z-index: 2;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+.doctor_list_head {
+	position: relative;
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	width: 100%;
+	font-size: 0.68rem;
+	background-color: #6699ff;
+	text-align: center;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.3rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.return {
+	position: absolute;
+	top: 0rem;
+	left: 1rem;
+	font-size: 0.6rem;
+	color: #ffffff;
+}
+.doctor_list_title {
+	color: #ffffff;
+	font-weight: 700;
+}
+.icon_search {
+	position: absolute;
+	top: 0.5rem;
+	right: 0.3rem;
+	background: url(../../images/icon_search.png) no-repeat;
+	width: 0.68rem;
+	height: 0.68rem;
+	background-size: 100% 100%;
+}
+.doctor_list_info {
+	width: 100%;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	background-color: #6699ff;
+	box-shadow: 0rem 0rem 0.4rem 0.3rem #ddd;
+}
+.doctor_list_info span {
+	font-size: 0.56rem;
+	color: #ffffff;
+}
+.doctor_list_section {
+	float: left;
+	position: relative;
+	margin-left: 0.6rem;
+	margin-right: 4.2rem;
+}
+.doctor_list_section i {
+	position: absolute;
+	top: 0.62rem;
+	right: -0.4rem;
+	background: url(../../images/drop_down_icon.png) no-repeat;
+	width: 0.24rem;
+	height: 0.38rem;
+	background-size: 100% 100%;
+}
+.doctor_list_sort {
+	float: left;
+	position: relative;
+}
+.doctor_list_sort i {
+	position: absolute;
+	top: 0.62rem;
+	right: -0.4rem;
+	background: url(../../images/drop_down_icon.png) no-repeat;
+	width: 0.24rem;
+	height: 0.38rem;
+	background-size: 100% 100%;
+}
+.doctor_list_choose {
+	float: right;
+	position: relative;
+	margin-right: 1rem;
+}
+.doctor_list_choose i {
+	position: absolute;
+	top: 0.62rem;
+	right: -0.4rem;
+	background: url(../../images/drop_down_icon.png) no-repeat;
+	width: 0.24rem;
+	height: 0.38rem;
+	background-size: 100% 100%;
+}
+
+/*推荐医生*/
+.recommend_doctor {
+	position: relative;
+	width: 100%;
+	height: 1.6rem;
+	line-height: 1.6rem;
+}
+.recommend_doctor_left {
+	position: absolute;
+	top: 0rem;
+	left: 0.6rem;
+	font-size: 0.7rem;
+	font-weight: 700;
+	color: #333333;
+} 
+.recommend_doctor_right {
+	position: absolute;
+	top: 0rem;
+	right: 0.6rem;
+	font-size: 0.5rem;
+	color: #999999;
+}
+
+/*医生列表详情*/
+.doctor_list_details {
+	
+}
+.doctor_list_details ul {
+	width: 15rem;
+}
+.doctor_list_details li {
+	position: relative;
+	width: 100%;
+	height: 3.7rem;
+	border-top: 0.04rem solid #cccccc;
+}
+.doctor_portrait {
+	position: absolute;
+	top: 0.48rem;
+	left: 1.24rem;
+	float: left;
+	width: 3.04rem;
+	height: 2.84rem;
+	border-radius: 0.3rem;
+}
+.list_details_info {
+	position: relative;
+}
+.doctor_name {
+	position: absolute;
+	top: 0.9rem;
+	left: 5.3rem;
+	font-size: 0.7rem;
+	color: #333333;
+	font-weight: 700;
+}
+.hospital_name {
+	font-size: 0.3rem;
+	position: absolute;
+	top: 1.1rem;
+	left: 8.6rem;
+	width: 2rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	border-radius: 0.15rem;
+	text-align: center;
+	background-color: #cc0000;
+	color: #ffffff;
+}
+.doctor_position {
+	position: absolute;
+	top: 1.9rem;
+	left: 5.3rem;
+	font-size: 0.5rem;
+	color: #999999;
+}
+.doctor_skill {
+	position: absolute;
+	top: 2.8rem;
+	left: 5.3rem;
+	font-size: 0.5rem;
+	color: #999999;
+}

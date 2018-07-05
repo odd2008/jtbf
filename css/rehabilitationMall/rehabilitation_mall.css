@@ -1,0 +1,317 @@
+
+/*康复商城*/
+.rehabilitation_mall {
+	width: 15rem;
+	height: 26.68rem;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+	background-color: #ffffff;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+.goods_description {
+	position: fixed;
+	top: 2.56rem;
+	left: 0rem;
+	z-index: 88888;
+	width: 100%;
+	padding-left: 1rem;
+	height: 5.2rem;
+}
+.goods_description_feature {
+	margin-top: 1.7rem;
+	font-size: 0.56rem;
+	color: #ffffff;
+	width: 100%;
+	height: 0.56rem;
+	line-height: 0.56rem;
+}
+.goods_description_function {
+	margin-top: 0.4rem;
+	font-size: 0.7rem;
+	color: #ffffff;
+	width: 100%;
+	height: 0.7rem;
+	line-height: 0.7rem;
+}
+.goods_description_names {
+	margin-top: 0.36rem;
+	margin-bottom: 0.3rem;
+	font-size: 0.46rem;
+	color: #ffffff;
+	width: 100%;
+	height: 0.46rem;
+	line-height: 0.46rem;
+}
+.goods_large {
+	font-size: 0.5rem;
+	color: #f20000;
+	width: 100%;
+}
+.goods_small {
+	font-size: 0.44rem;
+	color: #ffffff;
+	width: 100%;
+}
+
+/*轮波图样式*/
+.scroll{
+	width:15rem; 
+	height: 8.8rem;
+	position:relative; 
+	overflow:hidden;
+	background: #ffffff;
+}
+.scroll ul{
+	list-style-type:none; 
+	padding:0; 
+	margin:0; 
+	position:absolute; 
+	top:0;
+	left:0; 
+	width:99999px; 
+	height:440px; 
+}
+.scroll li{
+	float:left; 
+	width:750px;
+	height: 440px;
+}
+.scroll ul li img {
+	width: 15rem;
+	height: 8.8rem;
+}
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.3rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.return {
+	position: absolute;
+	top: 0rem;
+	left: 1rem;
+	font-size: 0.6rem;
+	color: #ffffff;
+}
+.top_back_title {
+	text-align: center;
+	font-size: 0.6rem;
+	color: #ffffff;
+}
+
+
+/*正品保证*/
+.quality_assurance {
+	width: 100%;
+	height: 1.4rem;
+	box-sizing: border-box;
+	border-bottom: 0.2rem solid #eeeeee;
+	padding: 0rem 0.6rem;
+}
+.quality_assurance ol {
+	width: 100%;
+}
+.quality_assurance li {
+	padding-left: 1.6rem;
+	position: relative;
+	width: 4.4rem;
+	float: left;
+}
+.quality_assurance li:nth-child(2) {
+	margin: 0rem 0.3rem;
+}
+.quality_assurance li p {
+	height: 1.4rem;
+	line-height: 1.2rem;
+	font-size: 0.5rem;
+	color: #666666;
+}
+.quality_assurance li i {
+	position: absolute;
+	top: 0.3rem;
+	left: 0.56rem;
+	background: url(../../images/check_mark_icon.png) no-repeat;
+	width: 0.64rem;
+	height: 0.64rem;
+	background-size: 100% 100%;
+}
+/*康复器材*/
+.rehabilitation_equipment {
+	width: 100%;
+	height: 3.06rem;
+	box-sizing: border-box;
+	border-bottom: 0.2rem solid #eeeeee;
+	padding: 0rem 0.6rem;
+}
+.rehabilitation_equipment ol {
+	width: 100%;
+}
+.rehabilitation_equipment li {
+	position: relative;
+	width: 4.6rem;
+	float: left;
+}
+.rehabilitation_equipment li:nth-child(1) {
+	padding-left: 1.7rem;
+}
+.rehabilitation_equipment li:nth-child(2) {
+	padding-left: 1.5rem;
+}
+.rehabilitation_equipment li:nth-child(3) {
+	padding-left: 1.5rem;
+}
+.rehabilitation_equipment li p {
+	margin-top: 1.88rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.5rem;
+	color: #333333;
+}
+.i_jtbf {
+	position: absolute;
+	top: 0.4rem;
+	left: 2.18rem;
+	background: url(../../images/i_jtbf.png) no-repeat;
+	width: 1.16rem;
+	height: 1.28rem;
+	background-size: 100% 100%;
+}
+.i_kfqc {
+	position: absolute;
+	top: 0.4rem;
+	left: 1.96rem;
+	background: url(../../images/i_kfsc.png) no-repeat;
+	width: 1.16rem;
+	height: 1.28rem;
+	background-size: 100% 100%;
+}
+.i_dyf {
+	position: absolute;
+	top: 0.4rem;
+	left: 1.9rem;
+	background: url(../../images/i_dyf.png) no-repeat;
+	width: 1.16rem;
+	height: 1.28rem;
+	background-size: 100% 100%;
+}
+/*爆款推荐*/
+.hot_recommend {
+	width: 100%;
+	height: 6.26rem;
+	box-sizing: border-box;
+	border-bottom: 0.2rem solid #eeeeee;
+	padding: 0rem 0.6rem;
+}
+.hot_recommend ol {
+	width: 100%;
+	padding: 0rem 0.38rem;
+}
+.hot_recommend li {
+	text-align: center;
+	width: 5.76rem;
+	height: 6.06rem;
+}
+.hot_recommend li:first-child {
+	float: left;
+}
+.hot_recommend li:last-child {
+	float: right;
+}
+.hot_recommend li img {
+	width: 5.76rem;
+	height: 3.28rem;
+}
+.hot_recommend_title {
+	margin-top: 0.8rem;
+	margin-bottom: 0.24rem;
+	font-size: 0.6rem;
+	color: #333333;
+	height: 0.6rem;
+	line-height: 0.6rem;
+}
+.hot_recommend_keyword {
+	margin-bottom: 0.36rem;
+	font-size: 0.4rem;
+	color: #999999;
+	height: 0.4rem;
+	line-height: 0.4rem;
+}
+
+/*人气推荐*/
+.popularity_recommend {
+	width: 100%;
+	height: 5.8rem;
+}
+.popularity_recommend ol {
+	width: 100%;
+	padding: 0rem 0.98rem;
+}
+.popularity_recommend li {
+	text-align: center;
+	width: 5.76rem;
+	height: 4.8rem;
+}
+.popularity_recommend li:first-child {
+	float: left;
+}
+.popularity_recommend li:last-child {
+	float: right;
+}
+.popularity_recommend li:first-child img {
+	width: 5.76rem;
+	height: 3.14rem;
+	margin-top: 0.2rem;
+}
+.popularity_recommend li:last-child img {
+	width: 5.76rem;
+	height: 2.92rem;
+	margin-top: 0.4rem;
+}
+.popularity_recommend_title {
+	width: 15rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	text-align: center;
+	font-size: 0.6rem;
+	color: #333333;
+	border-bottom: 0.04rem solid #eeeeee;
+}
+.popularity_recommend_energy {
+	width: 2.46rem;
+	height: 0.58rem;
+	line-height: 0.64rem;
+	font-size: 0.36rem;
+	color: #666666;
+	background-color: #f9ca24;
+}
+
+
+
+

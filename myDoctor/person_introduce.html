@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>个人介绍</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/myDoctor/person_introduce.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	<!--个人介绍-->
+	<div class="person_introduce">
+		
+		<!--头部-->
+		<div class="person_introduce_top">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			
+			<!--返回-->
+			<div class="top_back">
+				<p class="icon_return" onclick="GobackFamilyEscort();">＜&nbsp;&nbsp;返回</p>
+				<h3 class="top_back_title">症状详情</h3>
+			</div>
+			
+		</div>
+		
+		<!--导航列表-->
+		<div class="navigation_list">
+			<ol class="navigation_list_ol">
+				<li class="navigation_list_li">
+					<p class="active_black">个人介绍</p>
+					<i class="active_bar"></i>
+				</li>
+				<li class="navigation_list_li">
+					<p>门诊时间</p>
+					<i></i>
+				</li>
+				<li class="navigation_list_li">
+					<p>医生文章</p>
+					<i></i>
+				</li>
+			</ol>
+			<!--医生信息列表-->
+			<ul class="doctor_infomation_list">
+				<li class="infomation_list_li">
+					<i class="doctor_infomation_photo"></i>
+					<div class="infomation_list_details">
+						<p class="doctor_details_name">李某某</p>
+						<i class="infomation_list_line"></i>
+						<p class="hospital_details_name">天津医院</p>
+						<p class="doctor_details_position">主任医师——脊柱一区</p>
+					</div>
+					<p class="life_motto">
+						<span>人生格言:&nbsp;&nbsp;</span>
+						<span>一切为了患者，为了人民！不利己，为他人！.......... </span>
+					</p>
+					<p class="recently_active">
+						<span>最近活跃&nbsp;&nbsp;&nbsp;</span>
+						<span>脊柱一区、二区</span>
+					</p>
+				</li>
+			</ul>
+		</div>
+		
+		<!--个人介绍列表-->
+		<div class="person_introduce_list">
+			<ul class="person_introduce_ul">
+				<li class="person_introduce_li">
+					<i class="person_introduce_line"></i>
+					<p class="person_introduce_title">我的简介</p>
+					<p class="person_introduce_describle">本人从事记住医生对男，临床经验丰富，任职期间对患者负责，这个文本框是个人简历，一行最多31个字......</p>
+				</li>
+				<li class="good_filed_li">
+					<i class="good_filed_line"></i>
+					<p class="good_filed_title">擅长领域</p>
+					<p class="good_filed_project1">脊柱</p>
+					<p class="good_filed_project2">脊椎神经、接骨</p>
+				</li>
+				<li class="gain_honor_li">
+					<i class="gain_honor_line"></i>
+					<p class="gain_honor_title">获得荣誉</p>
+					<p class="gain_honor_position">天津医科大学脊柱学院院长</p>
+					<p class="gain_honor_profession">天津市优秀脊椎讲师</p>
+				</li>
+			</ul>
+		</div>
+		
+		
+		<!--门诊时间-->
+		<div class="outpatient_time_table" hidden="hidden">
+			<table border="0" cellspacing="" cellpadding="">
+				<tr>
+					<td>时间</td>
+					<td>
+						<p>周一</p>
+					</td>
+					<td>
+						<p>周二</p>
+					</td>
+					<td>
+						<p>周三</p>
+					</td>
+					<td>
+						<p>周四</p>
+					</td>
+					<td>
+						<p>周五</p>
+					</td>
+					<td>
+						<p>周六</p>
+					</td>
+					<td>
+						<p>周日</p>
+					</td>
+				</tr>
+				<tr>
+					<td>上午</td>
+					<td></td>
+					<td>
+						<div class="morning_time_active">
+							<p class="outpatient_time_p">9:00</p>
+							<p class="outpatient_time_p">-</p>
+							<p class="outpatient_time_p">10:00</p>
+						</div>
+					</td>
+					<td></td>
+					<td>
+						<div class="morning_time_active">
+							<p class="outpatient_time_p">10:00</p>
+							<p class="outpatient_time_p">-</p>
+							<p class="outpatient_time_p">12:30</p>
+						</div>
+					</td>
+					<td></td>
+					<td></td>
+					<td>
+						<div class="morning_time_active">
+							<p class="outpatient_time_p">8:00</p>
+							<p class="outpatient_time_p">-</p>
+							<p class="outpatient_time_p">9:30</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>下午</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>
+						<div class="Afternoon_time_active">
+							<p class="outpatient_time_p">9:00</p>
+							<p class="outpatient_time_p">-</p>
+							<p class="outpatient_time_p">10:00</p>
+						</div>
+					</td>
+					<td></td>
+					<td>
+						<div class="Afternoon_time_active">
+							停诊
+						</div>
+					</td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		
+		
+		<!--医生文章-->
+		<div class="doctor_article" hidden="hidden">
+			<ul class="doctor_article_ul">
+				<li class="kp_info">
+					<div class="kp_info_bg">
+						<div class="left_picture"></div>
+						<div class="right_word">
+							<p4 class="right_word_title">喝茶能降血压吗？</p4>
+							<p class="right_word_content1">这是一个二级标题最多显示46个字</p>
+							<p class="right_word_content2">这是一个二级标题最多显示46个字</p>
+							<div class="right_word_fabulous">
+								<span class="right_word_fabulous_date">2017.12.15</span>
+								<i class="ll_active_icon"></i>
+								<span class="right_word_fabulous_ll">1024</span>
+								<i class="dz_icon"></i>
+								<span class="right_word_fabulous_dz">666</span>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="kp_info">
+					<div class="kp_info_bg">
+						<div class="left_picture"></div>
+						<div class="right_word">
+							<p4 class="right_word_title">喝茶能降血压吗？</p4>
+							<p class="right_word_content1">这是一个二级标题最多显示46个字</p>
+							<p class="right_word_content2">这是一个二级标题最多显示46个字</p>
+							<div class="right_word_fabulous">
+								<span class="right_word_fabulous_date">2017.12.15</span>
+								<i class="ll_icon"></i>
+								<span class="right_word_fabulous_ll">1024</span>
+								<i class="dz_active_icon"></i>
+								<span class="right_word_fabulous_dz">666</span>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="kp_info">
+					<div class="kp_info_bg">
+						<div class="left_picture"></div>
+						<div class="right_word">
+							<p4 class="right_word_title">喝茶能降血压吗？</p4>
+							<p class="right_word_content1">这是一个二级标题最多显示46个字</p>
+							<p class="right_word_content2">这是一个二级标题最多显示46个字</p>
+							<div class="right_word_fabulous">
+								<span class="right_word_fabulous_date">2017.12.15</span>
+								<i class="ll_icon"></i>
+								<span class="right_word_fabulous_ll">1024</span>
+								<i class="dz_icon"></i>
+								<span class="right_word_fabulous_dz">666</span>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+		
+		
+		
+		<!--底部链接-->
+		<ul class="bottom_Link">
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Home_icon.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">首页</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Consultation.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的咨询</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Information.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">资讯</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_My.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的</p>
+			</li>
+		</ul>		
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//返回到家庭陪护
+	function GobackFamilyEscort() {
+		
+		window.location.href="../familyWardroom/family_escort.html";
+	}
+	
+	
+	//导航栏切换
+	$(".navigation_list_li").click(function () {
+		
+		$(".navigation_list_li").children("p").removeClass("active_black")
+		$(".navigation_list_li").children("i").removeClass("active_bar");
+		$(this).children("p").addClass("active_black")
+		$(this).children("i").addClass("active_bar");
+		
+		var indexNum = $(this).index()+1;
+		if(indexNum == 1){
+			
+			$(".person_introduce_list").show();
+			$(".outpatient_time_table").hide();
+			$(".doctor_article").hide();
+		}else if(indexNum == 2){
+			
+			$(".person_introduce_list").hide();
+			$(".outpatient_time_table").show();
+			$(".doctor_article").hide();
+		}else if(indexNum == 3){
+			
+			$(".person_introduce_list").hide();
+			$(".outpatient_time_table").hide();
+			$(".doctor_article").show();
+		}
+		
+	})
+	
+	
+</script>
+</html>

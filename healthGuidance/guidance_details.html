@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>指导详情</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/healthGuidance/guidance_details.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="guidance_details">
+		
+		<!--头部-->
+		<div class="guidance_details_top">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			
+			<!--返回-->
+			<div class="top_back">
+				<p class="icon_return" onclick="GobackHealthGuidance();">＜&nbsp;&nbsp;返回</p>
+				<h3 class="top_back_title"></h3>
+			</div>
+			
+		</div>
+			
+		
+		<!--基本信息-->
+		<div class="basic_infomation">
+			<h4 class="basic_infomation_title">基本信息</h4>
+			<div class="basic_infomation_info">
+				<div class="basic_infomation_group">
+					<label class="basic_info_label">姓名:</label>
+					<span class="basic_info_span">患者A</span>
+					<label class="basic_info_labels">性别:</label>
+					<span class="basic_info_span">女</span>
+				</div>
+				<div class="basic_infomation_group">
+					<label class="basic_info_label">年龄:</label>
+					<span class="basic_info_span">35</span>
+				</div>
+			</div>
+		</div>
+		
+		<!--指导内容-->
+		<div class="guidance_content">
+			<h4 class="basic_infomation_title">待指导内容</h4>
+			<p class="guidance_content_p">阿森纳安思达尼发生的阿森纳安思达尼发生的那案发时电脑上安富哦你到安东尼赛欧电脑按到你十多年暗袋所那案发时电脑上安富哦你到安东尼赛欧电脑按到你十多年暗袋所</p>
+		</div>
+		
+		<!--指导方案-->
+		<div class="guidance_programme">
+			<h4 class="basic_infomation_title">待指导方案</h4>
+			<p class="guidance_content_p">阿森纳安思达尼发生的那案发时电脑上安富哦你到安东尼赛欧电脑按到你十多年暗袋所阿森纳安思达尼发生的那案发时电脑上安富哦你到安东尼赛欧电脑按到你十多年暗袋所阿森纳安思达尼发生阿森纳安思达尼发生的那案发时电脑上安富哦你到安东尼赛欧电脑按到你十多年暗袋所阿森纳安思达尼发生的那案发时电脑上安富哦你到安东尼赛欧电脑按到你十多年暗袋所的那案发时电脑上安富哦你到安东尼赛欧电脑按到你十多年暗袋所</p>
+		</div>
+		
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	//返回到健康指导
+	function GobackHealthGuidance() {
+		
+		window.location.href = "health_guidance.html";
+	}
+	
+	
+	
+	
+</script>
+</html>

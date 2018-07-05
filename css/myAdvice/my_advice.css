@@ -1,0 +1,68 @@
+
+/*我的咨询*/
+.my_advice {
+	width: 15rem;
+	background-color: #f1f1f1;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+	background: rgba(255,255,255,0.8);
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+	border-bottom: 0.04rem solid #d2d2d2;
+	background-color: #f1f1f1;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: 700;
+	color: #333333;
+}
+
+/*失败提示*/
+.failure_prompt {
+	width: 100%;
+	height: 22.16rem;
+	margin-top: 2.56rem;
+	text-align: center;
+}
+.failure_img {
+	width: 13.16rem;
+	height: 9.08rem;
+	margin-top: 3.6rem;
+}
+.failure_expect {
+	height: 0.76rem;
+	line-height: 0.76rem;
+	font-size: 0.76rem;
+	color: #999999;
+}
+
+
+
+

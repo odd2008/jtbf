@@ -1,0 +1,141 @@
+
+/*预约个人信息*/
+.appointment_personal_info {
+	width: 15rem;
+	background: #ffffff;
+}
+.appointment_personal_top {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	width: 15rem;
+	height: 2.56rem;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.right_save {
+	float: right;
+	margin-right: 0.6rem;
+	font-size: 0.6rem;
+	font-weight: 700;
+	color: #999999;
+}
+.new_doctor_title {
+	width: 100%;
+	height: 3.46rem;
+	margin-top: 2.56rem;
+	padding-left: 1.32rem;
+	padding-top: 0.8rem;
+}
+.new_doctor_title h4 {
+	font-size: 0.8rem;
+	color: #333333;
+}
+.new_doctor_title p {
+	height: 0.4rem;
+	line-height: 0.4rem;
+	margin-top: 0.24rem;
+	font-size: 0.4rem;
+	color: #666666;
+}
+
+/*新建就诊人列表*/
+.new_doctor_listinfo {
+	
+}
+.new_doctor_listinfo ul {
+	padding-top: 0.36rem;
+}
+.new_doctor_listinfo li {
+	position: relative;
+	width: 12.36rem;
+	height: 1.44rem;
+	line-height: 1.44rem;
+	font-size: 0.6rem;
+	color: #666666;
+	margin-left: 1.28rem;
+	padding-left: 0.24rem;
+	margin-bottom: 0.6rem;
+	border-bottom: 0.04rem solid #ccc;
+}
+.new_doctor_listinfo li p {
+	float: left;
+	font-size: 0.64rem;
+	color: #666666;
+}
+.new_doctor_listinfo li span {
+	float: right;
+	font-size: 0.5rem;
+	color: #999999;
+}
+.new_doctor_icon {
+	position: absolute;
+	top: 0rem;
+	left: 3.44rem;
+	background: url(../../images/new_doctor_icon.png) no-repeat;
+	width: 0.88rem;
+	height: 0.88rem;
+	background-size: 100% 100%;
+}
+.new_doctor_doctor {
+	position: absolute;
+	top: -0.2rem;
+	left: 5.2rem;
+}
+
+
+/*下一步*/
+.appointment_time_sure {
+	position: fixed;
+	bottom: 4.7rem;
+	left: 0rem;
+	padding-left: 2.7rem;
+	padding-top: 0.58rem;
+}
+.appointment_time_btn {
+	width: 9.6rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	border-radius: 1rem;
+	font-size: 0.76rem;
+	color: #ffffff;
+	background: linear-gradient(to right,#47adf1 , #5a7ff7);
+}
+
+
+

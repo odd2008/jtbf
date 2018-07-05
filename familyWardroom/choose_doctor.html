@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>选择医生</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/familyWardroom/choose_doctor.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="choose_doctor">
+		
+		<!--状态栏-->
+		<div class="status_bar">
+			<i class="icon_statusBar"></i>
+		</div>
+		
+		<!--返回-->
+		<div class="top_back">
+			<i class="icon_return"></i>
+			<a href="javascript:;" class="return" onclick="goToChooseDepartment();">返回</a>
+			<h3 class="top_back_title">选择医生</h3>
+		</div>
+			
+		
+		<!--医生列表-->
+		<div class="choose_doctor_list">
+			<ol>
+				<li>
+					<img src="../images/choose_doctor_2icon.png"/>
+					<p class="choose_doctor_name">奥黛丽赫本</p>
+					<p class="choose_doctor_ward">脊柱二区</p>
+					<p class="choose_doctor_skill">擅长：脊柱相关问题</p>
+					<button type="button" class="choose_doctor_yue" onclick="goToConfirmAppointment();">预约</button>
+				</li>
+				<li>
+					<img src="../images/choose_doctor_icon.png"/>
+					<p class="choose_doctor_name">奥黛丽赫本</p>
+					<p class="choose_doctor_ward">脊柱二区</p>
+					<p class="choose_doctor_skill">擅长：脊柱相关问题</p>
+					<button type="button" class="choose_doctor_yue" onclick="goToConfirmAppointment();">预约</button>
+				</li>
+				<li>
+					<img src="../images/choose_doctor_2icon.png"/>
+					<p class="choose_doctor_name">奥黛丽赫本</p>
+					<p class="choose_doctor_ward">脊柱二区</p>
+					<p class="choose_doctor_skill">擅长：脊柱相关问题</p>
+					<button type="button" class="choose_doctor_yue" onclick="goToConfirmAppointment();">预约</button>
+				</li>
+				<li>
+					<img src="../images/choose_doctor_icon.png"/>
+					<p class="choose_doctor_name">奥黛丽赫本</p>
+					<p class="choose_doctor_ward">脊柱二区</p>
+					<p class="choose_doctor_skill">擅长：脊柱相关问题</p>
+					<button type="button" class="choose_doctor_yue" onclick="goToConfirmAppointment();">预约</button>
+				</li>
+				<li>
+					<img src="../images/choose_doctor_2icon.png"/>
+					<p class="choose_doctor_name">奥黛丽赫本</p>
+					<p class="choose_doctor_ward">脊柱二区</p>
+					<p class="choose_doctor_skill">擅长：脊柱相关问题</p>
+					<button type="button" class="choose_doctor_yue" onclick="goToConfirmAppointment();">预约</button>
+				</li>
+			</ol>
+		</div>
+		
+		<!--底部链接-->
+		<ul class="bottom_Link">
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Home_icon.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">首页</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Consultation.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的咨询</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_Information.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">资讯</p>
+			</li>
+			<li class="bottom_Link_group">
+				<img src="../images/bottom_Link_My.png" class="bottom_Link_img" />
+				<p class="bottom_Link_text">我的</p>
+			</li>
+		</ul>
+		
+		
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//返回到选择科室
+	function goToChooseDepartment() {
+		
+		window.location.href = "choose_department.html";
+	}
+	
+	
+	//确认预约
+	function goToConfirmAppointment() {
+		
+		window.location.href = "confirm_appointment.html";	
+	}
+	
+</script>
+</html>

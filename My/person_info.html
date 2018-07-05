@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>修改个人信息</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/My/person_info.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="person_info">
+		
+		<!--头部-->
+		<div class="person_info_top">
+			<!--状态栏-->
+			<div class="status_bar">
+				<i class="icon_statusBar"></i>
+			</div>
+			
+			<!--返回-->
+			<div class="top_back">
+				<p class="top_back_go" onclick="goBacksetHelp();">＜返回</p>
+				<h3 class="top_back_title">个人信息</h3>
+			</div>
+			
+		</div>
+			
+		<!--个人信息-->
+		<div class="person_info">
+			<ol class="person_info_ol">
+				<li class="person_info_li">
+					<p class="person_info_title">头像</p>
+					<img src="../images/person_info_title.png" class="person_info_portrait" />
+				</li>
+				<li class="person_info_li">
+					<p class="person_info_title">昵称</p>
+					<p class="person_info_content">李刚</p>
+				</li>
+				<li class="person_info_li">
+					<p class="person_info_title">手机号</p>
+					<p class="person_info_content">13098990273</p>
+				</li>
+				<li class="person_info_li">
+					<p class="person_info_title">修改登录密码</p>
+					<img src="../images/right_arrow_i.png" class="person_info_arrow" />
+				</li>
+			</ol>
+		</div>
+		
+		
+		
+		
+	</div>
+</body>
+
+<script src="../js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	//返回到设置帮助
+	function goBacksetHelp() {
+	
+		window.location.href = "set_help.html";
+	}
+	
+</script>
+</html>

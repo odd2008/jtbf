@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>医生列表</title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/findDoctor/doctor_list.css" rel="stylesheet"/>
+    <link href="../css/base.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	
+    </script>
+</head>
+<body>
+	
+	
+	<div class="doctor_list">
+		
+		<!--状态栏-->
+		<div class="status_bar">
+			<i class="icon_statusBar"></i>
+		</div>
+		
+		<div class="doctor_list_head">
+			<i class="icon_return"></i>
+			<a href="javascript:;" class="return">返回</a>
+			<span class="doctor_list_title">医生列表</span>
+			<i class="icon_search"></i>
+		</div>
+		<div class="doctor_list_info">
+			<div class="doctor_list_section">
+				<span>全部部门</span>
+				<i></i>
+			</div>
+			<div class="doctor_list_sort">
+				<span>排序</span>
+				<i></i>
+			</div>
+			<div class="doctor_list_choose">
+				<span>筛选</span>
+				<i></i>
+			</div>
+		</div>
+		
+		<!--推荐医生-->
+		<div class="recommend_doctor">
+			<p class="recommend_doctor_left">推荐医生</p>
+			<p class="recommend_doctor_right">更多&nbsp;></p>
+		</div>
+		
+		<!--医生列表详情-->
+		<div class="doctor_list_details">
+			<ul>
+				<li>
+					<img src="../images/doctor_portrait_icon.png" class="doctor_portrait" />
+					<div class="list_details_info">
+						<p class="doctor_name">李某某</p>
+						<div class="hospital_name">天津医院</div>
+						<p class="doctor_position">主治医师--脊柱一区</p>
+						<p class="doctor_skill">擅长：运动损伤、接骨</p>
+					</div>
+				</li>
+				<li>
+					<img src="../images/doctor_portrait_icon.png" class="doctor_portrait" />
+					<div class="list_details_info">
+						<p class="doctor_name">张某某</p>
+						<div class="hospital_name">天河医院</div>
+						<p class="doctor_position">副主治医师--脊柱二区</p>
+						<p class="doctor_skill">擅长：骨头坏死</p>
+					</div>
+				</li>
+				<li>
+					<img src="../images/doctor_portrait_icon.png" class="doctor_portrait" />
+					<div class="list_details_info">
+						<p class="doctor_name">姜某某</p>
+						<div class="hospital_name">儿童医院</div>
+						<p class="doctor_position">主任医师--儿童科</p>
+						<p class="doctor_skill">擅长：儿童饮食管理</p>
+					</div>
+				</li>
+				<li>
+					<img src="../images/doctor_portrait_icon.png" class="doctor_portrait" />
+					<div class="list_details_info">
+						<p class="doctor_name">王某某</p>
+						<div class="hospital_name">天津医院</div>
+						<p class="doctor_position">主刀医师--心脏手术室</p>
+						<p class="doctor_skill">擅长：心脏手术</p>
+					</div>
+				</li>
+				<li>
+					<img src="../images/doctor_portrait_icon.png" class="doctor_portrait" />
+					<div class="list_details_info">
+						<p class="doctor_name">李某某</p>
+						<div class="hospital_name">天津医院</div>
+						<p class="doctor_position">主任医师--脊柱一区</p>
+						<p class="doctor_skill">擅长：骨头坏死、接骨</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+
+<script src="js/login.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+	
+	//屏幕适配
+	(function() {
+    var html = document.documentElement;
+    var width = html.getBoundingClientRect().width;
+    html.style.fontSize = width / 15 + 'px';
+    //至于除数15可自行设置
+    //1rem=50;
+	})()
+	
+	
+	
+	
+</script>
+</html>

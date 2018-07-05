@@ -1,0 +1,250 @@
+
+/*大药房*/
+.big_drugstore {
+	width: 15rem;
+	background: #ffffff;
+}
+.big_drugstore_top {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	width: 15rem;
+	height: 2.56rem;
+}
+.status_bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 1;
+	width: 100%;
+	height: 0.8rem;
+}
+.icon_statusBar {
+	position: fixed;
+	top: 0.24rem;
+	left: 0.34rem;
+	background: url(../../images/icon_statesBar.png) no-repeat;
+	width: 14.32rem;
+	height: 0.4rem;
+	background-size: 100% 100%;
+}
+
+/*返回*/
+.top_back {
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	z-index: 9;
+	width: 100%;
+	height: 1.76rem;
+	line-height: 1.76rem;
+}
+.icon_return {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../images/icon_back.png) no-repeat;
+	width: 0.4rem;
+	height: 0.76rem;
+	background-size: 100% 100%;
+}
+.top_back_title {
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: 700;
+	color: #333333;
+}
+.icon_search {
+	position: absolute;
+	top: 0.56rem;
+	right: 0.3rem;
+	background: url(../../images/top_Search_icon.png) no-repeat;
+	width: 0.8rem;
+	height: 0.84rem;
+	background-size: 100% 100%;
+}
+
+/*导航栏*/
+.navigation_bar {
+	width: 15rem;
+	height: 1.6rem;
+	margin-top: 2.56rem;
+	border-top: 0.04rem solid #eeeeee;
+}
+.navigation_bar ol {
+	width: 100%;
+	padding: 0rem 0.6rem;
+}
+.navigation_bar li {
+	position: relative;
+	float: left;
+	width: 3.5rem;
+	height: 1.6rem;
+	text-align: center;
+}
+.navigation_bar li:nth-child(2) {
+	margin: 0rem 1.65rem;
+}
+.navigation_bar li p {
+	height: 0.6rem;
+	line-height: 0.6rem;
+	margin-top: 0.4rem;
+	font-size: 0.6rem;
+	color: #333333;
+}
+
+.active_bar {
+	position: absolute;
+	bottom: 0rem;
+	left: 0.64rem;
+	width: 2.2rem;
+	height: 0.16rem;
+	background-color: #f9c613;
+	border-radius: 0.1rem;
+}
+
+/*病例列表*/
+.case_list {
+	width: 100%;
+	height: 7.2rem;
+	box-sizing: border-box;
+	border-top: 0.04rem solid #eeeeee;
+	border-bottom: 0.2rem solid #eeeeee;
+}
+.case_list ol {
+	margin-left: 0.6rem;
+	padding-top: 0.72rem;
+	width: 13.8rem;
+	height: 5.04rem;
+}
+.case_list li {
+	text-align: center;
+	float: left;
+	width: 2.6rem;
+	height: 2.4rem;
+	margin-right: 1.13rem;
+	margin-bottom: 0.72rem;
+}
+.case_list li:nth-child(4n+4) {
+	margin-right: 0rem;
+}
+.case_list li img {
+	width: 1.6rem;
+	height: 1.6rem;
+	margin-bottom: 0.36rem;
+}
+.case_list li p {
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.4rem;
+	color: #333333;
+}
+
+/*分类排序*/
+.category_sort {
+	width: 100%;
+	height: 1.84rem;
+}
+.category_sort ol {
+	width: 100%;
+	padding: 0rem 0.6rem;
+}
+.category_sort li {
+	position: relative;
+	float: left;
+	width: 2.7rem;
+	height: 1.84rem;
+}
+.category_sort li:nth-child(1) {
+	padding-left: 0.5rem;
+}
+.category_sort li:nth-child(2) {
+	text-align: left;
+	margin: 0rem 2.85rem;
+	padding-left: 0.5rem;
+}
+.category_sort li:nth-child(3) {
+	text-align: right;
+	padding-right: 1.1rem;
+}
+.category_sort li p {
+	height: 0.6rem;
+	line-height: 0.6rem;
+	margin-top: 0.7rem;
+	font-size: 0.6rem;
+	color: #999999;
+}
+.i_sort {
+	position: absolute;
+	top: 0.7rem;
+	right: 0.2rem;
+	background: url(../../images/i_sort.png) no-repeat;
+	width: 0.64rem;
+	height: 0.64rem;
+	background-size: 90% 90%;
+}
+
+/*图片展示*/
+.picture_show {
+	width: 100%;
+	margin-bottom: 1.96rem;
+}
+.picture_show ul{
+	overflow-y: scroll;
+	width: 100%;
+	height: 10.6rem;
+	padding: 0rem 0.16rem 0rem 0.44rem;
+}
+.picture_show li {
+	position: relative;
+	float: left;
+	width: 7.2rem;
+	height: 6.04rem;
+	border: 0.04rem solid #eeeeee;
+}
+.picture_show li:nth-of-type(odd) {
+	border-left: none;
+	border-bottom: none;
+}
+.picture_show li:nth-of-type(even) {
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+.picture_show li img {
+	width: 5.9rem;
+	height: 3.62rem;
+	margin: 0.5rem 0.4rem 0.6rem 0.8rem;
+}
+.picture_goods_name {
+	text-align: center;
+	height: 0.36rem;
+	line-height: 0.36rem;
+	font-size: 0.36rem;
+	color: #666666;
+}
+.goods_true_price {
+	margin-left: 2.56rem;
+	margin-right: 0.6rem;
+	font-size: 0.36rem;
+	color: #fe5957;
+}
+.goods_false_price {
+	text-decoration: line-through;
+	font-size: 0.32rem;
+	color: #999999;
+}
+/*能量劵*/
+.energy_voucher {
+	position: absolute;
+	top: 0.5rem;
+	left: 1rem;
+	padding: 0.12rem 0.1rem;
+	line-height: 0.36rem;
+	font-size: 0.36rem;
+	background-color: #f9c613;
+	color: #333333;
+}
+
